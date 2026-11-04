@@ -20,3 +20,8 @@ Cuadernillos de DIAN y Procuraduria: al terminar, ademas de "Para repasar" (solo
 - Se actualizan los textos de esa página (título, descripción, "Unos 45 minutos") y el catálogo gratis del panel (lib.php) a "50 preguntas".
 - Los demás concursos y los mensajes de ventas (que dicen 30) no cambian.
 - Para volver atrás: revertir este commit (restaura cartilla.enc y php.pak anteriores).
+
+## 3 nov 2026, 23:50 — SEO: títulos de cargos más cortos y sitemap
+- 405 páginas de cargos (DIAN y Procuraduría) tenían títulos de 64 a 136 caracteres que Google corta. Ahora llevan "Cargo · Dependencia · Concurso" en unos 60 a 66 caracteres, sin la palabra "Cartilla" al inicio y sin puntos suspensivos. Los títulos siguen siendo únicos (se mantiene el sufijo (2), (3) donde dos empleos coinciden). El H1 y el contenido no cambian.
+- Se agrega al sitemap la página concursos/examen-estado-abogados, que estaba fuera.
+- Para volver atrás: revertir este commit.
