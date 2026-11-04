@@ -40,3 +40,7 @@ Cuadernillos de DIAN y Procuraduria: al terminar, ademas de "Para repasar" (solo
 
 ## 4 nov 2026, 10:55 — Celular: ajuste para pantallas de 320 px
 - En celulares muy angostos (320 px) el encabezado nuevo se salía 10 px a la derecha y aparecía desplazamiento horizontal. Se reducen relleno, tamaño de letra y logo en pantallas de hasta 360 px. Sin cambios en pantallas mayores ni en escritorio.
+
+## 2026-11-04 11:50 — Simulacros gratis: pregunta final en 61 enunciados
+- Procuraduría (10–30), CAR (11–30) y Docentes (11–30): los casos terminaban sin la pregunta (reporte de un cliente, p. ej. Procuraduría 28). Se agregó la pregunta "¿…?" a cada uno; opciones, respuestas y explicaciones no cambian.
+- Solo cartilla.enc (los simulacros gratis viajan dentro de la cartilla).
