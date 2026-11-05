@@ -108,3 +108,6 @@ Cuadernillos de DIAN y Procuraduria: al terminar, ademas de "Para repasar" (solo
 
 ## 2026-11-05 10:32 - cartilla.enc
 Nueva leccion "Rendicion de cuentas: Ley 1757 de 2015 y la estrategia 2026 de la DIAN" en Gestion publica y en el capitulo transversal del Inspector II (OPEC 236911), con la Ley 1757 arts. 48 a 56, los elementos y etapas del Manual Unico y el caso DIAN (autodiagnostico 2025, Comites TAC). Incluye 10 preguntas con explicacion y 3 fichas; el indicador "Estrategia de rendicion de cuentas" ahora enlaza a esa leccion.
+
+## 2026-11-05 10:49 - cartilla.enc
+Procuraduria, "Mi convocatoria": las funciones de los cargos que hablan de ciudadania, canales de atencion y lenguaje claro enlazan a Atencion al usuario; conservacion y expedientes a Gestion documental; viaticos, caja menor y gasto a Presupuesto; rendicion de cuentas y audiencias publicas a Gestion publica; desaparicion forzada y violencia contra la mujer a Derechos humanos.
