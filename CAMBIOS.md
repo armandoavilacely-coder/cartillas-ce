@@ -111,3 +111,6 @@ Nueva leccion "Rendicion de cuentas: Ley 1757 de 2015 y la estrategia 2026 de la
 
 ## 2026-11-05 10:49 - cartilla.enc
 Procuraduria, "Mi convocatoria": las funciones de los cargos que hablan de ciudadania, canales de atencion y lenguaje claro enlazan a Atencion al usuario; conservacion y expedientes a Gestion documental; viaticos, caja menor y gasto a Presupuesto; rendicion de cuentas y audiencias publicas a Gestion publica; desaparicion forzada y violencia contra la mujer a Derechos humanos.
+
+## 2026-11-05 10:55 - cartilla.enc
+Procuraduria: dos lecciones nuevas con 13 preguntas situacionales, asignadas solo a los cargos cuyas funciones las mencionan. (1) "Metodologias de servicio a la ciudadania": caracterizacion, diagnostico de canales (ciudadano incognito, taller de desafio) y actualizacion del protocolo, para funciones sobre canales de atencion, caracterizacion, lenguaje claro y grupos de valor. (2) "Auditoria interna en la Procuraduria": informe de gestion de la Oficina de Control Interno del primer semestre de 2026 y auditoria a la Regional de Instruccion de Boyaca, para funciones de control interno, auditoria, autocontrol y planes de mejoramiento. Aparecen en "Lecciones segun las funciones de tu empleo".
