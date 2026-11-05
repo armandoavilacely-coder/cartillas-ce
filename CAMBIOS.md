@@ -117,3 +117,6 @@ Procuraduria: dos lecciones nuevas con 13 preguntas situacionales, asignadas sol
 
 ## 2026-11-05 11:04 - cartilla.enc
 Procuraduria: las dos lecciones nuevas (metodologias de servicio a la ciudadania y auditoria interna de la OCI) muestran una etiqueta verde "Nuevo" en la lista de lecciones del curso, en el capitulo y en el titulo de la leccion.
+
+## 2026-11-05 11:06 - cartilla.enc
+DIAN: la leccion "Rendicion de cuentas: Ley 1757 de 2015 y la estrategia 2026 de la DIAN" muestra la etiqueta verde "Nuevo" en la lista de lecciones del capitulo y en su titulo.
