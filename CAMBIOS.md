@@ -126,3 +126,6 @@ Procuraduria: revision de las citas del Decreto Ley 262 de 2000 contra el texto 
 
 ## 2026-11-05 12:40 - cartilla.enc
 Docentes: en las ~790 preguntas del banco, las cuatro opciones de respuesta ahora tienen un largo parecido (la diferencia mediana entre la mas larga y la mas corta es de ~11 %), para que no se pueda adivinar la correcta por su extension. Se reescribieron distractores y se acortaron respuestas correctas demasiado largas sin cambiar su contenido. La posicion de la respuesta correcta no cambia.
+
+## 2026-11-05 17:05 - cartilla.enc
+Docentes, cargo coordinador: nueva lección "Jornada, calendario y asignación académica" (Decreto 1850 de 2002, compilado en el Decreto 1075 de 2015: 40 semanas lectivas y 5 de desarrollo institucional, intensidad mínima semanal por nivel, jornada de docentes y directivos, 22 horas de asignación en secundaria y media) y 4 preguntas situacionales nuevas con sus explicaciones.
