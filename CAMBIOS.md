@@ -123,3 +123,6 @@ DIAN: la leccion "Rendicion de cuentas: Ley 1757 de 2015 y la estrategia 2026 de
 
 ## 2026-11-05 11:20 - cartilla.enc
 Procuraduria: revision de las citas del Decreto Ley 262 de 2000 contra el texto oficial (Funcion Publica). Se corrige el numeral del articulo 7 sobre la planta globalizada (era 32, es el 34) y la pregunta de experiencia ya no atribuye la definicion al articulo 6 del decreto (ese articulo trata la falta absoluta del Procurador): se atribuye a las preguntas frecuentes oficiales del concurso. El resto de las citas revisadas coincide con el texto.
+
+## 2026-11-05 12:40 - cartilla.enc
+Docentes: en las ~790 preguntas del banco, las cuatro opciones de respuesta ahora tienen un largo parecido (la diferencia mediana entre la mas larga y la mas corta es de ~11 %), para que no se pueda adivinar la correcta por su extension. Se reescribieron distractores y se acortaron respuestas correctas demasiado largas sin cambiar su contenido. La posicion de la respuesta correcta no cambia.
