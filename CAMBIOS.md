@@ -171,3 +171,6 @@ Docentes: nuevo capítulo «Funciones del docente: lo que dice la norma, caso po
 
 ## 2026-11-06 00:55 - cartilla.enc
 Docentes: el capítulo «Tus funciones como docente de aula» se reescribió para enseñar el contenido: las 29 funciones, cada una con lo que dice la norma (cita textual de Ley 115, Ley 1620, Ley 1098 y Decreto 1421 cuando la hay), qué significa, caso, paso a paso, lo que no se hace y clave de examen; 16 preguntas situacionales.
+
+## 2026-11-06 01:20 - cartilla.enc
+Docentes: reescritos para enseñar el contenido los capítulos de funciones específicas de preescolar, primaria y docente de área (norma con cita textual cuando la hay, caso, paso a paso, lo que no se hace y clave de examen; preguntas situacionales nuevas en preescolar).
