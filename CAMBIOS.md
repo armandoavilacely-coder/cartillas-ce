@@ -319,3 +319,7 @@ Las paginas de empleos docentes y vacantes por departamento se movieron a rutas 
 ## Docentes: rector, coordinador y director rural (+9 lecciones)
 - esp-rec +4 (funciones Ley 715 art. 10 con casos, Fondo de Servicios Educativos, Consejo Directivo vs Consejo Academico, evaluacion y permanencia), esp-coo +3 (alcance del cargo, ruta de convivencia, apoyo academico), esp-dru +2 (responsabilidad y diferencia con rector, escuela rural y comunidad).
 - Citas literales de Ley 715 (arts. 10, 11), Decreto Ley 1278 (art. 6) y Decreto 1075 (arts. 2.3.3.1.5.6, .5.7, .5.8, 2.3.3.2.2.3.5), verificadas por assert. Solo cambia cartilla.enc.
+
+## Docentes: manual de funciones (+6 lecciones)
+- man-ori +2 (funciones del orientador con casos; registro, confidencialidad y articulacion), man-dir +2 (funcion general de directivos; asignacion de funciones), man-sec +2 (no licenciados y periodo de prueba; funciones del docente de secundaria).
+- Citas literales de la Resolucion MEN 3842 de 2022 (Anexo tecnico I: 1.1, 2.2.3, 3.7, 3.8), verificadas por assert. Solo cambia cartilla.enc.
