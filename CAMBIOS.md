@@ -186,3 +186,6 @@ Docentes: cada aspirante ve solo lo que corresponde a su cargo según el manual 
 
 ## 2026-11-06 00:10 - sitio.pak
 Página del concurso Docentes renovada con los datos oficiales del tablero de la CNSC: 31.163 vacantes, 90 entidades, 23 empleos con sus vacantes, las 7 etapas, cronograma preliminar, ponderación de pruebas, valoración de antecedentes, Ley 2418 y tips de inscripción. Se corrigieron cifras y preguntas frecuentes antiguas.
+
+## 2026-11-06 00:20 - sitio.pak
+Se restaura la versión anterior del sitio (del 4 de noviembre) porque la publicación de las 00:08 se armó con una copia local desactualizada y borraba cambios recientes del sitio. La página de Docentes se volverá a publicar sobre la versión correcta.
