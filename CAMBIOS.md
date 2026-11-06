@@ -159,3 +159,6 @@ Docentes: nuevo capítulo «Práctica de aula: matemáticas con casos» (6 casos
 
 ## 2026-11-05 23:45 - cartilla.enc
 Docentes: nuevo capítulo «Práctica de aula: lengua castellana con casos» (6 casos de aula con paso a paso y cita textual de los Estándares del Lenguaje del MEN, más entrenamiento de lectura crítica con un texto analizado; 10 preguntas situacionales). Aparece para secundaria y media.
+
+## 2026-11-06 00:05 - cartilla.enc
+Docentes: nuevo capítulo «Práctica de aula: inglés con casos» (6 casos con paso a paso y cita textual de la Guía 22 del MEN, más lectura en inglés analizada; 10 preguntas situacionales). Aparece para secundaria y media.
