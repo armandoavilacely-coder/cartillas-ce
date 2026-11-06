@@ -295,3 +295,9 @@ Las paginas de empleos docentes y vacantes por departamento se movieron a rutas 
 - Lengua castellana (esp-len, de 8 a 14): producción textual como proceso (con estándares textuales y rúbrica), comprensión e interpretación (estrategias antes, durante y después, preguntas de tres niveles), literatura y plan lector, medios y ética de la comunicación, gramática y ortografía en el enfoque comunicativo (por qué/porque, sino/si no, tildes, puntuación) y planeación y evaluación de la clase.
 - Las lecciones anteriores se conservan; las nuevas se agregan al final. Cada estándar citado se verificó literal contra el documento del Ministerio (Estándares 2006). Las cuentas de los ejemplos se verificaron por programa. Los estándares de matemáticas se agrupan por pensamiento y por la básica secundaria (6.º a 9.º) y no por pares de grados, porque el texto fuente del PDF mezcla las columnas.
 - Solo cambia cartilla.enc. Para volver atrás: revertir este commit.
+
+## Docentes: ingles, sociales y ciencias naturales con 14 lecciones nuevas
+- esp-ing +5 (meta B1 y escala MCE, estandares por habilidad con citas literales, enfoque comunicativo, correccion y evaluacion de las cuatro habilidades, lectura y escritura con estrategias).
+- esp-soc +4 (estandares de ciencias sociales, competencias ciudadanas, fuentes historicas y causalidad, geografia y mapas).
+- esp-nat +5 (estandares de ciencias naturales, indagacion con ejemplo, seguridad y residuos, modelos y problemas, educacion ambiental y PRAE). Visible tambien en fisica, quimica y biologia (comparten el bloque base).
+- Todas las citas de estandares se verificaron contra el texto oficial (assert). Ninguna leccion existente se modifico. Solo cambia cartilla.enc.
