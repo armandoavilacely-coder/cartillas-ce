@@ -323,3 +323,7 @@ Las paginas de empleos docentes y vacantes por departamento se movieron a rutas 
 ## Docentes: manual de funciones (+6 lecciones)
 - man-ori +2 (funciones del orientador con casos; registro, confidencialidad y articulacion), man-dir +2 (funcion general de directivos; asignacion de funciones), man-sec +2 (no licenciados y periodo de prueba; funciones del docente de secundaria).
 - Citas literales de la Resolucion MEN 3842 de 2022 (Anexo tecnico I: 1.1, 2.2.3, 3.7, 3.8), verificadas por assert. Solo cambia cartilla.enc.
+
+## Docentes: Sobre el concurso, +7 lecciones de la prueba
+- Bloque prueba +7: reclamaciones (2.7), ajustes razonables (2.2), experiencia traslapada y no doble contabilizacion (5.1.7-5.1.8), calculo del puntaje de experiencia con ejemplo (5.1.10), relacion con el empleo y sin ventaja territorial (5.1.9), desempate y vigencia de la lista, periodo de prueba (8).
+- Citas literales del Anexo tecnico Docentes y Directivos Docentes 2026, verificadas por assert. Los valores por año de los ejemplos son ilustrativos y asi se dice en la leccion. Solo cambia cartilla.enc.
