@@ -174,3 +174,6 @@ Docentes: el capítulo «Tus funciones como docente de aula» se reescribió par
 
 ## 2026-11-06 01:20 - cartilla.enc
 Docentes: reescritos para enseñar el contenido los capítulos de funciones específicas de preescolar, primaria y docente de área (norma con cita textual cuando la hay, caso, paso a paso, lo que no se hace y clave de examen; preguntas situacionales nuevas en preescolar).
+
+## 2026-11-06 01:50 - cartilla.enc
+Docentes: reescritos para enseñar el contenido los capítulos de funciones del docente orientador, del coordinador y del rector o director rural (cada función con el texto de la norma —Ley 715, Ley 115, Ley 1620, Decreto 1965, Ley 1098, Decreto Ley 1278—, qué significa, caso, paso a paso, lo que no se hace y clave de examen; 12 preguntas situacionales nuevas). Corregida la clasificación de situaciones tipo I, II y III en el capítulo del docente de aula.
