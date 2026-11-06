@@ -162,3 +162,6 @@ Docentes: nuevo capítulo «Práctica de aula: lengua castellana con casos» (6 
 
 ## 2026-11-06 00:05 - cartilla.enc
 Docentes: nuevo capítulo «Práctica de aula: inglés con casos» (6 casos con paso a paso y cita textual de la Guía 22 del MEN, más lectura en inglés analizada; 10 preguntas situacionales). Aparece para secundaria y media.
+
+## 2026-11-06 00:30 - cartilla.enc
+Docentes: dos capítulos nuevos, «Práctica de aula: ciencias naturales con casos» y «Práctica de aula: ciencias sociales y ciudadanas con casos» (casos con paso a paso y cita textual de los Estándares del MEN, entrenamiento de razonamiento con datos y de hecho/opinión/argumento; 20 preguntas situacionales). Sociales y ciudadanas también aparece para preescolar y primaria.
