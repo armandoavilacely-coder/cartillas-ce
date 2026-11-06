@@ -231,3 +231,6 @@ SEO de CAR: título con 2026, descripción con "simulacro gratis" (antes decía 
 
 ## 2026-11-06 03:30 - sitio.pak
 SEO del concurso docente: 23 páginas nuevas, una por empleo (/cargos/docentes/...), más un listado (/cargos/docentes/). Cada una trae vacantes, título requerido y alternativa, experiencia, funciones, peso de las pruebas, tabla de valoración de antecedentes, enlaces a los temarios gratis, preguntas frecuentes con datos estructurados y botones de pago/WhatsApp. Se agregan al sitemap (748 a 772 URLs) y se enlazan desde la pestaña "Requisitos y funciones" de la página de Docentes. Además, textos de precio de Docentes pasan a tuteo.
+
+## 2026-11-06 04:00 - sitio.pak
+Páginas por empleo docente en celular: las funciones generales quedan plegadas ("toca para verlas") y las específicas abiertas, y la tabla de antecedentes se ajusta mejor (la página pasa de unos 12.300 a unos 8.300 píxeles de alto). Solo cambian las 24 páginas de cargos/docentes.
