@@ -213,3 +213,6 @@ Página Docentes: el selector de empleo de la pestaña «Requisitos y funciones�
 
 ## 2026-11-06 12:00 - sitio.pak
 Concurso docente: la evaluación de muestra de la página ahora tiene 10 preguntas situacionales de contenido profundo (convivencia, inclusión, matemáticas, lenguaje, lectura, cuantitativo, naturales); se quitaron las de etapas e inscripción.
+
+## 2026-11-06 01:10 - sitio.pak
+Concurso docente: la sección "Evaluación de muestra" se reemplaza por información del simulacro gratis (30 preguntas con respuesta razonada) y botones para crear cuenta gratis o entrar al panel. Solo cambia concursos/docentes.html.
