@@ -204,3 +204,6 @@ Página Docentes: las pestañas del proceso pasan de barra deslizable a botones 
 
 ## 2026-11-06 01:30 - sitio.pak
 Página Docentes: se quita la pestaña «Qué es la CNSC»; quedan 9 pestañas renumeradas. Solo cambia esa página.
+
+## 2026-11-06 01:45 - sitio.pak
+Página Docentes: ajuste de versión celular (tablas de ponderación y antecedentes sin desplazamiento horizontal, con el factor como encabezado de grupo). Solo cambia esa página.
