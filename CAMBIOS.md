@@ -339,3 +339,9 @@ Las paginas de empleos docentes y vacantes por departamento se movieron a rutas 
 ## Docentes: bloque general del manual (+5 lecciones)
 - manual +5: siete competencias comportamentales en situaciones, licenciado y tecnologo (3.1), titulos extranjeros/registro calificado/habilitacion (3.2-3.3), saberes previos y evaluacion de desempeño (3.4 y 3.6), perfil de media tecnica (3.5).
 - Citas literales de la Resolucion MEN 3842 de 2022 (Anexo tecnico I: 2.1.2, 3.1 a 3.6), verificadas por assert. Solo cambia cartilla.enc.
+
+## Cambio del numero de WhatsApp en todo el sitio
+- Numero anterior 316 698 2472 (wa.me/573166982472) -> nuevo 312 690 8321 (wa.me/573126908321).
+- sitio.pak: 897 de 968 archivos (paginas, guias, cargos, terminos). php.pak: 6 de 16 (correo del ebook, correos de acceso, chat con la IA, suscripcion, lib). cartilla.enc: 28 apariciones (enlaces y textos). Mismo largo en bytes, asi que no cambian offsets de la cartilla.
+- NO se tocaron constantes numericas de funciones hash (por ejemplo 3266489909), que no son telefonos.
+- Quedan fuera del repo y deben revisarse a mano: imagenes con el numero impreso, PDF/ebooks en Drive, textos de Facebook, perfil de WhatsApp Business, y cualquier numero guardado en la base o en ajustes del servidor.
