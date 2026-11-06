@@ -225,3 +225,6 @@ Concurso docente, facilidad de uso para personas mayores: recuadro "Cómo usar e
 
 ## 2026-11-06 02:30 - sitio.pak
 SEO del concurso docente: título y descripción con 2026, CNSC, vacantes y requisitos; imagen propia para compartir (og-docentes.png) con texto alternativo; tres preguntas frecuentes nuevas (vacantes, peso de las pruebas, requisitos) en la página y en los datos estructurados; fecha de modificación y sitemap actualizados.
+
+## 2026-11-06 02:50 - sitio.pak
+SEO de CAR: título con 2026, descripción con "simulacro gratis" (antes decía evaluación de muestra), imagen propia para compartir (og-car.png) con texto alternativo y fecha del sitemap actualizada. Solo cambian concursos/corporaciones-autonomas-regionales.html, sitemap.xml y la imagen nueva.
