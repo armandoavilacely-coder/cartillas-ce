@@ -315,3 +315,7 @@ Las paginas de empleos docentes y vacantes por departamento se movieron a rutas 
 - cartilla.enc es un solo archivo cifrado: cada commit lo reemplaza completo. Antes de editar: `git pull`, descifrar el cartilla.enc ACTUAL del repo (inverso de /tmp/qa/enc2.py) y trabajar sobre ese HTML; nunca sobre un HTML de trabajo anterior, porque se perderian las lecciones agregadas despues.
 - Antes de cada push: `git fetch` y confirmar que no hay commits nuevos; si los hay, volver a aplicar los cambios sobre la version nueva.
 - Despues de publicar: verificar que cada bloque tenga >= lecciones y >= caracteres que antes.
+
+## Docentes: rector, coordinador y director rural (+9 lecciones)
+- esp-rec +4 (funciones Ley 715 art. 10 con casos, Fondo de Servicios Educativos, Consejo Directivo vs Consejo Academico, evaluacion y permanencia), esp-coo +3 (alcance del cargo, ruta de convivencia, apoyo academico), esp-dru +2 (responsabilidad y diferencia con rector, escuela rural y comunidad).
+- Citas literales de Ley 715 (arts. 10, 11), Decreto Ley 1278 (art. 6) y Decreto 1075 (arts. 2.3.3.1.5.6, .5.7, .5.8, 2.3.3.2.2.3.5), verificadas por assert. Solo cambia cartilla.enc.
