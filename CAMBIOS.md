@@ -264,3 +264,11 @@ Las paginas de empleos docentes y vacantes por departamento se movieron a rutas 
 - La publicación de las 13:40 reemplazó por completo 30 lecciones; en 8 de ellas la versión nueva quedó más corta que la anterior (Orientador: protocolos y participación; Directivos: planeación, ejecución, talento humano, comunicación y comunidad; Competencias: trabajo en equipo) y se había perdido material (p. ej. Decreto 915 y el concurso, Mérito y Constitución art. 125, ley y manual de convivencia).
 - Se agrega al final de esas 8 lecciones el bloque "Para profundizar" con los apartados anteriores, sin los párrafos de esquema repetidos ni el resumen de tipos de situaciones "(verifica)", que ahora está citado textual del Decreto 1965.
 - Solo cambia cartilla.enc. Para volver atrás: revertir este commit.
+
+## 6 nov 2026, 14:20 — Ebook concurso docente: se entrega solo por correo
+- Al registrarse en /guias/ebook-concurso-docente ya no empieza ninguna descarga directa ni aparece botón de descarga. El mensaje de confirmación dice: "¡Listo! El ebook fue enviado a tu correo electrónico (correo)". El PDF se baja únicamente desde el botón del correo (enlace firmado de 30 días).
+- Si el correo no se pudo enviar, se muestra que el registro quedó listo y se pide escribir por WhatsApp (no se ofrece descarga).
+- La página cambia el botón a "Recibir el ebook gratis en mi correo" y el texto "la descarga empieza al instante" a "te enviamos el ebook al instante a tu correo".
+- Confirmación por enlace (confirmar.php) y respuesta de la API (_suscripcion.php): solo para el ebook "doc"; los ebooks de Procuraduría y comportamentales no cambian.
+- Nota: el PDF sigue en el repositorio público (ebook/guia-concurso-docente-2026.pdf) porque el enlace del correo lo sirve desde ahí. Quien conozca esa dirección puede bajarlo sin el correo.
+- Archivos: php.pak (_suscripcion.php, confirmar.php) y sitio.pak (guias/ebook-concurso-docente.html). Para volver atrás: revertir este commit.
