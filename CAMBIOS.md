@@ -210,3 +210,6 @@ Página Docentes: ajuste de versión celular (tablas de ponderación y anteceden
 
 ## 2026-11-06 02:05 - sitio.pak
 Página Docentes: el selector de empleo de la pestaña «Requisitos y funciones» pasa a ser un buscador que despliega los resultados hacia abajo mientras escribes (sin tildes ni mayúsculas, con teclado). Solo cambia esa página.
+
+## 2026-11-06 12:00 - sitio.pak
+Concurso docente: la evaluación de muestra de la página ahora tiene 10 preguntas situacionales de contenido profundo (convivencia, inclusión, matemáticas, lenguaje, lectura, cuantitativo, naturales); se quitaron las de etapas e inscripción.
