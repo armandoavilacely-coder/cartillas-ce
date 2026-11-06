@@ -327,3 +327,7 @@ Las paginas de empleos docentes y vacantes por departamento se movieron a rutas 
 ## Docentes: Sobre el concurso, +7 lecciones de la prueba
 - Bloque prueba +7: reclamaciones (2.7), ajustes razonables (2.2), experiencia traslapada y no doble contabilizacion (5.1.7-5.1.8), calculo del puntaje de experiencia con ejemplo (5.1.10), relacion con el empleo y sin ventaja territorial (5.1.9), desempate y vigencia de la lista, periodo de prueba (8).
 - Citas literales del Anexo tecnico Docentes y Directivos Docentes 2026, verificadas por assert. Los valores por año de los ejemplos son ilustrativos y asi se dice en la leccion. Solo cambia cartilla.enc.
+
+## Docentes: fisica, quimica y biologia (+9 lecciones)
+- esp-fis +3 (mecanica con problemas, masa/peso/densidad, electricidad-magnetismo-gravitacion), esp-qui +3 (estructura de la materia, reacciones y mol, niveles de representacion), esp-bio +3 (celula y transporte, genetica, ecosistemas y energia).
+- Estandares citados literalmente del documento de Ciencias Naturales (MEN 2004), verificados por assert; todos los calculos numericos se comprobaron en codigo. Solo cambia cartilla.enc.
