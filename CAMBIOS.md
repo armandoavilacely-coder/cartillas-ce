@@ -201,3 +201,6 @@ Docentes: se quitaron las preguntas y los simulacros sobre las etapas del concur
 
 ## 2026-11-06 01:20 - sitio.pak
 Página Docentes: las pestañas del proceso pasan de barra deslizable a botones en dos filas, con efecto al pasar el mouse. Solo cambia esa página.
+
+## 2026-11-06 01:30 - sitio.pak
+Página Docentes: se quita la pestaña «Qué es la CNSC»; quedan 9 pestañas renumeradas. Solo cambia esa página.
