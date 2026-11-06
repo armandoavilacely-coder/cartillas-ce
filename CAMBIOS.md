@@ -240,3 +240,6 @@ SEO del concurso docente: 121 páginas nuevas de vacantes en /vacantes-docentes/
 
 ## 2026-11-06 05:30 - sitio.pak
 SEO del concurso docente: página nueva "Concurso docente 2026: fechas, cronograma e inscripciones" (/concursos/docentes-fechas) con el cronograma preliminar del tablero de la CNSC, inscripciones, costo, pruebas, vigencia de las listas y preguntas frecuentes con datos estructurados. Se enlaza desde la pestaña Fases de Docentes y desde el listado de vacantes, y se agrega al sitemap (893 a 894 URLs).
+
+## 2026-11-06 01:36 - sitio.pak
+Las paginas de empleos docentes y vacantes por departamento se movieron a rutas planas dentro de concursos/ (concursos/docentes-empleos, docentes-empleo-*, docentes-vacantes, docentes-vacantes-*) porque el actualizador del servidor solo publica concursos/*.html planos y las carpetas cargos/docentes/ y vacantes-docentes/ daban 404. Enlaces, canonicals, JSON-LD y sitemap reescritos.
