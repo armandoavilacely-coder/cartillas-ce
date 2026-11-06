@@ -237,3 +237,6 @@ Páginas por empleo docente en celular: las funciones generales quedan plegadas 
 
 ## 2026-11-06 05:00 - sitio.pak
 SEO del concurso docente: 121 páginas nuevas de vacantes en /vacantes-docentes/ (listado, 30 departamentos y 90 entidades territoriales). Cada página muestra las vacantes por entidad y por empleo, las reservadas para personas con discapacidad, enlaces a los requisitos de cada empleo, preguntas frecuentes con datos estructurados y botones de pago/WhatsApp. Datos del tablero de la CNSC (corte 14 de octubre de 2026), con las sumas verificadas contra los 31.163 totales y contra cada empleo. Se agregan al sitemap (772 a 893 URLs) y se enlazan desde la pestaña "Vacantes" de la página de Docentes. Solo cambian concursos/docentes.html, el sitemap y las páginas nuevas.
+
+## 2026-11-06 05:30 - sitio.pak
+SEO del concurso docente: página nueva "Concurso docente 2026: fechas, cronograma e inscripciones" (/concursos/docentes-fechas) con el cronograma preliminar del tablero de la CNSC, inscripciones, costo, pruebas, vigencia de las listas y preguntas frecuentes con datos estructurados. Se enlaza desde la pestaña Fases de Docentes y desde el listado de vacantes, y se agrega al sitemap (893 a 894 URLs).
