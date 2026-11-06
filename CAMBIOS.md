@@ -306,3 +306,7 @@ Las paginas de empleos docentes y vacantes por departamento se movieron a rutas 
 - esp-rel +2, esp-eti +3, esp-efi +2, esp-fil +2, esp-eco +2, esp-tec +1, esp-art +1 (artes comparte base con musica, danza, escenicas y plasticas).
 - Citas literales solo de Ley 115 de 1994 (arts. 14, 23, 24, 25, 31, 32), verificadas por assert. No hay texto oficial de estandares de artes/EF/religion/filosofia/tecnologia en el Drive; cuando el usuario los suba se amplian con citas.
 - Solo cambia cartilla.enc; ninguna leccion previa se toco.
+
+## Docentes: preescolar y primaria (+7 lecciones)
+- esp-pre +4 (definicion y fines, objetivos del art. 16, ingreso sin pruebas y edad de transicion, valoracion cualitativa) y esp-prim +3 (objetivos del ciclo, planeacion con proyectos y multigrado, evaluacion y retroalimentacion).
+- Citas literales de Ley 115 (arts. 15, 16, 17, 21) y Decreto 1075 de 2015 (arts. 2.3.3.2.2.1.4, 2.3.3.2.2.2.1, 2.3.3.2.2.3.4, 2.3.3.2.2.3.5), verificadas por assert. Solo cambia cartilla.enc.
