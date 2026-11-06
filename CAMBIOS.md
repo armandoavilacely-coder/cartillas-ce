@@ -180,3 +180,6 @@ Docentes: reescritos para enseñar el contenido los capítulos de funciones del 
 
 ## 2026-11-06 02:15 - cartilla.enc
 Docentes: nuevo capítulo «Evaluación de desempeño: cómo te evalúan cada año» (qué se evalúa y quién evalúa, los cinco principios, el proceso con carpeta de evidencias, la entrevista final, Formato A y plan de desarrollo; citas del Decreto Ley 1278, la Ley 715 y el Manual del MEN; 12 preguntas situacionales). Aparece para todos los niveles.
+
+## 2026-11-06 03:05 - cartilla.enc
+Docentes: cada aspirante ve solo lo que corresponde a su cargo según el manual de funciones. Los capítulos de práctica de aula (matemáticas, lengua, inglés, ciencias naturales, sociales) salen solo para el área que corresponde; el manual de títulos muestra solo el área del cargo; el manual de preescolar/primaria y el de rector/coordinador muestran solo el cargo; y las lecciones y preguntas de funciones del rector (Ley 715, Fondo de Servicios Educativos) ya no aparecen a docentes de aula.
