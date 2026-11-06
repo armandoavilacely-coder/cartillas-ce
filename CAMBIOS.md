@@ -135,3 +135,6 @@ Procuraduría, capítulo Gestión documental: 18 temas nuevos basados en el Acue
 
 ## 2026-11-05 20:40 - cartilla.enc
 DIAN: nueva lección de repaso "Tríada misional a fondo: servicio, control y gestión de riesgos de cumplimiento" (Modelo de Gestión Institucional 2025, sec. 3.2.5, 3.3 y 3.3.1): complemento entre servicio y control, riesgo subjetivo, moral tributaria, gestión de riesgos en tiempo real con intervención preventiva, y NSGT/NSGA del CONPES 3993 de 2020. Incluye 2 casos con 6 preguntas situacionales y 2 fichas. Aparece en los mismos cargos que ya ven la lección del modelo.
+
+## 2026-11-05 22:10 - cartilla.enc
+Docentes, todos los niveles: nuevo capítulo "Estatuto docente: Decreto Ley 1278 de 2002" con 8 lecciones (quién es quién y función docente, concurso de méritos, lista de elegibles y nombramientos, período de prueba, Escalafón, los tres tipos de evaluación, deberes y prohibiciones, situaciones administrativas y retiro). Artículos citados textualmente, ejemplo de colegio, resumen "En palabras simples", lo que se pregunta en el examen y 24 preguntas situacionales con explicación.
