@@ -189,3 +189,6 @@ Página del concurso Docentes renovada con los datos oficiales del tablero de la
 
 ## 2026-11-06 00:20 - sitio.pak
 Se restaura la versión anterior del sitio (del 4 de noviembre) porque la publicación de las 00:08 se armó con una copia local desactualizada y borraba cambios recientes del sitio. La página de Docentes se volverá a publicar sobre la versión correcta.
+
+## 2026-11-06 00:30 - sitio.pak
+Página del concurso Docentes: la sección «Docentes: lo que debes saber» se actualizó con los datos oficiales del tablero de la CNSC (31.163 vacantes, 90 entidades, 23 empleos, etapas, cronograma preliminar, pesos de las pruebas, valoración de antecedentes, Ley 2418 y tips de inscripción). Se retiró la información antigua (28.000 plazas, 82 entidades, nota de RTVC). El resto del sitio no cambió.
