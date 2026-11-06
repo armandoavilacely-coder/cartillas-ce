@@ -198,3 +198,6 @@ Página del concurso Docentes: la sección informativa ahora copia la estructura
 
 ## 2026-11-06 01:10 - cartilla.enc
 Docentes: se quitaron las preguntas y los simulacros sobre las etapas del concurso, los antecedentes, el manual de funciones y títulos, y los capítulos «Tu cargo». Las preguntas de la cartilla quedan solo sobre contenido que se evalúa (normas, pedagogía, áreas, lectura crítica, razonamiento, gestión y competencias).
+
+## 2026-11-06 01:20 - sitio.pak
+Página Docentes: las pestañas del proceso pasan de barra deslizable a botones en dos filas, con efecto al pasar el mouse. Solo cambia esa página.
