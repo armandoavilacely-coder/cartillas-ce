@@ -207,3 +207,6 @@ Página Docentes: se quita la pestaña «Qué es la CNSC»; quedan 9 pestañas r
 
 ## 2026-11-06 01:45 - sitio.pak
 Página Docentes: ajuste de versión celular (tablas de ponderación y antecedentes sin desplazamiento horizontal, con el factor como encabezado de grupo). Solo cambia esa página.
+
+## 2026-11-06 02:05 - sitio.pak
+Página Docentes: el selector de empleo de la pestaña «Requisitos y funciones» pasa a ser un buscador que despliega los resultados hacia abajo mientras escribes (sin tildes ni mayúsculas, con teclado). Solo cambia esa página.
