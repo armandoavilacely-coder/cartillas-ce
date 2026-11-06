@@ -335,3 +335,7 @@ Las paginas de empleos docentes y vacantes por departamento se movieron a rutas 
 ## Docentes: refuerzo de lecciones por nivel en gestion academica y comunitaria (+5)
 - fa-ga +4 (dominio curricular preescolar/primaria, planeacion secundaria/media, pedagogicas secundaria/media, evaluacion preescolar/primaria) y fa-gco +1 (interaccion con la comunidad en media). Cada una lleva su campo niv (doc-pri o doc-sec) para que solo la vea ese nivel.
 - Citas literales de Ley 115 (arts. 16, 21, 30) y Decreto 1075 (arts. 2.3.3.3.3.1, .3.3, .3.4, .3.5, .3.6), verificadas por assert. Solo cambia cartilla.enc.
+
+## Docentes: bloque general del manual (+5 lecciones)
+- manual +5: siete competencias comportamentales en situaciones, licenciado y tecnologo (3.1), titulos extranjeros/registro calificado/habilitacion (3.2-3.3), saberes previos y evaluacion de desempeño (3.4 y 3.6), perfil de media tecnica (3.5).
+- Citas literales de la Resolucion MEN 3842 de 2022 (Anexo tecnico I: 2.1.2, 3.1 a 3.6), verificadas por assert. Solo cambia cartilla.enc.
