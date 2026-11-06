@@ -249,3 +249,13 @@ Las paginas de empleos docentes y vacantes por departamento se movieron a rutas 
 - Página de captación /guias/ebook-concurso-docente (mismo formulario y proceso que los otros ebooks: nombre, correo y WhatsApp, política de datos y términos obligatorios, mercadeo opcional), con tarjeta en /guias y entrada en el sitemap.
 - Servidor (php.pak): ebook id "doc" en _suscripcion.php y descargar.php (enlace firmado de 30 días; si el PDF no está en el servidor, redirige al PDF del repositorio), marcador {enlace_ebook_doc} en el correo masivo y el bot ahora dice que hay tres ebooks gratis.
 - PDF agregado al repositorio en ebook/guia-concurso-docente-2026.pdf.
+
+## 6 nov 2026, 13:40 — Docentes: 30 lecciones con contenido real y normas textuales
+- Se reescriben 30 lecciones de la cartilla Docentes que solo traían el esquema (Qué evalúa / Qué debes estudiar / Cómo te lo preguntan). Ahora explican, dan el procedimiento paso a paso y citan la norma literal, para que nadie tenga que buscar la ley aparte.
+- Docente, gestión: planeación y organización; competencias pedagógicas y didácticas (DUA, Decreto 1421); evaluación del aprendizaje (SIEE, Decreto 1075); participación y seguimiento; recursos pedagógicos; comunicación institucional (CPACA art. 14, Ley 1581 art. 7); comunidad y entorno (consejo de padres, Ley 1620, Ley 1098).
+- Orientador: 8 lecciones (Ley 1620 arts. 13, 19, 29 a 33; Decreto 1965 arts. 39 a 45, protocolos Tipo I, II y III).
+- Directivos: 8 lecciones (Ley 115 arts. 73 y 142 a 145; Ley 715 art. 10; Decreto 1075 fondo de servicios educativos y consejo de padres; Decreto Ley 1278 art. 6).
+- Competencias comportamentales: 7 lecciones (liderazgo, comunicación, trabajo en equipo, negociación y mediación, compromiso, iniciativa, orientación al logro) con lo que dice el Anexo técnico 2026 sobre la entrevista (10 %, clasificatoria, rúbrica con conductas observables) y el método STAR.
+- Control: cada fragmento citado se verifica por programa contra el texto del artículo (falla si no aparece literal). Se cargó la cartilla en navegador sin errores, ida y vuelta de cifrado verificada.
+- Cambio en 2 lecciones de Directivos (Ejecución y Comunidad): se condensó el texto largo previo; se perdieron los apartados sobre Decreto 915 de 2016 y el concurso.
+- Solo cambia cartilla.enc (bloque DOCDATA y su copia comprimida). Para volver atrás: revertir este commit.
