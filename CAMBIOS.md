@@ -216,3 +216,6 @@ Concurso docente: la evaluación de muestra de la página ahora tiene 10 pregunt
 
 ## 2026-11-06 01:10 - sitio.pak
 Concurso docente: la sección "Evaluación de muestra" se reemplaza por información del simulacro gratis (30 preguntas con respuesta razonada) y botones para crear cuenta gratis o entrar al panel. Solo cambia concursos/docentes.html.
+
+## 2026-11-06 01:35 - sitio.pak
+Concurso docente, simulador del puntaje final: ahora es evidente que el usuario escribe sus datos (pasos 1 y 2, casillas grandes con borde y "/ 100", barra deslizable, aporte en puntos por prueba, aviso del mínimo aprobatorio en aptitudes). Solo cambia concursos/docentes.html.
