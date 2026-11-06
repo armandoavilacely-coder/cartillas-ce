@@ -272,3 +272,8 @@ Las paginas de empleos docentes y vacantes por departamento se movieron a rutas 
 - Confirmación por enlace (confirmar.php) y respuesta de la API (_suscripcion.php): solo para el ebook "doc"; los ebooks de Procuraduría y comportamentales no cambian.
 - Nota: el PDF sigue en el repositorio público (ebook/guia-concurso-docente-2026.pdf) porque el enlace del correo lo sirve desde ahí. Quien conozca esa dirección puede bajarlo sin el correo.
 - Archivos: php.pak (_suscripcion.php, confirmar.php) y sitio.pak (guias/ebook-concurso-docente.html). Para volver atrás: revertir este commit.
+
+## 6 nov 2026, 14:40 — Ebook docente: el PDF se sirve desde Google Drive y sale del repositorio
+- El enlace firmado del correo (descargar.php) ahora lleva al PDF en Google Drive (carpeta EBOOKS CONCURSOS DEL ESTADO, compartido solo con quien tenga el enlace). Ya no apunta a GitHub.
+- Se elimina ebook/guia-concurso-docente-2026.pdf del repositorio público, así que ya no hay una copia descargable ahí (queda en el historial de commits anteriores).
+- Solo cambia php.pak (descargar.php). Para volver atrás: revertir este commit.
