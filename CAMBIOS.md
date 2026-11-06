@@ -156,3 +156,6 @@ Docentes, todos los niveles: nuevo capítulo "Talleres de aula y rectoría: caso
 
 ## 2026-11-05 23:25 - cartilla.enc
 Docentes: nuevo capítulo «Práctica de aula: matemáticas con casos» (6 casos de aula con paso a paso y cita textual de los Estándares del MEN, más entrenamiento de razonamiento cuantitativo; 10 preguntas situacionales). Aparece para secundaria y media.
+
+## 2026-11-05 23:45 - cartilla.enc
+Docentes: nuevo capítulo «Práctica de aula: lengua castellana con casos» (6 casos de aula con paso a paso y cita textual de los Estándares del Lenguaje del MEN, más entrenamiento de lectura crítica con un texto analizado; 10 preguntas situacionales). Aparece para secundaria y media.
