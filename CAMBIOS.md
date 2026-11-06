@@ -165,3 +165,6 @@ Docentes: nuevo capítulo «Práctica de aula: inglés con casos» (6 casos con 
 
 ## 2026-11-06 00:30 - cartilla.enc
 Docentes: dos capítulos nuevos, «Práctica de aula: ciencias naturales con casos» y «Práctica de aula: ciencias sociales y ciudadanas con casos» (casos con paso a paso y cita textual de los Estándares del MEN, entrenamiento de razonamiento con datos y de hecho/opinión/argumento; 20 preguntas situacionales). Sociales y ciudadanas también aparece para preescolar y primaria.
+
+## 2026-11-05 23:29 - cartilla.enc
+Docentes: nuevo capítulo «Funciones del docente: lo que dice la norma, caso por caso» (áreas art. 23, PEI, plan de estudios, evaluación institucional, calendario, gobierno escolar, Ley 1098). Contenido enseñado con texto de la norma, paso a paso y preguntas.
