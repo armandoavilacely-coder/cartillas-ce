@@ -331,3 +331,7 @@ Las paginas de empleos docentes y vacantes por departamento se movieron a rutas 
 ## Docentes: fisica, quimica y biologia (+9 lecciones)
 - esp-fis +3 (mecanica con problemas, masa/peso/densidad, electricidad-magnetismo-gravitacion), esp-qui +3 (estructura de la materia, reacciones y mol, niveles de representacion), esp-bio +3 (celula y transporte, genetica, ecosistemas y energia).
 - Estandares citados literalmente del documento de Ciencias Naturales (MEN 2004), verificados por assert; todos los calculos numericos se comprobaron en codigo. Solo cambia cartilla.enc.
+
+## Docentes: refuerzo de lecciones por nivel en gestion academica y comunitaria (+5)
+- fa-ga +4 (dominio curricular preescolar/primaria, planeacion secundaria/media, pedagogicas secundaria/media, evaluacion preescolar/primaria) y fa-gco +1 (interaccion con la comunidad en media). Cada una lleva su campo niv (doc-pri o doc-sec) para que solo la vea ese nivel.
+- Citas literales de Ley 115 (arts. 16, 21, 30) y Decreto 1075 (arts. 2.3.3.3.3.1, .3.3, .3.4, .3.5, .3.6), verificadas por assert. Solo cambia cartilla.enc.
