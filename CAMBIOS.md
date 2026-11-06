@@ -259,3 +259,8 @@ Las paginas de empleos docentes y vacantes por departamento se movieron a rutas 
 - Control: cada fragmento citado se verifica por programa contra el texto del artículo (falla si no aparece literal). Se cargó la cartilla en navegador sin errores, ida y vuelta de cifrado verificada.
 - Cambio en 2 lecciones de Directivos (Ejecución y Comunidad): se condensó el texto largo previo; se perdieron los apartados sobre Decreto 915 de 2016 y el concurso.
 - Solo cambia cartilla.enc (bloque DOCDATA y su copia comprimida). Para volver atrás: revertir este commit.
+
+## 6 nov 2026, 14:05 — Docentes: se restaura texto previo en 8 lecciones
+- La publicación de las 13:40 reemplazó por completo 30 lecciones; en 8 de ellas la versión nueva quedó más corta que la anterior (Orientador: protocolos y participación; Directivos: planeación, ejecución, talento humano, comunicación y comunidad; Competencias: trabajo en equipo) y se había perdido material (p. ej. Decreto 915 y el concurso, Mérito y Constitución art. 125, ley y manual de convivencia).
+- Se agrega al final de esas 8 lecciones el bloque "Para profundizar" con los apartados anteriores, sin los párrafos de esquema repetidos ni el resumen de tipos de situaciones "(verifica)", que ahora está citado textual del Decreto 1965.
+- Solo cambia cartilla.enc. Para volver atrás: revertir este commit.
