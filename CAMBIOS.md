@@ -310,3 +310,8 @@ Las paginas de empleos docentes y vacantes por departamento se movieron a rutas 
 ## Docentes: preescolar y primaria (+7 lecciones)
 - esp-pre +4 (definicion y fines, objetivos del art. 16, ingreso sin pruebas y edad de transicion, valoracion cualitativa) y esp-prim +3 (objetivos del ciclo, planeacion con proyectos y multigrado, evaluacion y retroalimentacion).
 - Citas literales de Ley 115 (arts. 15, 16, 17, 21) y Decreto 1075 de 2015 (arts. 2.3.3.2.2.1.4, 2.3.3.2.2.2.1, 2.3.3.2.2.3.4, 2.3.3.2.2.3.5), verificadas por assert. Solo cambia cartilla.enc.
+
+## Aviso para cualquier Claude que edite la cartilla
+- cartilla.enc es un solo archivo cifrado: cada commit lo reemplaza completo. Antes de editar: `git pull`, descifrar el cartilla.enc ACTUAL del repo (inverso de /tmp/qa/enc2.py) y trabajar sobre ese HTML; nunca sobre un HTML de trabajo anterior, porque se perderian las lecciones agregadas despues.
+- Antes de cada push: `git fetch` y confirmar que no hay commits nuevos; si los hay, volver a aplicar los cambios sobre la version nueva.
+- Despues de publicar: verificar que cada bloque tenga >= lecciones y >= caracteres que antes.
