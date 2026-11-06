@@ -301,3 +301,8 @@ Las paginas de empleos docentes y vacantes por departamento se movieron a rutas 
 - esp-soc +4 (estandares de ciencias sociales, competencias ciudadanas, fuentes historicas y causalidad, geografia y mapas).
 - esp-nat +5 (estandares de ciencias naturales, indagacion con ejemplo, seguridad y residuos, modelos y problemas, educacion ambiental y PRAE). Visible tambien en fisica, quimica y biologia (comparten el bloque base).
 - Todas las citas de estandares se verificaron contra el texto oficial (assert). Ninguna leccion existente se modifico. Solo cambia cartilla.enc.
+
+## Docentes: religion, etica, educacion fisica, filosofia, economia, tecnologia y artes (+15 lecciones)
+- esp-rel +2, esp-eti +3, esp-efi +2, esp-fil +2, esp-eco +2, esp-tec +1, esp-art +1 (artes comparte base con musica, danza, escenicas y plasticas).
+- Citas literales solo de Ley 115 de 1994 (arts. 14, 23, 24, 25, 31, 32), verificadas por assert. No hay texto oficial de estandares de artes/EF/religion/filosofia/tecnologia en el Drive; cuando el usuario los suba se amplian con citas.
+- Solo cambia cartilla.enc; ninguna leccion previa se toco.
