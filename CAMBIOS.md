@@ -153,3 +153,6 @@ Docentes, directivos docentes: nuevo capítulo "Gestión directiva con la Ley 11
 
 ## 2026-11-06 00:20 - cartilla.enc
 Docentes, todos los niveles: nuevo capítulo "Talleres de aula y rectoría: casos para decidir qué hacer" con 5 casos (estudiante con discapacidad que llega a mitad de año; ciberacoso en el grupo de WhatsApp; primer año como docente nombrado por concurso; rector y Fondo de Servicios Educativos; queja de una estudiante contra un docente). Cada caso trae el paso a paso, lo que no se hace y 3 preguntas para decidir (15 en total).
+
+## 2026-11-05 23:25 - cartilla.enc
+Docentes: nuevo capítulo «Práctica de aula: matemáticas con casos» (6 casos de aula con paso a paso y cita textual de los Estándares del MEN, más entrenamiento de razonamiento cuantitativo; 10 preguntas situacionales). Aparece para secundaria y media.
