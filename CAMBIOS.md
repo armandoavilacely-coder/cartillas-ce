@@ -144,3 +144,6 @@ Docentes, todos los niveles: nuevo capítulo "Cómo funciona el sistema escolar:
 
 ## 2026-11-05 23:05 - cartilla.enc
 Docentes, todos los niveles: nuevo capítulo "Convivencia escolar: Ley 1620 de 2013 y Decreto 1965 de 2013" con 7 lecciones (conflicto, agresión y acoso; Comité Escolar de Convivencia; situaciones Tipo I, II y III; protocolo Tipo I; protocolo Tipo II; protocolo Tipo III; responsabilidades de docentes y rector y componentes de la Ruta de Atención Integral). Artículos citados textualmente, ejemplo de colegio, resumen "En palabras simples", "Para el examen" y 21 preguntas situacionales con explicación.
+
+## 2026-11-05 23:40 - cartilla.enc
+Docentes, todos los niveles: nuevo capítulo "Educación inclusiva: Decreto 1421 de 2017" con 5 lecciones (educación inclusiva y principios; DUA, currículo flexible y ajustes razonables; acceso, matrícula y no discriminación; PIAR y acta de acuerdo; informe anual, permanencia y corresponsabilidad de la familia). Artículos citados textualmente, ejemplo de aula, resumen "En palabras simples", "Para el examen" y 15 preguntas situacionales con explicación.
