@@ -277,3 +277,7 @@ Las paginas de empleos docentes y vacantes por departamento se movieron a rutas 
 - El enlace firmado del correo (descargar.php) ahora lleva al PDF en Google Drive (carpeta EBOOKS CONCURSOS DEL ESTADO, compartido solo con quien tenga el enlace). Ya no apunta a GitHub.
 - Se elimina ebook/guia-concurso-docente-2026.pdf del repositorio público, así que ya no hay una copia descargable ahí (queda en el historial de commits anteriores).
 - Solo cambia php.pak (descargar.php). Para volver atrás: revertir este commit.
+
+## 6 nov 2026, 14:50 — Ebook docente: el botón del correo descarga de inmediato desde nuestro dominio
+- descargar.php: si el PDF aún no está en el servidor, lo trae una sola vez del respaldo en Google Drive, lo guarda en ce_data/ebook y lo entrega directo (Content-Disposition: attachment). La persona toca el botón del correo y el PDF empieza a bajar al instante, sin pasar por la pantalla de Drive. Si el servidor no puede traerlo, mantiene la redirección a Drive como respaldo.
+- Solo cambia php.pak (descargar.php). Para volver atrás: revertir este commit.
