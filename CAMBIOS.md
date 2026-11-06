@@ -222,3 +222,6 @@ Concurso docente, simulador del puntaje final: ahora es evidente que el usuario 
 
 ## 2026-11-06 02:05 - sitio.pak
 Concurso docente, facilidad de uso para personas mayores: recuadro "Cómo usar esta página" con 4 pasos, botones A- / A / A+ para el tamaño de letra (se recuerda), pestañas más grandes con subtítulo y marca "Estás aquí", botones "Anterior / Siguiente" al final de cada tema, letra y contraste mayores y foco visible. Solo cambia concursos/docentes.html.
+
+## 2026-11-06 02:30 - sitio.pak
+SEO del concurso docente: título y descripción con 2026, CNSC, vacantes y requisitos; imagen propia para compartir (og-docentes.png) con texto alternativo; tres preguntas frecuentes nuevas (vacantes, peso de las pruebas, requisitos) en la página y en los datos estructurados; fecha de modificación y sitemap actualizados.
