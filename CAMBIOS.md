@@ -195,3 +195,6 @@ Página del concurso Docentes: la sección «Docentes: lo que debes saber» se a
 
 ## 2026-11-06 00:45 - sitio.pak
 Página del concurso Docentes: la sección informativa ahora copia la estructura del tablero oficial de la CNSC, en 10 pestañas (resumen, qué es la CNSC, vacantes con gráficas por empleo, fases y cronograma, ponderación con simulador de puntaje, Ley 2418, requisitos y funciones completas de los 23 empleos, valoración de antecedentes por grupo, entrevista y tips para participar). Solo cambia esa página.
+
+## 2026-11-06 01:10 - cartilla.enc
+Docentes: se quitaron las preguntas y los simulacros sobre las etapas del concurso, los antecedentes, el manual de funciones y títulos, y los capítulos «Tu cargo». Las preguntas de la cartilla quedan solo sobre contenido que se evalúa (normas, pedagogía, áreas, lectura crítica, razonamiento, gestión y competencias).
