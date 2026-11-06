@@ -281,3 +281,11 @@ Las paginas de empleos docentes y vacantes por departamento se movieron a rutas 
 ## 6 nov 2026, 14:50 — Ebook docente: el botón del correo descarga de inmediato desde nuestro dominio
 - descargar.php: si el PDF aún no está en el servidor, lo trae una sola vez del respaldo en Google Drive, lo guarda en ce_data/ebook y lo entrega directo (Content-Disposition: attachment). La persona toca el botón del correo y el PDF empieza a bajar al instante, sin pasar por la pantalla de Drive. Si el servidor no puede traerlo, mantiene la redirección a Drive como respaldo.
 - Solo cambia php.pak (descargar.php). Para volver atrás: revertir este commit.
+
+## 6 nov 2026, 15:30 — Docentes: lectura crítica y razonamiento cuantitativo con contenido completo (y ahora visibles)
+- Hallazgo: los capítulos "Lectura crítica en el contexto escolar" y "Razonamiento cuantitativo en el aula" existían en la cartilla pero no estaban asignados a ningún nivel (doc-pri, doc-sec, doc-ori, doc-dir, doc-todos), así que nadie los veía. Se agregan a CORE de DOCAPP: ahora aparecen en los cinco niveles, con sus 18 y 19 preguntas.
+- Lectura crítica: de 3 lecciones de unos 300 caracteres a 6 de 1.600 a 3.000: tres niveles de lectura (con ejemplo resuelto), tesis, argumentos y errores de razonamiento, lectura de tablas y gráficos (tabla de matrícula con cuentas), tipos de texto escolar (circular, acta, informe, norma, noticia), estrategia en la prueba (tiempo, descarte, distractores) y práctica guiada con tres casos.
+- Razonamiento cuantitativo: de 3 lecciones a 6: promedio ponderado y nota mínima, porcentajes y variaciones (puntos porcentuales), proporciones y regla de tres, cálculo a mano sin calculadora (el Anexo técnico prohíbe calculadoras), media, mediana, moda y probabilidad simple, y cinco problemas típicos de colegio resueltos paso a paso.
+- Ancla: Anexo técnico 2026, num. 2 (la prueba de aptitudes y competencias básicas incluye lectura crítica y razonamiento cuantitativo; eliminatoria con mínimo 60 docentes y 70 directivos).
+- Control: cada cuenta de los ejemplos y de las prácticas se verificó por programa; la cartilla carga sin errores y los dos capítulos aparecen en los cinco niveles; ida y vuelta de cifrado verificada.
+- Solo cambia cartilla.enc. Para volver atrás: revertir este commit.
