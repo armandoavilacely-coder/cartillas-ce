@@ -219,3 +219,6 @@ Concurso docente: la sección "Evaluación de muestra" se reemplaza por informac
 
 ## 2026-11-06 01:35 - sitio.pak
 Concurso docente, simulador del puntaje final: ahora es evidente que el usuario escribe sus datos (pasos 1 y 2, casillas grandes con borde y "/ 100", barra deslizable, aporte en puntos por prueba, aviso del mínimo aprobatorio en aptitudes). Solo cambia concursos/docentes.html.
+
+## 2026-11-06 02:05 - sitio.pak
+Concurso docente, facilidad de uso para personas mayores: recuadro "Cómo usar esta página" con 4 pasos, botones A- / A / A+ para el tamaño de letra (se recuerda), pestañas más grandes con subtítulo y marca "Estás aquí", botones "Anterior / Siguiente" al final de cada tema, letra y contraste mayores y foco visible. Solo cambia concursos/docentes.html.
