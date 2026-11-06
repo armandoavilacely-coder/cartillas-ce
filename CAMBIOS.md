@@ -168,3 +168,6 @@ Docentes: dos capítulos nuevos, «Práctica de aula: ciencias naturales con cas
 
 ## 2026-11-05 23:29 - cartilla.enc
 Docentes: nuevo capítulo «Funciones del docente: lo que dice la norma, caso por caso» (áreas art. 23, PEI, plan de estudios, evaluación institucional, calendario, gobierno escolar, Ley 1098). Contenido enseñado con texto de la norma, paso a paso y preguntas.
+
+## 2026-11-06 00:55 - cartilla.enc
+Docentes: el capítulo «Tus funciones como docente de aula» se reescribió para enseñar el contenido: las 29 funciones, cada una con lo que dice la norma (cita textual de Ley 115, Ley 1620, Ley 1098 y Decreto 1421 cuando la hay), qué significa, caso, paso a paso, lo que no se hace y clave de examen; 16 preguntas situacionales.
