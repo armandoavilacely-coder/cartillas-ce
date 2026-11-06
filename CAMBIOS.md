@@ -243,3 +243,9 @@ SEO del concurso docente: página nueva "Concurso docente 2026: fechas, cronogra
 
 ## 2026-11-06 01:36 - sitio.pak
 Las paginas de empleos docentes y vacantes por departamento se movieron a rutas planas dentro de concursos/ (concursos/docentes-empleos, docentes-empleo-*, docentes-vacantes, docentes-vacantes-*) porque el actualizador del servidor solo publica concursos/*.html planos y las carpetas cargos/docentes/ y vacantes-docentes/ daban 404. Enlaces, canonicals, JSON-LD y sitemap reescritos.
+
+## 6 nov 2026, 11:40 — Tercer ebook gratis: Concurso docente 2026 (embudo completo)
+- Nueva guía en PDF de 16 páginas "Concurso docente 2026: tu ruta, paso a paso" (cifras CNSC del 6-nov, cronograma, pruebas y pesos, cálculo de puntaje, 23 empleos, antecedentes, inscripción, documentos, plan de 4 semanas, enlaces para registrarse/pagar/ver el concurso y "Quiénes somos").
+- Página de captación /guias/ebook-concurso-docente (mismo formulario y proceso que los otros ebooks: nombre, correo y WhatsApp, política de datos y términos obligatorios, mercadeo opcional), con tarjeta en /guias y entrada en el sitemap.
+- Servidor (php.pak): ebook id "doc" en _suscripcion.php y descargar.php (enlace firmado de 30 días; si el PDF no está en el servidor, redirige al PDF del repositorio), marcador {enlace_ebook_doc} en el correo masivo y el bot ahora dice que hay tres ebooks gratis.
+- PDF agregado al repositorio en ebook/guia-concurso-docente-2026.pdf.
