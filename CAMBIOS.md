@@ -138,3 +138,6 @@ DIAN: nueva lección de repaso "Tríada misional a fondo: servicio, control y ge
 
 ## 2026-11-05 22:10 - cartilla.enc
 Docentes, todos los niveles: nuevo capítulo "Estatuto docente: Decreto Ley 1278 de 2002" con 8 lecciones (quién es quién y función docente, concurso de méritos, lista de elegibles y nombramientos, período de prueba, Escalafón, los tres tipos de evaluación, deberes y prohibiciones, situaciones administrativas y retiro). Artículos citados textualmente, ejemplo de colegio, resumen "En palabras simples", lo que se pregunta en el examen y 24 preguntas situacionales con explicación.
+
+## 2026-11-05 22:35 - cartilla.enc
+Docentes, todos los niveles: nuevo capítulo "Cómo funciona el sistema escolar: Ley 715 de 2001 y Ley 115 de 1994" con 6 lecciones (competencias de la Nación, departamentos y municipios; institución educativa, centro educativo y niveles; funciones del rector; Fondo de Servicios Educativos; PEI, manual de convivencia y rol del educador; gobierno escolar con Consejo Directivo y Consejo Académico). Artículos citados textualmente, ejemplo de colegio, resumen "En palabras simples", "Para el examen" y 18 preguntas situacionales con explicación.
