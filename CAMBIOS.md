@@ -506,3 +506,8 @@ QUE FALTA: confirmar escuchando con una voz real en el celular.
 QUE SE HIZO: en la cartilla DIAN más de 100 de las 167 explicaciones completas de los casos aparecían en la pregunta equivocada (la respuesta marcada como correcta sí estaba bien). Se reasignaron todas a su pregunta, en los casos y en el simulacro. Procuraduría usaba el mismo sistema y quedó con la misma corrección.
 COMO SE HIZO: las explicaciones se asignaban por posición del caso (ej. "58.0") y al agregar casos las posiciones se corrieron. Ahora la clave es el texto del caso y de la pregunta, así que no se descuadra aunque se agreguen casos. Se verificó cargando la cartilla en un navegador: 1.429 preguntas DIAN revisadas, las 167 explicaciones caen en su pregunta.
 QUE FALTA: ampliar explicaciones muy cortas (algunas solo citan el artículo, ej. "Artículo 89.").
+
+## 2026-11-07 · Cartilla DIAN: Word y Excel aparece en el simulacro por capítulo
+QUE SE HIZO: el capítulo «Word y Excel: del nivel básico al medio» no salía en la lista del simulacro por capítulo (sus 52 preguntas solo salían en el general). Ya aparece.
+COMO SE HIZO: se agregó su nombre a la lista de bloques (BLOQUES.OFIM) que alimenta el selector del simulacro. Verificación completa de la cartilla DIAN en navegador: 33 capítulos, 530 lecciones, 540 fichas y 1.429 preguntas sin claves inválidas ni opciones repetidas.
+QUE FALTA: equilibrar el largo de opciones en 119 preguntas donde la correcta es notoriamente la más larga; ampliar la explicación «Artículo 89.» (recurso por correo electrónico).
