@@ -449,3 +449,14 @@ COMO SE HIZO (para continuar)
 
 QUE FALTA
 - Figuras en manual y lecciones sueltas de cc y fun-norm; videos para otros capitulos.
+
+## Docentes: 7 figuras en funciones del docente (fun-norm), manual y competencias
+QUE SE HIZO
+- Cartilla Docentes (cartilla.enc): fun-norm mapa de las nueve areas obligatorias (Ley 115 art. 23), flujo para modificar el PEI y flujo para cambiar el plan de estudios; cc flujo del ciclo de mejora SMART; manual mapa de las 7 competencias comportamentales y flujos de titulos habilitantes y de quien es licenciado.
+- Solo figuras: texto y preguntas intactos (verificado bloque por bloque). Prueba en Chrome a 400 px sin errores.
+
+COMO SE HIZO (para continuar)
+- Se descifro el cartilla.enc vigente (igual a la base), se reserializo DOCDATA con assert, se agregaron las figuras con visuals.py y se cifro con la clave de .ce_key. Antes de editar: git pull y descifrar el cartilla.enc actual.
+
+QUE FALTA
+- Figuras en lecciones sueltas (cc 4, manual restante, fun-norm restante, fa-ga restante); videos para otros capitulos.
