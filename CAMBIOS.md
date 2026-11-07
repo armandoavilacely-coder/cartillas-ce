@@ -501,3 +501,8 @@ QUE FALTA: aplicar el mismo mecanismo en las cartillas DIAN y Procuraduría; reg
 QUE SE HIZO: el audio de página, de resúmenes y de videos con voz de todas las cartillas (Docentes, DIAN y Procuraduría) ahora lee los valores con "$" como pesos (ej. "$4.500.000" se lee «4500000 pesos»; "$3,5 millones" como «3,5 millones de pesos»; "COP" como «pesos colombianos»).
 COMO SE HIZO: un script al inicio del archivo intercepta speechSynthesis.speak y reescribe el texto antes de que suene; no toca el texto que se ve en pantalla.
 QUE FALTA: confirmar escuchando con una voz real en el celular.
+
+## 2026-11-07 · Cartillas DIAN y Procuraduría: explicaciones de los casos en su pregunta correcta
+QUE SE HIZO: en la cartilla DIAN más de 100 de las 167 explicaciones completas de los casos aparecían en la pregunta equivocada (la respuesta marcada como correcta sí estaba bien). Se reasignaron todas a su pregunta, en los casos y en el simulacro. Procuraduría usaba el mismo sistema y quedó con la misma corrección.
+COMO SE HIZO: las explicaciones se asignaban por posición del caso (ej. "58.0") y al agregar casos las posiciones se corrieron. Ahora la clave es el texto del caso y de la pregunta, así que no se descuadra aunque se agreguen casos. Se verificó cargando la cartilla en un navegador: 1.429 preguntas DIAN revisadas, las 167 explicaciones caen en su pregunta.
+QUE FALTA: ampliar explicaciones muy cortas (algunas solo citan el artículo, ej. "Artículo 89.").
