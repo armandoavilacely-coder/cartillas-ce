@@ -471,3 +471,13 @@ COMO SE HIZO
 QUE FALTA
 - Verificar en la plataforma oficial las fechas de la Procuraduría el día anterior a cada pieza de calendario (7, 9, 11, 12, 16, 17 y 20 de noviembre) y confirmar el texto del art. 40 del Decreto 1965 de 2013 antes de la pieza del 16.
 - Confirmar si existe simulacro gratis de Procuraduría (los textos de respuesta lo ofrecen).
+
+## 7 nov 2026, 14:45 — Publicidad: corrección de fechas de Docentes y nuevo diseño de las 42 piezas
+QUE SE HIZO
+- Se corrige la información de Docentes con la fuente oficial (página de la CNSC y Resolución 11673 del 6 de noviembre de 2026): la inscripción para personas con discapacidad va del 23 de noviembre de 2026 al 15 de enero de 2027, con más de 2.200 vacantes reservadas. Se quitan las fechas no confirmadas que venían de medios ("Ene–Feb 2027" y "segundo semestre de 2027") de la pieza del calendario, "no estudies a última hora" y "errores al estudiar", y de sus textos.
+- Nuevo diseño de las 42 imágenes (feed y historia) de Procuraduría y Docentes: cada concurso con el estilo de color y letra de su entidad (Docentes azul y amarillo; Procuraduría azul marino y dorado), sin logos; fondos blancos y azules intercalados con degradado, textura y brillos; más espacio entre textos y cuadros; se quitan tarjetas que repetían lo del cuadro principal; las historias respetan las zonas seguras.
+COMO SE HIZO
+- Parche sobre el cartilla.enc ya publicado (commit 9976555): se descifró, se reemplazaron por id las 42 publicaciones de pub-data (textos de Docentes corregidos e imágenes nuevas) y se volvió a cifrar. Control: la semana del 26 de octubre y las 17 primeras publicaciones de la semana del 2 de noviembre quedan idénticas; el resto del cartilla.enc no cambia.
+QUE FALTA
+- Verificar en la plataforma oficial las fechas de la Procuraduría el día anterior a cada pieza de calendario (9, 11, 12, 16, 17 y 20 de noviembre) y confirmar si existe simulacro gratis de Procuraduría.
+- Las fechas de inscripción general y de pruebas de Docentes las anunciará la CNSC; actualizar las piezas cuando salgan.
