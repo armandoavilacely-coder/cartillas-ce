@@ -460,3 +460,14 @@ COMO SE HIZO (para continuar)
 
 QUE FALTA
 - Figuras en lecciones sueltas (cc 4, manual restante, fun-norm restante, fa-ga restante); videos para otros capitulos.
+
+## 7 nov 2026, 14:10 — Publicidad: calendario de 14 días (7 al 20 de noviembre), 3 publicaciones diarias
+QUE SE HIZO
+- En la sección Publicidad del admin se agregan 42 publicaciones (solo Procuraduría y Docentes), 3 por día, del sábado 7 al viernes 20 de noviembre de 2026: 6 en la semana del 2 al 8 (días 7 y 8), 21 en la semana del 9 al 15 y 15 en la semana del 16 al 22 (hasta el 20).
+- Mezcla con marketing de contenidos: noticias de calendario, contenido útil (puntaje, reclamaciones y apelación, funciones, requisitos y competencias del empleo 4SU-11; etapas, normas, PIAR y DUA, convivencia escolar y consejos de estudio en Docentes), retos con respuesta a las 9:00 p. m., encuestas y piezas de transparencia sobre lo que se vende.
+- Cada una lleva imagen de feed (4:5) y de historia (9:16), con ilustración y la palabra del concurso en grande, y textos para página, grupos, WhatsApp, historia, estado y respuesta a comentarios.
+COMO SE HIZO
+- Parche sobre el cartilla.enc ya publicado (commit db20e5b): se descifró, se agregaron las semanas al JSON de pub-data (id 2026-11-09 y 2026-11-16, y las 6 publicaciones de los días 7 y 8 a la semana 2026-11-02) y se volvió a cifrar. Control: el resto de la cartilla queda idéntico, las semanas anteriores no cambian y el cifrado ida y vuelta coincide.
+QUE FALTA
+- Verificar en la plataforma oficial las fechas de la Procuraduría el día anterior a cada pieza de calendario (7, 9, 11, 12, 16, 17 y 20 de noviembre) y confirmar el texto del art. 40 del Decreto 1965 de 2013 antes de la pieza del 16.
+- Confirmar si existe simulacro gratis de Procuraduría (los textos de respuesta lo ofrecen).
