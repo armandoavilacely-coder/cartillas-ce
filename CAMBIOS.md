@@ -405,3 +405,14 @@ COMO SE HIZO (para continuar)
 
 QUE FALTA
 - Figuras en fd-ga, fd-gco, fo-gad, fo-gco y nor-casos; videos para otros capitulos; leccion corta de TIC solo si se pide.
+
+## Docentes: 9 figuras en talleres de casos y gestion directiva/orientador
+QUE SE HIZO
+- Cartilla Docentes (cartilla.enc): 5 flujos en los talleres de nor-casos (discapacidad a mitad de ano, ciberacoso, periodo de prueba, Fondo de Servicios Educativos, queja contra docente); fd-ga flujo "de los resultados a las decisiones"; fd-gco flujo de queja publica en redes y mapa de situaciones Tipo I, II y III; fo-gco mapa de la red de apoyo del orientador.
+- Solo figuras: texto de lecciones y preguntas intactos (verificado bloque por bloque). Prueba en Chrome a 400 px sin errores.
+
+COMO SE HIZO (para continuar)
+- Se descifro el cartilla.enc vigente (igual a la base), se reserializo DOCDATA con assert, se agregaron las figuras con visuals.py (flow y cmap) y se cifro con la clave de .ce_key. Antes de editar: git pull y descifrar el cartilla.enc actual.
+
+QUE FALTA
+- Figuras en fo-gad; videos para otros capitulos.
