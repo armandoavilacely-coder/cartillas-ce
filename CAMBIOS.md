@@ -351,3 +351,11 @@ Las paginas de empleos docentes y vacantes por departamento se movieron a rutas 
 - Se revirtio el commit 99b96e1 (sitio.pak, php.pak, cartilla.enc quedan como en b36ac1a). No hay otros cambios posteriores a ese commit, asi que la reversion es exacta. Se verifico HMAC de los tres paquetes: 0 apariciones del 312 y todas las del 316.
 - Cuando el 312 690 8321 salga de revision y Ariel lo confirme, repetir el reemplazo (ver entrada anterior "Cambio del numero de WhatsApp en todo el sitio").
 - Fuera del repo (PDF en Drive de las guias docente/Procuraduria/comportamentales) siguen con 312 690 8321: hay que volver a corregirlos si el cambio dura.
+
+## SEO: titulos y descripciones mas cortos y con el concurso al inicio (186 paginas)
+- Solo cambia sitio.pak, y dentro de el unicamente las etiquetas <title> y <meta name="description"> de 186 paginas; el resto de cada archivo es identico (se verifico comparando cada archivo contra el publicado). No cambian aspecto, textos visibles, enlaces ni imagenes.
+- cargos/procuraduria (126): el titulo pasa de "Cargo · Dependencia · Procuraduría" a "Procuraduría 2026 · Cargo · Dependencia" (se conserva el "(2)" de los repetidos). cargos/dian (2): "DIAN 2676 · Cargo · Dependencia". concursos (Docentes): "Concurso docente 2026 · Empleo: requisitos y vacantes".
+- Descripciones: 48 que pasaban de 160 caracteres quedan dentro del limite (en las de vacantes se quito la frase final "Mira cuantas hay en cada empleo."; se reescribieron guias/prueba-el-metodo y concursos/examen-estado-abogados). Ningun titulo nuevo repetido.
+- Motivo: Search Console (6/11) mostraba titulos cortados en los resultados. Los titulos siguen siendo largos (en Google se corta el final, que es la dependencia); lo importante queda al inicio.
+- Lo que Google rechazo ("Rastreada: sin indexar") y sigue pendiente, con aprobacion de Claudia antes de tocar: guias/noticias-concursos y dos cargos DIAN (gestor-ii-administracion-de-cartera-y-recaudo-devoluciones, inspector-i-gestion-del-riesgo-y-programas). guias/simulacro-dian-2676 y los otros guias/simulacro-* son paginas de paso con noindex a proposito: no tocarlas.
+- Para otro Claude: si vas a editar sitio.pak, parte del sitio.pak actual del repo (no de una copia local) y no pises estas etiquetas. Para volver atras: revertir este commit.
