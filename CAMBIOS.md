@@ -416,3 +416,14 @@ COMO SE HIZO (para continuar)
 
 QUE FALTA
 - Figuras en fo-gad; videos para otros capitulos.
+
+## Docentes: 2 figuras en gestion administrativa del orientador (fo-gad)
+QUE SE HIZO
+- Cartilla Docentes (cartilla.enc): fo-gad leccion 1 mapa de uso seguro y reservado de recursos de orientacion; leccion 2 flujo de seguimiento de un caso de convivencia (acta, verificacion, escalamiento o remision).
+- Solo figuras: texto y preguntas intactos. Prueba en Chrome sin errores.
+
+COMO SE HIZO (para continuar)
+- Se descifro el cartilla.enc vigente (igual a la base), se reserializo DOCDATA con assert, se agregaron las figuras con visuals.py y se cifro con la clave de .ce_key. Antes de editar: git pull y descifrar el cartilla.enc actual.
+
+QUE FALTA
+- Figuras en fa-gad, fa-gco, fo-ga restante, antecedentes, cc, manual y fun-norm; videos para otros capitulos.
