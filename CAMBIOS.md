@@ -345,3 +345,9 @@ Las paginas de empleos docentes y vacantes por departamento se movieron a rutas 
 - sitio.pak: 897 de 968 archivos (paginas, guias, cargos, terminos). php.pak: 6 de 16 (correo del ebook, correos de acceso, chat con la IA, suscripcion, lib). cartilla.enc: 28 apariciones (enlaces y textos). Mismo largo en bytes, asi que no cambian offsets de la cartilla.
 - NO se tocaron constantes numericas de funciones hash (por ejemplo 3266489909), que no son telefonos.
 - Quedan fuera del repo y deben revisarse a mano: imagenes con el numero impreso, PDF/ebooks en Drive, textos de Facebook, perfil de WhatsApp Business, y cualquier numero guardado en la base o en ajustes del servidor.
+
+## Vuelve el numero de WhatsApp 316 698 2472 (revierte el cambio al 312 690 8321)
+- Motivo: el WhatsApp 312 690 8321 quedo "en revision" por varios registros seguidos y no recibe mensajes de la pagina; el 316 698 2472 tiene la cuenta restaurada con grupos y chats. Medida temporal: se devuelve el numero para no perder ventas.
+- Se revirtio el commit 99b96e1 (sitio.pak, php.pak, cartilla.enc quedan como en b36ac1a). No hay otros cambios posteriores a ese commit, asi que la reversion es exacta. Se verifico HMAC de los tres paquetes: 0 apariciones del 312 y todas las del 316.
+- Cuando el 312 690 8321 salga de revision y Ariel lo confirme, repetir el reemplazo (ver entrada anterior "Cambio del numero de WhatsApp en todo el sitio").
+- Fuera del repo (PDF en Drive de las guias docente/Procuraduria/comportamentales) siguen con 312 690 8321: hay que volver a corregirlos si el cambio dura.
