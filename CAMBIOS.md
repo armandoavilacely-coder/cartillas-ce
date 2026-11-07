@@ -496,3 +496,8 @@ QUE FALTA: ampliar «Práctica de aula: matemáticas con casos»; actualizar fec
 QUE SE HIZO: la cartilla Docentes muestra la etiqueta «NUEVO» en el capítulo (inicio), en cada lección nueva (lista y encabezado) y «N NUEVAS» en el botón de práctica. Quedaron marcadas la lección de grados 10.° y 11.° y las 30 preguntas nuevas de matemáticas.
 COMO SE HIZO: campo `nuevo` en capítulo, lección o pregunta de los datos; la cartilla lo lee al armar los capítulos y pinta la etiqueta (estilo propio inyectado). Sin mover lecciones ni avance de usuarios.
 QUE FALTA: aplicar el mismo mecanismo en las cartillas DIAN y Procuraduría; regla acordada: todo contenido nuevo en cualquier concurso lleva «Nuevo». Retirar la etiqueta cuando deje de ser novedad.
+
+## 2026-11-07 · Cartillas: el audio de la página lee pesos y no dólares
+QUE SE HIZO: el audio de página, de resúmenes y de videos con voz de todas las cartillas (Docentes, DIAN y Procuraduría) ahora lee los valores con "$" como pesos (ej. "$4.500.000" se lee «4500000 pesos»; "$3,5 millones" como «3,5 millones de pesos»; "COP" como «pesos colombianos»).
+COMO SE HIZO: un script al inicio del archivo intercepta speechSynthesis.speak y reescribe el texto antes de que suene; no toca el texto que se ve en pantalla.
+QUE FALTA: confirmar escuchando con una voz real en el celular.
