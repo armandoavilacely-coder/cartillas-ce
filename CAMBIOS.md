@@ -491,3 +491,8 @@ QUE FALTA: citar textualmente los estándares de 10.° y 11.° (hoy parafraseado
 QUE SE HIZO: la lección «Grados 10.° y 11.°: lo que cambia en la media» ahora cita textualmente los estándares de décimo a undécimo por pensamiento (numérico, variacional, espacial, métrico y aleatorio) del MEN (2006). Se quitaron menciones que no están en los estándares (sistemas de ecuaciones, volúmenes).
 COMO SE HIZO: se tomó el texto del PDF oficial de los Estándares Básicos de Competencias en Matemáticas y se reemplazó la lección parafraseada; sin mover lecciones ni preguntas.
 QUE FALTA: ampliar «Práctica de aula: matemáticas con casos»; actualizar fechas cuando la CNSC anuncie inscripción general y pruebas.
+
+## 2026-11-07 · Cartillas: letrerito «Nuevo» para contenido nuevo
+QUE SE HIZO: la cartilla Docentes muestra la etiqueta «NUEVO» en el capítulo (inicio), en cada lección nueva (lista y encabezado) y «N NUEVAS» en el botón de práctica. Quedaron marcadas la lección de grados 10.° y 11.° y las 30 preguntas nuevas de matemáticas.
+COMO SE HIZO: campo `nuevo` en capítulo, lección o pregunta de los datos; la cartilla lo lee al armar los capítulos y pinta la etiqueta (estilo propio inyectado). Sin mover lecciones ni avance de usuarios.
+QUE FALTA: aplicar el mismo mecanismo en las cartillas DIAN y Procuraduría; regla acordada: todo contenido nuevo en cualquier concurso lleva «Nuevo». Retirar la etiqueta cuando deje de ser novedad.
