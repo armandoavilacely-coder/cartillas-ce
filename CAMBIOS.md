@@ -394,3 +394,14 @@ COMO SE HIZO (para continuar)
 
 QUE FALTA
 - Figuras en las lecciones especificas por nivel de fa-ga (preescolar y primaria, secundaria y media), en fo-ga restante, fd-ga, fd-gad y fd-gco, nor-715, nor-dir y nor-casos; leccion corta de TIC; videos para psico y evaprend.
+
+## Docentes: videos de psicotecnica y evaluacion, figuras por nivel y 4 figuras de normatividad/directivos
+QUE SE HIZO
+- Cartilla Docentes (cartilla.enc): video narrado de ~90 s al inicio de los capitulos "Prueba psicotecnica y entrevista" y "Evaluar para aprender". Cinco flujos especificos por nivel en fa-ga (secundaria y media, preescolar y primaria, conducta en clase, evaluar en primeros grados, reclamo de nota). Cuatro figuras nuevas: mapa de niveles y establecimientos (nor-715), mapa de funciones del rector (nor-715), flujo de evaluacion institucional anual (nor-dir) y flujo del orden del gasto en 8 pasos (fd-gad).
+- Solo se agregaron videos y figuras: texto de lecciones y preguntas intactos (verificado bloque por bloque). Prueba en Chrome a 400 px sin errores.
+
+COMO SE HIZO (para continuar)
+- Se descifro el cartilla.enc vigente (igual a la base), se reserializo DOCDATA con assert de ida y vuelta, se agregaron las figuras con visuals.py y los videos (mp4 en base64, voz Piper es_MX) y se cifro con la clave de .ce_key. Antes de editar: git pull y descifrar el cartilla.enc actual.
+
+QUE FALTA
+- Figuras en fd-ga, fd-gco, fo-gad, fo-gco y nor-casos; videos para otros capitulos; leccion corta de TIC solo si se pide.
