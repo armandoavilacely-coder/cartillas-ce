@@ -383,3 +383,14 @@ COMO SE HIZO (para continuar)
 
 QUE FALTA
 - Mapas y flujos en gestion academica por cargo (aula, orientador, directivo), nor-715, nor-dir y nor-casos; leccion corta de TIC; videos para psico y evaprend.
+
+## Docentes: mapas y flujos en gestion academica de aula, orientador y directivo
+QUE SE HIZO
+- Cartilla Docentes (cartilla.enc): 5 figuras nuevas dentro de lecciones existentes. fa-ga: flujo "de donde baja tu planeacion" (leccion 3) y mapa de las cuatro ideas pedagogicas (leccion 5). fo-ga: mapa de articulacion del orientador y funciones del art. 32 de la Ley 1620 (leccion 1). fd-gd: flujo de seis pasos para planear con la Guia 34 (leccion 1) y mapa "cada asunto lo decide la instancia competente" (leccion 2).
+- Solo se insertaron figuras: texto de lecciones y preguntas intactos (verificado bloque por bloque contra lo publicado). Prueba en Chrome a 400 px con perfiles primaria, matematicas, orientador y rector, sin errores.
+
+COMO SE HIZO (para continuar)
+- Se descifro el cartilla.enc vigente (igual a la base), se reserializo DOCDATA con assert, se insertaron las figuras con visuals.py justo despues del parrafo que las explica y se cifro con la clave de .ce_key. Antes de editar: git pull y descifrar el cartilla.enc actual.
+
+QUE FALTA
+- Figuras en las lecciones especificas por nivel de fa-ga (preescolar y primaria, secundaria y media), en fo-ga restante, fd-ga, fd-gad y fd-gco, nor-715, nor-dir y nor-casos; leccion corta de TIC; videos para psico y evaprend.
