@@ -438,3 +438,14 @@ COMO SE HIZO (para continuar)
 
 QUE FALTA
 - Figuras en antecedentes (ant-*), manual y el resto de lecciones de cc y fun-norm; videos para otros capitulos.
+
+## Docentes: 8 figuras en antecedentes (todos los cargos) y competencias comportamentales
+QUE SE HIZO
+- Cartilla Docentes (cartilla.enc): mapas "como se reparten los 100 puntos" en ant-aula, ant-ori y ant-dir (rector, coordinador, director rural), con topes y puntos por factor; en cc, flujos del metodo STAR (liderazgo), reparto de tareas (trabajo en equipo) y metodo de la iniciativa.
+- Solo figuras: texto y preguntas intactos (verificado bloque por bloque). Prueba en Chrome a 400 px sin errores.
+
+COMO SE HIZO (para continuar)
+- Se descifro el cartilla.enc vigente (igual a la base), se reserializo DOCDATA con assert, se agregaron las figuras con visuals.py (flow y cmap) y se cifro con la clave de .ce_key. Antes de editar: git pull y descifrar el cartilla.enc actual.
+
+QUE FALTA
+- Figuras en manual y lecciones sueltas de cc y fun-norm; videos para otros capitulos.
