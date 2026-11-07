@@ -486,3 +486,8 @@ QUE FALTA
 QUE SE HIZO: en el capítulo «Tu área: matemáticas» se agregaron 30 preguntas nuevas (de 15 a 45) y la lección «Grados 10.° y 11.°: lo que cambia en la media».
 COMO SE HIZO: se anexaron al final del capítulo (sin mover las lecciones existentes, para conservar el avance de los usuarios). Preguntas de caso con enunciado largo y tres opciones plausibles, por pensamiento (numérico, variacional, espacial y métrico, aleatorio, didáctica).
 QUE FALTA: citar textualmente los estándares de 10.° y 11.° (hoy parafraseados); ampliar «Práctica de aula: matemáticas con casos» (10 preguntas); actualizar fechas cuando la CNSC anuncie inscripción general y pruebas.
+
+## 2026-11-07 · Cartilla Docentes: estándares textuales de 10.° y 11.° en matemáticas
+QUE SE HIZO: la lección «Grados 10.° y 11.°: lo que cambia en la media» ahora cita textualmente los estándares de décimo a undécimo por pensamiento (numérico, variacional, espacial, métrico y aleatorio) del MEN (2006). Se quitaron menciones que no están en los estándares (sistemas de ecuaciones, volúmenes).
+COMO SE HIZO: se tomó el texto del PDF oficial de los Estándares Básicos de Competencias en Matemáticas y se reemplazó la lección parafraseada; sin mover lecciones ni preguntas.
+QUE FALTA: ampliar «Práctica de aula: matemáticas con casos»; actualizar fechas cuando la CNSC anuncie inscripción general y pruebas.
