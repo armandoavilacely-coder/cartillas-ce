@@ -481,3 +481,8 @@ COMO SE HIZO
 QUE FALTA
 - Verificar en la plataforma oficial las fechas de la Procuraduría el día anterior a cada pieza de calendario (9, 11, 12, 16, 17 y 20 de noviembre) y confirmar si existe simulacro gratis de Procuraduría.
 - Las fechas de inscripción general y de pruebas de Docentes las anunciará la CNSC; actualizar las piezas cuando salgan.
+
+## 2026-11-07 · Cartilla Docentes: ampliación del área de matemáticas
+QUE SE HIZO: en el capítulo «Tu área: matemáticas» se agregaron 30 preguntas nuevas (de 15 a 45) y la lección «Grados 10.° y 11.°: lo que cambia en la media».
+COMO SE HIZO: se anexaron al final del capítulo (sin mover las lecciones existentes, para conservar el avance de los usuarios). Preguntas de caso con enunciado largo y tres opciones plausibles, por pensamiento (numérico, variacional, espacial y métrico, aleatorio, didáctica).
+QUE FALTA: citar textualmente los estándares de 10.° y 11.° (hoy parafraseados); ampliar «Práctica de aula: matemáticas con casos» (10 preguntas); actualizar fechas cuando la CNSC anuncie inscripción general y pruebas.
