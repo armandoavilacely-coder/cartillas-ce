@@ -372,3 +372,14 @@ COMO SE HIZO (para continuar)
 
 QUE FALTA
 - Videos para psico y evaprend; mapas y flujos en los capitulos de gestion academica por cargo (aula, orientador, directivo); leccion corta de TIC. Esperar los ejes tematicos del ICFES antes de agregar Constitucion, derecho administrativo o Ley 2383 de 2025. Voz: es Piper es_MX (no hay voz colombiana disponible).
+
+## Docentes: mapas y flujos en evaluacion de desempeno y educacion inclusiva
+QUE SE HIZO
+- Cartilla Docentes (cartilla.enc): 4 figuras nuevas dentro de lecciones existentes. ev-des: mapa de los cinco principios (leccion 2) y flujo de los cuatro momentos de la evaluacion (leccion 4). nor-incl: flujo de matricula de un estudiante con discapacidad (leccion 3) y flujo del PIAR al acta de acuerdo (leccion 4).
+- Solo se insertaron figuras: el texto de las lecciones y las preguntas no cambiaron (verificado bloque por bloque contra lo publicado). Prueba en Chrome a 400 px sin desbordes.
+
+COMO SE HIZO (para continuar)
+- Se descifro el cartilla.enc vigente (igual a la base), se reserializo DOCDATA con assert de ida y vuelta, se insertaron las figuras con visuals.py (flow y cmap) y se cifro con la clave de .ce_key. Antes de editar: git pull y descifrar el cartilla.enc actual.
+
+QUE FALTA
+- Mapas y flujos en gestion academica por cargo (aula, orientador, directivo), nor-715, nor-dir y nor-casos; leccion corta de TIC; videos para psico y evaprend.
