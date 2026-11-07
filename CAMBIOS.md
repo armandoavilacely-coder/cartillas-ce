@@ -427,3 +427,14 @@ COMO SE HIZO (para continuar)
 
 QUE FALTA
 - Figuras en fa-gad, fa-gco, fo-ga restante, antecedentes, cc, manual y fun-norm; videos para otros capitulos.
+
+## Docentes: 13 figuras en aula (fa-gad, fa-gco), orientador (fo-ga), competencias y funciones del docente
+QUE SE HIZO
+- Cartilla Docentes (cartilla.enc): fa-gad flujo para elegir un recurso y mapa del gobierno escolar; fa-gco flujo ante un padre molesto, flujo de proyecto con la comunidad y flujo del proyecto del agua (media); fo-ga mapa de protocolos Tipo I, II y III y flujo del Tipo III; cc flujo de escucha activa y de mediacion en 7 pasos; fun-norm flujos de evaluacion institucional y calendario, mapa de representacion estudiantil, flujos de sospecha de maltrato y de acceso/permanencia.
+- Solo figuras: texto y preguntas intactos (verificado bloque por bloque). Prueba en Chrome a 400 px sin errores.
+
+COMO SE HIZO (para continuar)
+- Se descifro el cartilla.enc vigente (igual a la base), se reserializo DOCDATA con assert, se agregaron las figuras con visuals.py y se cifro con la clave de .ce_key. Antes de editar: git pull y descifrar el cartilla.enc actual.
+
+QUE FALTA
+- Figuras en antecedentes (ant-*), manual y el resto de lecciones de cc y fun-norm; videos para otros capitulos.
