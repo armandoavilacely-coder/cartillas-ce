@@ -359,3 +359,16 @@ Las paginas de empleos docentes y vacantes por departamento se movieron a rutas 
 - Motivo: Search Console (6/11) mostraba titulos cortados en los resultados. Los titulos siguen siendo largos (en Google se corta el final, que es la dependencia); lo importante queda al inicio.
 - Lo que Google rechazo ("Rastreada: sin indexar") y sigue pendiente, con aprobacion de Claudia antes de tocar: guias/noticias-concursos y dos cargos DIAN (gestor-ii-administracion-de-cartera-y-recaudo-devoluciones, inspector-i-gestion-del-riesgo-y-programas). guias/simulacro-dian-2676 y los otros guias/simulacro-* son paginas de paso con noindex a proposito: no tocarlas.
 - Para otro Claude: si vas a editar sitio.pak, parte del sitio.pak actual del repo (no de una copia local) y no pises estas etiquetas. Para volver atras: revertir este commit.
+
+## Docentes: capitulo nuevo de etica, psicotecnica y evaluacion, y ayudas visuales en Decreto 1278 y Convivencia
+QUE SE HIZO
+- Cartilla Docentes (cifrada en cartilla.enc). Tres capitulos nuevos, entre las competencias comportamentales y lectura critica: "etica" (Etica y ciudadania, 8 lecciones, 33 preguntas), "psico" (Prueba psicotecnica y entrevista, 6 lecciones, 24 preguntas) y "evaprend" (Evaluar para aprender: Decreto 1290, SIEE y evaluacion formativa, 6 lecciones, 23 preguntas). Se agregaron a CORE de DOCAPP, asi aparecen en todos los perfiles docentes.
+- Mapas conceptuales y diagramas de flujo dentro de las lecciones de los tres capitulos nuevos y de nor-1278 (ingreso, periodo de prueba, escalafon, evaluaciones, deberes) y nor-conv (ruta, Tipo I/II/III, comite, conflicto/agresion/acoso). Tres videos cortos con voz femenina latinoamericana neutra (Piper es_MX) incrustados en base64 en etica, nor-1278 y nor-conv (1 min 20 s a 1 min 45 s).
+- Verificado antes de subir: los demas bloques quedaron identicos; solo cambian nor-1278 y nor-conv (lecciones intactas, solo se insertaron figuras) y la linea CORE. Preguntas: 798 -> 878. Descifrado de ida y vuelta igual al HTML candidato. Prueba en Chrome a 400 px sin desbordes y videos con duracion correcta.
+
+COMO SE HIZO (para continuar)
+- Se descifro el cartilla.enc vigente (sha igual a la base), se insertaron los bloques con scripts de /tmp/work (etica_data.py, psico_data.py, evalu_data.py, visuals.py, build2.py y build5.py), se cifro con la clave de .ce_key y se verifico. Antes de editar: git pull y descifrar el cartilla.enc actual, no partir de copias locales.
+- Contenido de psicotecnica y entrevista basado en el Anexo tecnico CNSC 2026 (nums. 2.1, 2.2 y 6); el art. 4 del Decreto 1278 va parafraseado (no se pudo citar literal). Evaluacion basada en Decreto 1290 de 2009 compilado en el 1075 de 2015, seccion 3; sin cifras de asistencia (las define cada colegio).
+
+QUE FALTA
+- Videos para psico y evaprend; mapas y flujos en los capitulos de gestion academica por cargo (aula, orientador, directivo); leccion corta de TIC. Esperar los ejes tematicos del ICFES antes de agregar Constitucion, derecho administrativo o Ley 2383 de 2025. Voz: es Piper es_MX (no hay voz colombiana disponible).
