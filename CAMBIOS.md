@@ -593,3 +593,9 @@ QUE SE HIZO: se actualiza la noticia de Docentes (mismo enlace) y su tarjeta en 
 POR QUE: la nota anterior hablaba solo de fechas proyectadas y quedó vieja; Claudia pidió revisar la información de Docentes y sacar la noticia, con datos nuevos y de fuente oficial.
 COMO SE HIZO: edición de guias/noticia-concurso-docente-2026-28000-vacantes.html y guias/noticias-concursos.html dentro de sitio.pak (firma HMAC); fuente: aviso de la CNSC del 6 de noviembre de 2026. No se usó la competencia como fuente.
 QUE FALTA: confirmar la fecha de cierre de esta inscripción en el aviso de la CNSC (no pude abrir la página oficial desde aquí) y agregarla; publicar la noticia de inscripción general cuando haya fecha oficial.
+
+## 2026-11-09 Noticia Docentes: fecha de cierre confirmada
+QUE SE HIZO: la noticia de Docentes y su tarjeta en el portal indican que la inscripción de las vacantes reservadas a personas con discapacidad va del 23 de noviembre de 2026 al 15 de enero de 2027 (se quita la nota que pedía confirmar el cierre).
+POR QUE: Claudia verificó en la página oficial de la CNSC (cnsc.gov.co) el banner con esas fechas.
+COMO SE HIZO: edición de guias/noticia-concurso-docente-2026-28000-vacantes.html y guias/noticias-concursos.html dentro de sitio.pak firmado con HMAC.
+QUE FALTA: publicar la noticia de inscripción general cuando haya fecha oficial.
