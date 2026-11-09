@@ -531,3 +531,8 @@ QUE FALTA: compartir como "cualquier persona con el enlace" los v3 de Docentes y
 QUE SE HIZO: se corrigieron 2.136 precios en los mensajes prellenados de los botones de WhatsApp (712 paginas de cargos y concursos), que seguian con el precio viejo porque el signo $ va codificado como %24. Ahora coinciden con el precio mostrado en cada pagina.
 COMO SE HIZO: sitio.pak vigente, una sola pasada 35>40, 40>45, 45>50, 50>55 sobre %24NN.000 (curso abogados excluido); firma HMAC verificada. Auditoria: sin 312 690, sin 82 acuerdos, un solo WhatsApp (316 698 2472) y sin enlaces internos rotos.
 QUE FALTA: decidir si se reemplazan los textos "diez preguntas gratis" (home, DIAN, Procuraduria, CAR y guias) por el simulacro gratis de 30 preguntas.
+
+## 2026-11-08 22:25 - sitio.pak
+QUE SE HIZO: sitemap.xml con lastmod 2026-11-08 en las 885 direcciones (el contenido de casi todas cambio hoy por los precios nuevos), para que Google vuelva a rastrearlas.
+COMO SE HIZO: sitio.pak vigente, solo sitemap.xml; firma HMAC verificada.
+QUE FALTA: las paginas de simulacro y capitulo gratis son noindex a proposito (redirigen al registro), por eso no se les tocaron titulos. Pedir indexacion en Search Console de las paginas de Docentes y Procuraduria; decidir el texto de las "diez preguntas gratis".
