@@ -602,3 +602,6 @@ QUE FALTA: publicar la noticia de inscripción general cuando haya fecha oficial
 
 ## 9 nov 2026, 11:40 - sitio.pak (buscador de cargos)
 - El buscador de cargos (inicio, /dian y /procuraduria) ahora encuentra por número de convocatoria: "01-2026", "1-2026", "234-2026" o "Convocatoria 01 - 2026" (también con "empleo" o "N.º" delante). Sale la cartilla del cargo al que pertenece ese empleo (ej. 01-2026 = Asesor 1AS-19 · Disciplinario; 234-2026 = Sustanciador 4SU-11). Solo Procuraduría. El texto de ayuda del buscador incluye el ejemplo 234-2026.
+
+## 9 nov 2026, 11:55 - sitio.pak (buscador de /pagar)
+- El buscador de cargo de la página de pago (/pagar) también encuentra por número de convocatoria: "01-2026", "234-2026", "Convocatoria 01 - 2026". Coincidencia exacta con el Empleo (1 no trae 10 ni 11). El texto del campo ahora dice "Cargo, código, N.º de empleo o convocatoria (01-2026)".
