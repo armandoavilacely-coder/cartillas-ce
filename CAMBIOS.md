@@ -569,3 +569,9 @@ QUE SE HIZO: el bloque temporal de diagnostico.php (?opec=1) agrega la accion pu
 POR QUE: el filtro anti-robots del hosting no deja bajar los datos por consola; hace falta un archivo estatico para llevarlos al Drive.
 COMO SE HIZO: php.pak publicado con diagnostico.php modificado, firmado con HMAC.
 QUE FALTA: bajar el archivo, borrarlo del servidor y subir las ofertas al Drive; quitar el bloque temporal despues del 10 nov.
+
+## 2026-11-09 — Evalúa tu hoja de vida (pago de $10.000 por evaluación)
+QUE SE HIZO: página nueva /evalua-hoja-de-vida (subir hoja de vida, código de un solo uso, aceptación obligatoria de privacidad y términos); franja visible en inicio, DIAN, Procuraduría y Docentes; enlace "Hoja de vida" en el menú de 901 páginas; pagar.html muestra el código y el enlace correcto cuando el pago es de este producto (código que empieza por V-). Paquete php: cv.php (analiza con Haiku en dos pasos contra los requisitos exactos de la OPEC), _cv_opec.php (índice de 4.956 cargos de concursos abiertos) y _cv_codigos.php (códigos de una sola evaluación).
+POR QUE: ofrecer a los aspirantes una evaluación de su hoja de vida frente a los requisitos reales de cada cargo, cobrada por evaluación (costo de IA cercano a US$0,004).
+COMO SE HIZO: sitio.pak y php.pak firmados con HMAC. El código solo se consume si el análisis sale bien. La hoja de vida no se guarda; sí el registro de aceptación. wompi.php (con el producto "cv") y los tres php nuevos los subió Claudia a mano; el servidor no crea archivos nuevos desde GitHub.
+QUE FALTA: prueba real con una hoja de vida; competencias solo por funciones y Decreto 815 (los manuales PDF son escaneos); fechas de inscripción por proceso; quitar el bloque temporal OPEC de diagnostico.php antes del 10 nov (los datos en ce_data/opec se conservan).
