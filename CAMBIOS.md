@@ -575,3 +575,9 @@ QUE SE HIZO: página nueva /evalua-hoja-de-vida (subir hoja de vida, código de 
 POR QUE: ofrecer a los aspirantes una evaluación de su hoja de vida frente a los requisitos reales de cada cargo, cobrada por evaluación (costo de IA cercano a US$0,004).
 COMO SE HIZO: sitio.pak y php.pak firmados con HMAC. El código solo se consume si el análisis sale bien. La hoja de vida no se guarda; sí el registro de aceptación. wompi.php (con el producto "cv") y los tres php nuevos los subió Claudia a mano; el servidor no crea archivos nuevos desde GitHub.
 QUE FALTA: prueba real con una hoja de vida; competencias solo por funciones y Decreto 815 (los manuales PDF son escaneos); fechas de inscripción por proceso; quitar el bloque temporal OPEC de diagnostico.php antes del 10 nov (los datos en ce_data/opec se conservan).
+
+## 2026-11-09 — Código de supervisión para Evalúa tu hoja de vida
+QUE SE HIZO: _cv_codigos.php acepta un código maestro de supervisión que no se consume y permite probar el analizador sin pagar.
+POR QUE: Claudia necesita supervisar y probar el servicio de evaluación sin comprar un código cada vez.
+COMO SE HIZO: solo se guarda el hash SHA-256 del código en el archivo (no el código); php.pak firmado con HMAC. Siguen vigentes el tope de 300 evaluaciones diarias y la aceptación obligatoria de privacidad y términos.
+QUE FALTA: si el código se filtra, generar otro y publicar el hash nuevo.
