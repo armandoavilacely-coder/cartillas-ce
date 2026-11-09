@@ -551,3 +551,9 @@ QUE SE HIZO: guias/noticias-concursos ahora es un portal (portada, noticia princ
 POR QUE: contenido auténtico e indexable, con aspecto de página de noticias real.
 COMO SE HIZO: generador /tmp/np/build.py sobre sitio.pak con firma HMAC.
 QUE FALTA: verificar que las URLs sin .html funcionen en subcarpeta; más artículos con la revisión diaria.
+
+## 2026-11-08 — Receptor temporal de la OPEC publica de SIMO
+QUE SE HIZO: se agrega opec-ingest.php (con clave y vencimiento 2026-11-10) para guardar en ce_data/opec la OPEC publica de SIMO.
+POR QUE: guardar requisitos de cada cargo (estudio, experiencia, funciones) y no volver a consultar SIMO; base para evaluar hojas de vida.
+COMO SE HIZO: php.pak = el publicado + un archivo nuevo, firmado con HMAC; el navegador envia los datos publicos de SIMO por bloques.
+QUE FALTA: bajar los bloques, guardarlos en Drive y alimentar el modulo de hoja de vida.
