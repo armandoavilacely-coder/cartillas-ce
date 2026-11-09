@@ -581,3 +581,9 @@ QUE SE HIZO: _cv_codigos.php acepta un código maestro de supervisión que no se
 POR QUE: Claudia necesita supervisar y probar el servicio de evaluación sin comprar un código cada vez.
 COMO SE HIZO: solo se guarda el hash SHA-256 del código en el archivo (no el código); php.pak firmado con HMAC. Siguen vigentes el tope de 300 evaluaciones diarias y la aceptación obligatoria de privacidad y términos.
 QUE FALTA: si el código se filtra, generar otro y publicar el hash nuevo.
+
+## 2026-11-09 Evalúa tu hoja de vida: se retira del sitio mientras siguen las pruebas
+QUE SE HIZO: se quita el enlace "Hoja de vida" del menú (901 páginas) y la franja "Evalúa tu hoja de vida" de inicio, DIAN, Procuraduría y Docentes; sitio.pak firmado de nuevo.
+POR QUE: la evaluación sigue en pruebas (equivalencias estudio-experiencia, manuales, puntaje de antecedentes) y Claudia pidió no mostrarla al público todavía.
+COMO SE HIZO: se quitaron del html el enlace y el bloque de la franja; la página /evalua-hoja-de-vida, cv.php y el pago siguen instalados para pruebas con el código de supervisión; pagar.html conserva el retorno del código V- para quien ya pague.
+QUE FALTA: terminar pruebas y volver a mostrar enlace y franjas; texto de manuales por entidad; puntaje de valoración de antecedentes; quitar el bloque temporal OPEC de diagnostico.php antes del 10 nov.
