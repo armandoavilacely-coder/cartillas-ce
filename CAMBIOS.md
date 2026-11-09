@@ -557,3 +557,9 @@ QUE SE HIZO: se agrega opec-ingest.php (con clave y vencimiento 2026-11-10) para
 POR QUE: guardar requisitos de cada cargo (estudio, experiencia, funciones) y no volver a consultar SIMO; base para evaluar hojas de vida.
 COMO SE HIZO: php.pak = el publicado + un archivo nuevo, firmado con HMAC; el navegador envia los datos publicos de SIMO por bloques.
 QUE FALTA: bajar los bloques, guardarlos en Drive y alimentar el modulo de hoja de vida.
+
+## 2026-11-08 — Menú: CAR pasa a Noticias
+QUE SE HIZO: en el menú superior de 900 páginas, el enlace "CAR" (/#car) se cambia por "Noticias" (/guias/noticias-concursos).
+POR QUE: CAR ya está dentro del menú Concursos; el espacio se usa para las noticias propias.
+COMO SE HIZO: reemplazo exacto del enlace en el encabezado de cada página dentro de sitio.pak, con firma HMAC.
+QUE FALTA: nada de este cambio.
