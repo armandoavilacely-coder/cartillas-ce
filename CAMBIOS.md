@@ -587,3 +587,9 @@ QUE SE HIZO: se quita el enlace "Hoja de vida" del menú (901 páginas) y la fra
 POR QUE: la evaluación sigue en pruebas (equivalencias estudio-experiencia, manuales, puntaje de antecedentes) y Claudia pidió no mostrarla al público todavía.
 COMO SE HIZO: se quitaron del html el enlace y el bloque de la franja; la página /evalua-hoja-de-vida, cv.php y el pago siguen instalados para pruebas con el código de supervisión; pagar.html conserva el retorno del código V- para quien ya pague.
 QUE FALTA: terminar pruebas y volver a mostrar enlace y franjas; texto de manuales por entidad; puntaje de valoración de antecedentes; quitar el bloque temporal OPEC de diagnostico.php antes del 10 nov.
+
+## 2026-11-09 Noticia Docentes: inscripción de vacantes de discapacidad desde el 23 de noviembre
+QUE SE HIZO: se actualiza la noticia de Docentes (mismo enlace) y su tarjeta en el portal de noticias: la CNSC, con la Resolución 11673 del 6 de noviembre de 2026, fijó el inicio de la inscripción de las 2.255 vacantes reservadas a personas con discapacidad (89 entidades, procesos 2917 a 3006) el 23 de noviembre de 2026; la inscripción general sigue como proyección 2027.
+POR QUE: la nota anterior hablaba solo de fechas proyectadas y quedó vieja; Claudia pidió revisar la información de Docentes y sacar la noticia, con datos nuevos y de fuente oficial.
+COMO SE HIZO: edición de guias/noticia-concurso-docente-2026-28000-vacantes.html y guias/noticias-concursos.html dentro de sitio.pak (firma HMAC); fuente: aviso de la CNSC del 6 de noviembre de 2026. No se usó la competencia como fuente.
+QUE FALTA: confirmar la fecha de cierre de esta inscripción en el aviso de la CNSC (no pude abrir la página oficial desde aquí) y agregarla; publicar la noticia de inscripción general cuando haya fecha oficial.
