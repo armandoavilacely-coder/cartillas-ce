@@ -563,3 +563,9 @@ QUE SE HIZO: en el menú superior de 900 páginas, el enlace "CAR" (/#car) se ca
 POR QUE: CAR ya está dentro del menú Concursos; el espacio se usa para las noticias propias.
 COMO SE HIZO: reemplazo exacto del enlace en el encabezado de cada página dentro de sitio.pak, con firma HMAC.
 QUE FALTA: nada de este cambio.
+
+## 2026-11-08 — Copia temporal de la OPEC para llevarla al Drive
+QUE SE HIZO: el bloque temporal de diagnostico.php (?opec=1) agrega la accion publicar/borrar, que deja un .json.gz con nombre no adivinable para bajar la OPEC publica de SIMO y la borra despues.
+POR QUE: el filtro anti-robots del hosting no deja bajar los datos por consola; hace falta un archivo estatico para llevarlos al Drive.
+COMO SE HIZO: php.pak publicado con diagnostico.php modificado, firmado con HMAC.
+QUE FALTA: bajar el archivo, borrarlo del servidor y subir las ofertas al Drive; quitar el bloque temporal despues del 10 nov.
