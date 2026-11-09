@@ -536,3 +536,6 @@ QUE FALTA: decidir si se reemplazan los textos "diez preguntas gratis" (home, DI
 QUE SE HIZO: sitemap.xml con lastmod 2026-11-08 en las 885 direcciones (el contenido de casi todas cambio hoy por los precios nuevos), para que Google vuelva a rastrearlas.
 COMO SE HIZO: sitio.pak vigente, solo sitemap.xml; firma HMAC verificada.
 QUE FALTA: las paginas de simulacro y capitulo gratis son noindex a proposito (redirigen al registro), por eso no se les tocaron titulos. Pedir indexacion en Search Console de las paginas de Docentes y Procuraduria; decidir el texto de las "diez preguntas gratis".
+
+## Regla de commits (pedida por Claudia el 2026-11-08)
+Todo commit y toda entrada de este historial debe llevar: QUE SE HIZO, POR QUE (el motivo), COMO SE HIZO y QUE FALTA. Aplica tambien a la otra IA que edita el repositorio.
