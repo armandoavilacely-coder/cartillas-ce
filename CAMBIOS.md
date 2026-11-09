@@ -545,3 +545,9 @@ QUE SE HIZO: la página de noticias ahora tiene notas propias (DIAN, Procuradur�
 POR QUE: crear contenido auténtico y actual; el contador ya había llegado a cero.
 COMO SE HIZO: edición de guias/noticias-concursos.html, index.html y dian.html dentro de sitio.pak y firma HMAC.
 QUE FALTA: simulacros indexables por concurso y enlaces internos a cargos; reconciliar fechas de docentes.html.
+
+## 2026-11-08 — Noticias como portal de noticias
+QUE SE HIZO: guias/noticias-concursos ahora es un portal (portada, noticia principal, tarjetas por concurso, otros medios, fuentes oficiales) y 4 artículos propios en guias/noticias/<slug> con esquema NewsArticle; agregados al sitemap.
+POR QUE: contenido auténtico e indexable, con aspecto de página de noticias real.
+COMO SE HIZO: generador /tmp/np/build.py sobre sitio.pak con firma HMAC.
+QUE FALTA: verificar que las URLs sin .html funcionen en subcarpeta; más artículos con la revisión diaria.
