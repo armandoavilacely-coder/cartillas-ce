@@ -599,3 +599,6 @@ QUE SE HIZO: la noticia de Docentes y su tarjeta en el portal indican que la ins
 POR QUE: Claudia verificó en la página oficial de la CNSC (cnsc.gov.co) el banner con esas fechas.
 COMO SE HIZO: edición de guias/noticia-concurso-docente-2026-28000-vacantes.html y guias/noticias-concursos.html dentro de sitio.pak firmado con HMAC.
 QUE FALTA: publicar la noticia de inscripción general cuando haya fecha oficial.
+
+## 9 nov 2026, 11:40 - sitio.pak (buscador de cargos)
+- El buscador de cargos (inicio, /dian y /procuraduria) ahora encuentra por número de convocatoria: "01-2026", "1-2026", "234-2026" o "Convocatoria 01 - 2026" (también con "empleo" o "N.º" delante). Sale la cartilla del cargo al que pertenece ese empleo (ej. 01-2026 = Asesor 1AS-19 · Disciplinario; 234-2026 = Sustanciador 4SU-11). Solo Procuraduría. El texto de ayuda del buscador incluye el ejemplo 234-2026.
