@@ -609,3 +609,9 @@ QUE FALTA: publicar la noticia de inscripción general cuando haya fecha oficial
 ## 9 nov 2026, 12:20 - sitio.pak (todos los buscadores de cargo)
 - Los buscadores de cargo del inicio, /dian, /procuraduria, CAR, Docentes y /pagar ahora aceptan casi cualquier forma de escribir: "1as19", "1AS-19", "1as 19", "asesor grado 19", "sustanciador 4su11", "01-2026", "01 de 2026", "convocatoria 234", "empleo 1", "N.º 234" y "OPEC 263296". Se ignoran palabras de relleno (convocatoria, empleo, grado, nivel, de, del...), se separa por guiones y puntos, y se compara también sin separadores. Convocatoria/empleo con número usa coincidencia exacta (1 no trae 10 ni 11). En el inicio, "OPEC 263296" ahora funciona igual que "263296".
 - No cambia: el selector dentro de la cartilla cifrada ni los bots de chat/WhatsApp.
+
+## 9 nov 2026, 17:00 - sitio.pak (enlace de Facebook en el encabezado)
+QUE SE HIZO: se agregó un botón con el logo de Facebook (azul) en el encabezado, entre el menú ("Preguntas") y el botón de modo claro/oscuro, que abre https://www.facebook.com/concursosdelestado/ en otra pestaña. Está en las 901 páginas que tienen ese encabezado. En celular se oculta junto con el botón de la luna, como ya hacía el encabezado.
+POR QUE: Claudia pidió incorporar el enlace de la página de Facebook al sitio, arriba y no en el pie de página.
+COMO SE HIZO: se insertó un enlace con las clases "thm cefb" (mismo estilo del botón de la luna) justo antes del botón #thm en cada página, dentro de sitio.pak firmado con HMAC. Solo cambian esas 901 páginas.
+QUE FALTA: publicar cuando Claudia diga "publica". Si quiere el enlace también en celular, hay que dejarlo visible en la regla móvil del encabezado.
