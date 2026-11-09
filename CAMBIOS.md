@@ -539,3 +539,9 @@ QUE FALTA: las paginas de simulacro y capitulo gratis son noindex a proposito (r
 
 ## Regla de commits (pedida por Claudia el 2026-11-08)
 Todo commit y toda entrada de este historial debe llevar: QUE SE HIZO, POR QUE (el motivo), COMO SE HIZO y QUE FALTA. Aplica tambien a la otra IA que edita el repositorio.
+
+## 2026-11-08 — Noticias propias y banner DIAN
+QUE SE HIZO: la página de noticias ahora tiene notas propias (DIAN, Procuraduría, CAR, nueva sección Docentes, CNSC); el banner de cuenta regresiva de index y dian pasa a "Hoy se aplica la prueba escrita" y oculta el contador.
+POR QUE: crear contenido auténtico y actual; el contador ya había llegado a cero.
+COMO SE HIZO: edición de guias/noticias-concursos.html, index.html y dian.html dentro de sitio.pak y firma HMAC.
+QUE FALTA: simulacros indexables por concurso y enlaces internos a cargos; reconciliar fechas de docentes.html.
