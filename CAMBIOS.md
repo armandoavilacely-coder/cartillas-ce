@@ -615,3 +615,9 @@ QUE SE HIZO: se agregó un botón con el logo de Facebook (azul) en el encabezad
 POR QUE: Claudia pidió incorporar el enlace de la página de Facebook al sitio, arriba y no en el pie de página.
 COMO SE HIZO: se insertó un enlace con las clases "thm cefb" (mismo estilo del botón de la luna) justo antes del botón #thm en cada página, dentro de sitio.pak firmado con HMAC. Solo cambian esas 901 páginas.
 QUE FALTA: publicar cuando Claudia diga "publica". Si quiere el enlace también en celular, hay que dejarlo visible en la regla móvil del encabezado.
+
+## 9 nov 2026, 17:30 - sitio.pak (SEO: convocatoria en las páginas de cargos de Procuraduría)
+QUE SE HIZO: en las 380 páginas de cargos de Procuraduría (/cargos/procuraduria/...) se agregó el número de convocatoria (ej. "Convocatoria No. 57-2026") en la primera línea visible bajo el título y en la meta descripción y og:description (hasta 3 convocatorias en la descripción, todas en el texto de la página).
+POR QUE: Search Console muestra que casi todo el tráfico es DIAN y que los clientes buscan por número de convocatoria; las páginas de Procuraduría no lo mencionaban.
+COMO SE HIZO: el número sale del campo de empleos de cada cargo en el buscador (Empleo N = Convocatoria N-2026, verificado con la convocatoria oficial No. 01-2026). Solo cambian esas 380 páginas dentro de sitio.pak firmado con HMAC.
+QUE FALTA: lo mismo para DIAN no aplica (el concurso ya se presentó); revisar en Search Console las 31 páginas con noindex.
