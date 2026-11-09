@@ -526,3 +526,8 @@ QUE FALTA: rehacer piezas con el precio viejo (ebook de Docentes del Drive, imag
 QUE SE HIZO: (1) pagar.html: etiqueta Docentes pasa de "82 acuerdos CNSC" a "90 entidades". (2) descargar.php: los enlaces de respaldo de Drive de los 3 ebooks apuntan a los PDFs corregidos (docente v3, procuraduria v3, comportamentales v2) con precio por nivel y WhatsApp 316 698 2472.
 COMO SE HIZO: se tomaron los paquetes vigentes, se cambio solo eso y se volvieron a firmar (HMAC verificado); php -l ok.
 QUE FALTA: compartir como "cualquier persona con el enlace" los v3 de Docentes y Procuraduria en Drive, y subir los 3 PDFs a ce_data/ebook/ en el servidor. FORMATO-CARTILLA.md y cartilla nueva siguen sin publicar.
+
+## 2026-11-08 22:15 - sitio.pak
+QUE SE HIZO: se corrigieron 2.136 precios en los mensajes prellenados de los botones de WhatsApp (712 paginas de cargos y concursos), que seguian con el precio viejo porque el signo $ va codificado como %24. Ahora coinciden con el precio mostrado en cada pagina.
+COMO SE HIZO: sitio.pak vigente, una sola pasada 35>40, 40>45, 45>50, 50>55 sobre %24NN.000 (curso abogados excluido); firma HMAC verificada. Auditoria: sin 312 690, sin 82 acuerdos, un solo WhatsApp (316 698 2472) y sin enlaces internos rotos.
+QUE FALTA: decidir si se reemplazan los textos "diez preguntas gratis" (home, DIAN, Procuraduria, CAR y guias) por el simulacro gratis de 30 preguntas.
