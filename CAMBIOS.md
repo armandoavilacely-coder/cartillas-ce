@@ -645,3 +645,9 @@ QUE SE HIZO: se eliminó de diagnostico.php el bloque temporal que recibía la O
 POR QUE: el bloque vencía el 10 de nov de 2026 y ya cumplió su función; dejarlo era código abierto sin uso.
 COMO SE HIZO: se borraron las 38 líneas del bloque (líneas 2 a 39), se verificó sintaxis con php -l y se reconstruyó php.pak firmado (CP1); los otros 18 archivos no cambiaron.
 QUE FALTA: borrar a mano en el hosting, si existen, la carpeta ce_data/opec/ y el archivo opec-*.json.gz de la raíz (el servidor solo actualiza archivos existentes y no los borra).
+
+## 10 nov 2026 - sitio.pak (noticias: DIAN post-prueba, enlace a Noticias en la portada y en el menú del celular)
+QUE SE HIZO: (1) la noticia de la DIAN pasa de "hoy se aplica la prueba escrita" a "ya se presentó la prueba escrita, ahora vienen los resultados" (artículo, tarjeta principal de /guias/noticias-concursos, metadatos, fecha 10 nov y sitemap; se mantiene la URL ...-8-noviembre). (2) El aviso de la portada y de /dian dice "Ya se presentó la prueba escrita del concurso DIAN 2676" y conserva el enlace a Noticias. (3) Se agrega "Noticias" al menú lateral del celular (Más > Sitio) en las 901 páginas.
+POR QUE: la portada seguía diciendo "Hoy se aplica" y el enlace a Noticias no se veía: el script de cuenta regresiva reescribía el texto del aviso al llegar la fecha y borraba el enlace; el enlace del menú superior se oculta bajo 1340 px y el menú del celular no lo tenía.
+COMO SE HIZO: reemplazos exactos de texto; se quitó del script del aviso la línea que reescribía el título y el texto; ancla nueva en el menú lateral (ce-mnav-js). Verificado con Chrome a 360 y 1200 px; auditoría: menú superior, lateral y barra inferior idénticos en las 901 páginas.
+QUE FALTA: el enlace Noticias del menú superior sigue oculto bajo 1340 px (decidir si se reubica); actualizar la noticia de Procuraduría el 11 nov con la decisión sobre reclamaciones; pagar.html sin barra inferior.
