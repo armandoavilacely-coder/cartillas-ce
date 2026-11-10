@@ -639,3 +639,9 @@ QUE SE HIZO: en pantallas de hasta 640 px, los enlaces que abrían pestaña nuev
 POR QUE: Claudia pidió que en modo celular no se abran pestañas diferentes porque no hay necesidad.
 COMO SE HIZO: script <script id="ce-mbself"> en las 901 páginas, después del script del menú inferior: al tocar un enlace con target="_blank" y pantalla <= 640 px, cambia el target a _self (escucha en captura, cubre enlaces creados después). Probado con Chrome: móvil misma pestaña, escritorio pestaña nueva.
 QUE FALTA: si alguien no tiene WhatsApp instalado, saldrá del sitio hacia la página de WhatsApp.
+
+## 10 nov 2026 - php.pak (diagnostico.php: se quita el receptor temporal de OPEC)
+QUE SE HIZO: se eliminó de diagnostico.php el bloque temporal que recibía la OPEC pública de SIMO (se activaba con ?opec=1). El resto de la página de diagnóstico de correo y ebook queda igual.
+POR QUE: el bloque vencía el 10 de nov de 2026 y ya cumplió su función; dejarlo era código abierto sin uso.
+COMO SE HIZO: se borraron las 38 líneas del bloque (líneas 2 a 39), se verificó sintaxis con php -l y se reconstruyó php.pak firmado (CP1); los otros 18 archivos no cambiaron.
+QUE FALTA: borrar a mano en el hosting, si existen, la carpeta ce_data/opec/ y el archivo opec-*.json.gz de la raíz (el servidor solo actualiza archivos existentes y no los borra).
