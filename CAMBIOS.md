@@ -669,3 +669,9 @@ QUE SE HIZO: (1) en 913 páginas se agrega un bloque de estilos para celular (id
 POR QUE: pagar.html y procuraduria.html se desbordaban de lado en celulares angostos; Claudia pidió el precio de Abogados en $99.000 y que "Evalúa tu hoja de vida" siga escondida (seguía con index,follow y en el sitemap).
 COMO SE HIZO: se partió del sitio.pak publicado (commit 87e562c), se revisaron 66 páginas de todas las carpetas a 320, 360 y 390 px y se reconstruyó sitio.pak firmado (CS1).
 QUE FALTA: evalua-hoja-de-vida.html (oculta, en pruebas) todavía sobra 21 px a 320 px por el campo de subir archivo; pagar.html sigue sin barra inferior; quedan 3 frases en "usted" en la portada y el método.
+
+## 10 nov 2026 - sitio.pak (Docentes: pestañas de la página con el texto cortado)
+QUE SE HIZO: en concursos/docentes.html las 9 pestañas (Resumen, Vacantes, Fases, Ponderación, Ley 2418, Requisitos, Antecedentes, Entrevista, Tips) ya no se cortan: la rejilla .dp-tabs pasa de filas fijas de 56 px a filas automáticas y cada botón ocupa el alto de su fila.
+POR QUE: Claudia vio que el subtítulo ("Lo esencial", "Paso a paso"…) quedaba tapado por la fila siguiente; las filas fijas de 56 px eran de la versión anterior y los botones actuales llevan subtítulo y la marca "Estás aquí" (hasta 114 px).
+COMO SE HIZO: bloque de estilos id ce-dptabs al final del head de esa página; se verificó a 1327 y 390 px (ningún botón con texto cortado ni desborde) y se reconstruyó sitio.pak firmado (CS1) a partir del publicado en el commit anterior.
+QUE FALTA: nada de este cambio; el error ya estaba publicado antes de los cambios de celular de hoy, no vino de ellos.
