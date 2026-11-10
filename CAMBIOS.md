@@ -633,3 +633,9 @@ QUE SE HIZO: en las 901 páginas del sitio, en pantallas de hasta 640 px, se agr
 POR QUE: Claudia pidió mejorar la parte móvil según normas internacionales (WCAG 2.2, Apple HIG y Material: objetivos de 44-48 px, navegación inferior al alcance del pulgar).
 COMO SE HIZO: bloque <style id="ce-mbnav-css">, <nav id="mbnav"> y <script id="ce-mbnav-js"> insertados antes de </body> en cada página. En móvil se ocultan el botón "Cuenta gratis" y el menú hamburguesa del encabezado, el botón flotante de WhatsApp y la barra .dock de las páginas de cargo (sus funciones quedan en la barra inferior). El botón de compartir y el aviso de cookies suben para no quedar tapados. El aviso de cookies conserva el texto legal completo (Meta y Google) y es más compacto. Medido con Chrome a 360 px: sin desborde horizontal en las páginas de prueba y objetivos pequeños bajaron de unos 41 a unos 3.
 QUE FALTA: pagar.html y las guías de simulacro sin encabezado no llevan la barra. WhatsApp quedó dentro de "Más" (menú lateral). Probar en un celular real y revisar el contraste del botón compartir sobre texto.
+
+## 10 nov 2026 - sitio.pak (celular: los enlaces abren en la misma pestaña)
+QUE SE HIZO: en pantallas de hasta 640 px, los enlaces que abrían pestaña nueva (WhatsApp, Facebook, términos, privacidad, CNSC, menú de compartir) ahora abren en la misma pestaña. En computador no cambia.
+POR QUE: Claudia pidió que en modo celular no se abran pestañas diferentes porque no hay necesidad.
+COMO SE HIZO: script <script id="ce-mbself"> en las 901 páginas, después del script del menú inferior: al tocar un enlace con target="_blank" y pantalla <= 640 px, cambia el target a _self (escucha en captura, cubre enlaces creados después). Probado con Chrome: móvil misma pestaña, escritorio pestaña nueva.
+QUE FALTA: si alguien no tiene WhatsApp instalado, saldrá del sitio hacia la página de WhatsApp.
