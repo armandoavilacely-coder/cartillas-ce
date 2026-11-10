@@ -651,3 +651,21 @@ QUE SE HIZO: (1) la noticia de la DIAN pasa de "hoy se aplica la prueba escrita"
 POR QUE: la portada seguía diciendo "Hoy se aplica" y el enlace a Noticias no se veía: el script de cuenta regresiva reescribía el texto del aviso al llegar la fecha y borraba el enlace; el enlace del menú superior se oculta bajo 1340 px y el menú del celular no lo tenía.
 COMO SE HIZO: reemplazos exactos de texto; se quitó del script del aviso la línea que reescribía el título y el texto; ancla nueva en el menú lateral (ce-mnav-js). Verificado con Chrome a 360 y 1200 px; auditoría: menú superior, lateral y barra inferior idénticos en las 901 páginas.
 QUE FALTA: el enlace Noticias del menú superior sigue oculto bajo 1340 px (decidir si se reubica); actualizar la noticia de Procuraduría el 11 nov con la decisión sobre reclamaciones; pagar.html sin barra inferior.
+
+## 10 nov 2026 - cartilla.enc (precios del panel de administración: +$5.000 y Abogados $99.000)
+QUE SE HIZO: en el panel de administración de la cartilla se actualizaron 92 precios de los mensajes de venta, las respuestas del bot, los guiones y la tabla de precios del embudo (NIVP/PRECIO) al esquema +$5.000 (DIAN y CAR: $40.000, $45.000, $50.000; Procuraduría: hasta $55.000 asesor y ejecutivo; Docente: $40.000, $45.000, $50.000, $55.000; "desde $40.000"; combo "ambos" $80.000; precio por defecto del cuadro financiero $45.000). Abogados · Examen de Estado pasa a $99.000 en todos sus listados.
+POR QUE: Claudia encontró precios viejos dentro de la cartilla; el servidor ya cobraba con +$5.000 desde el 9 de nov pero estos textos seguían con los valores anteriores. Abogados se cobrará a $99.000 por decisión de Claudia.
+COMO SE HIZO: se descifró la cartilla.enc publicada (commit 87e562c), se cambiaron solo los textos de precio en la región del administrador y se volvió a cifrar y firmar (CE1); se verificó que lo demás es idéntico byte por byte y que no queda ningún $35.000 en esos mensajes.
+QUE FALTA: los mensajes dicen "simulacro gratis de 30 preguntas" y el de DIAN ya es de 50; si Abogados se vende con Wompi, el valor del producto en wompi.php (que se sube a mano) debe cambiarse a 99000.
+
+## 10 nov 2026 - php.pak (Abogados $99.000 en el embudo)
+QUE SE HIZO: en acceso/lib.php el precio de 'abog' en crm_precio pasa de 50000 a 99000; los otros 18 archivos no cambian.
+POR QUE: el curso de Abogados se cobrará a $99.000 y el embudo debe sugerir ese valor.
+COMO SE HIZO: se reconstruyó php.pak firmado (CP1) a partir del publicado, con ese único cambio.
+QUE FALTA: nada de este cambio.
+
+## 10 nov 2026 - sitio.pak (celular sin desbordes, Abogados $99.000 y hoja de vida oculta)
+QUE SE HIZO: (1) en 913 páginas se agrega un bloque de estilos para celular (id ce-mob2): el texto largo ya no ensancha la página, las tablas llevan su propio desplazamiento, casillas de 24 px con zona táctil de 44 px, enlaces del pie tocables, letras de 13 px como mínimo y aviso de cookies más compacto; se corrige el desborde de pagar.html a 320-360 px y de procuraduria.html a 320 px. (2) La página del curso de Abogados cambia de $50.000 a $99.000 (6 menciones). (3) /evalua-hoja-de-vida pasa a noindex,nofollow y sale del sitemap.
+POR QUE: pagar.html y procuraduria.html se desbordaban de lado en celulares angostos; Claudia pidió el precio de Abogados en $99.000 y que "Evalúa tu hoja de vida" siga escondida (seguía con index,follow y en el sitemap).
+COMO SE HIZO: se partió del sitio.pak publicado (commit 87e562c), se revisaron 66 páginas de todas las carpetas a 320, 360 y 390 px y se reconstruyó sitio.pak firmado (CS1).
+QUE FALTA: evalua-hoja-de-vida.html (oculta, en pruebas) todavía sobra 21 px a 320 px por el campo de subir archivo; pagar.html sigue sin barra inferior; quedan 3 frases en "usted" en la portada y el método.
