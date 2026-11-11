@@ -717,3 +717,9 @@ QUE SE HIZO: la tarjeta y la noticia de CAR pasan de "8 de noviembre" a "10 de n
 POR QUE: Claudia vio que la tarjeta seguía con la fecha vieja aunque el contenido se actualizó el 10.
 COMO SE HIZO: reemplazos exactos sobre el sitio.pak publicado; firma verificada.
 QUE FALTA: la portada mostraba aún el texto anterior de la tarjeta; debería actualizarse sola al llegar este pak (~10 min); si no, revisar de dónde lee la portada.
+
+## 10 nov 2026 - sitio.pak (página de noticias con formato de portada de medio)
+QUE SE HIZO: guias/noticias-concursos.html: cada noticia lleva una ilustración (degradado con los colores de la entidad y la palabra del concurso en grande); la noticia principal queda junto al bloque "Para no perderte" (4 enlaces); banner "Estudia lo que te toca a tu cargo" (cartillas interactivas, simulacro gratis de 30 preguntas) arriba y abajo de "Últimas noticias". No se mencionó el tutor con IA.
+POR QUE: Claudia pidió que las noticias se vean como la portada de TBN. Se aprobó la maqueta y dijo "publica".
+COMO SE HIZO: se partió del sitio.pak publicado; se añadió un bloque de estilos nuevo (npcss2) y marcas HTML con reemplazos exactos; se probó a 1280 y 390 px sin desborde; pak firmado (CS1); solo cambió ese archivo.
+QUE FALTA: las ilustraciones son provisionales (degradados); las propias de cada noticia se crean al publicar cada noticia nueva. Las páginas de cada noticia (guias/noticia-*.html) aún no llevan ilustración.
