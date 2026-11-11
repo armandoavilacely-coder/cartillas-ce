@@ -711,3 +711,9 @@ QUE SE HIZO: la noticia de CAR y su tarjeta vuelven a mencionar el 31 de diciemb
 POR QUE: en el cambio anterior se dijo que la CNSC no fijaba el 31 de diciembre; Corponor, entidad oficial, sí lo publicó, así que había que presentar ambas fuentes.
 COMO SE HIZO: reemplazos exactos sobre el sitio.pak publicado, firma verificada.
 QUE FALTA: no se halló noticia de CAR fechada hoy; revisar mañana.
+
+## 10 nov 2026 - sitio.pak (CAR: fecha de la noticia)
+QUE SE HIZO: la tarjeta y la noticia de CAR pasan de "8 de noviembre" a "10 de noviembre de 2026" (fecha visible, datePublished/dateModified y lastmod del sitemap).
+POR QUE: Claudia vio que la tarjeta seguía con la fecha vieja aunque el contenido se actualizó el 10.
+COMO SE HIZO: reemplazos exactos sobre el sitio.pak publicado; firma verificada.
+QUE FALTA: la portada mostraba aún el texto anterior de la tarjeta; debería actualizarse sola al llegar este pak (~10 min); si no, revisar de dónde lee la portada.
