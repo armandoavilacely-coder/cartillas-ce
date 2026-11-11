@@ -705,3 +705,9 @@ QUE SE HIZO: (1) Docentes: en la noticia del concurso se agregó "El tamaño del
 POR QUE: Claudia pidió revisar las noticias de los concursos (DIAN, Procuraduría, Docentes y CAR) con fuentes oficiales. La CNSC no fija el 31 de diciembre como fecha de inscripción; condiciona el aplazamiento al levantamiento de las medidas del sismo.
 COMO SE HIZO: solo cnsc.gov.co como fuente (no se usó competencia); se partió del sitio.pak publicado, se cambiaron 4 archivos con reemplazos exactos y se reconstruyó sitio.pak firmado (CS1); se verificó firma y que solo esos 4 archivos difieren (973 entradas).
 QUE FALTA: Procuraduría: no hubo dato oficial nuevo; revisar el 11 de nov por la decisión de reclamaciones. CAR: actualizar cuando la CNSC publique nueva fecha de inscripciones. Resultados de Valoración de Antecedentes de EON y CORPOMOJANA (12 de nov).
+
+## 10 nov 2026 - sitio.pak (CAR: se corrige la noticia, Corponor sí informó el 31 de diciembre)
+QUE SE HIZO: la noticia de CAR y su tarjeta vuelven a mencionar el 31 de diciembre de 2026, atribuido a Corponor (16 de octubre), junto con la Resolución 10567 de la CNSC y el Decreto Legislativo 1384; se aclara que la CNSC aún no anuncia la nueva fecha de inscripciones. Cifra: 1.832 vacantes en 33 corporaciones.
+POR QUE: en el cambio anterior se dijo que la CNSC no fijaba el 31 de diciembre; Corponor, entidad oficial, sí lo publicó, así que había que presentar ambas fuentes.
+COMO SE HIZO: reemplazos exactos sobre el sitio.pak publicado, firma verificada.
+QUE FALTA: no se halló noticia de CAR fechada hoy; revisar mañana.
