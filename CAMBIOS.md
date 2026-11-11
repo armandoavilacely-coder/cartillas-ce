@@ -729,3 +729,8 @@ QUE SE HIZO: se cambiaron a tuteo 52 apariciones de 23 frases distintas con "ust
 POR QUE: la regla es tuteo en todo el marketing, y en la revisión del sitio quedaban estas frases pendientes (CAMBIOS.md anterior, "QUE FALTA").
 COMO SE HIZO: reemplazos de frases exactas, partiendo del sitio.pak publicado más reciente (commit de80187, que incluye los cambios de noticias de la otra sesión); se comprobó que solo cambian esos 7 archivos, que el número de etiquetas div no varía y que ya no queda ninguna de las frases viejas; se reconstruyó sitio.pak firmado (CS1).
 QUE FALTA: no se tocaron las funciones citadas del Manual (por ejemplo "personal a su cargo"), que son texto oficial, ni la política de privacidad (documento legal en tono formal), ni las páginas de cada cargo (carpeta cargos), que tienen su propio texto. Si se quiere tuteo también en la política de privacidad, decidirlo aparte.
+
+## 11 nov 2026 — Términos: vigencia de cada pago y de la promoción
+- Términos de uso (terminos.html): se aclara el "desde" y el "hasta" del acceso de cada pago (desde que se confirma el pago o se activa el código hasta 30 días después de la prueba escrita; la fecha exacta sigue en "Vigencia" de la cuenta).
+- Nueva cláusula en la sección 7: los valores publicados son de promoción y rigen hasta el 20 de noviembre de 2026, inclusive; los pagos aprobados en ese plazo conservan valor y vigencia; después los valores pueden cambiar. Fecha de actualización: 11 de noviembre de 2026.
+- Qué falta: si el 20 de noviembre se mantiene o cambia el precio, actualizar esta cláusula, las páginas con precios y pagar.html. Para volver atrás: revertir este commit.
