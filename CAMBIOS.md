@@ -755,3 +755,9 @@ QUE FALTA: no se tocaron las funciones citadas del Manual (por ejemplo "personal
 **POR QUE:** La prueba de DIAN fue el 8 de nov y la demanda ahora está en Procuraduría.
 **COMO SE HIZO:** Edición de index.html dentro de sitio.pak (script /tmp/cce/home).
 **QUE FALTA:** Revisar las páginas internas con textos de DIAN (guías, /concursos) y el contenido que sale en el buscador por defecto.
+
+## 12 nov 2026 · Portada: marca en el título y menú
+**QUE SE HIZO:** El título de la portada ahora empieza con "Concursos del Estado:" (también og:title). El menú "Guías" lleva a /guias/ (página real) en vez del ancla. En el desplegable de Concursos, DIAN pasó al final de los que tienen cartilla.
+**POR QUE:** Ayudar a que Google muestre subpáginas (enlaces de sitio) al buscar la marca, y que DIAN no sea lo primero.
+**COMO SE HIZO:** Edición de index.html en sitio.pak.
+**QUE FALTA:** Los enlaces de sitio los decide Google; pueden tardar semanas. Más búsquedas del nombre de la marca ayudan.
