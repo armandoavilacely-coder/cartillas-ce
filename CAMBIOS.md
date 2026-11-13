@@ -785,3 +785,9 @@ QUE SE HIZO: 8 preguntas de caso en «El manual de funciones: competencias que s
 POR QUE: capítulo sin preguntas; Claudia aprobó con «publica».
 COMO SE HIZO: sobre la tanda 3 recién publicada; br-ddoc regenerada, otras copias comprobadas, CE-PUB recalculado; prueba a 400 px sin errores.
 QUE FALTA: NO se pusieron preguntas en «Sobre el concurso» ni en los tres capítulos de antecedentes, porque el simulacro de Docentes toma preguntas de todos los capítulos del cargo y la regla de Claudia es que el simulacro sea solo de funciones y misionalidad. Tampoco en los cinco «Manual» por cargo y por área (repiten funciones ya cubiertas o son títulos habilitantes). Siguiente tanda aprobada: reforzar áreas delgadas (música, danzas, artes escénicas, artes plásticas y luego tecnología, educación física, filosofía y religión).
+
+## 13 nov 2026 - cartilla.enc (Docentes, tanda 5: educación artística, 2 lecciones y 32 preguntas)
+QUE SE HIZO: 2 lecciones nuevas en esp-art («Las tres competencias del área, en palabras del Ministerio»; «Espectador, creador y expositor: los procesos del aula y cómo se evalúan») y 32 preguntas de caso (esp-art 8, esp-mus 6, esp-dan 6, esp-esc 6, esp-pla 6), con etiqueta «Nuevo» al final de cada capítulo. Lecciones 460 a 462; preguntas 1.019 a 1.051.
+POR QUE: eran las áreas más delgadas del concurso; Claudia pidió seguir con áreas y aprobó con «publica».
+COMO SE HIZO: sobre el cartilla.enc publicado (commit f1fba02). Citas tomadas del Documento 16 del MEN (Orientaciones pedagógicas para la educación artística) y comprobadas contra el texto del PDF, con página verificada. Se regeneró br-ddoc, se comprobaron las otras copias y se recalculó CE-PUB (33401096). Fuera de los datos de Docentes todo es idéntico a lo publicado. Prueba a 400 px con los tres cargos, sin errores.
+QUE FALTA: ver la entrada siguiente. REGLA: tras editar d-doc/s-doc hay que regenerar br-* y recalcular CE-PUB.
