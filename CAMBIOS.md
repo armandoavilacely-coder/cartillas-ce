@@ -779,3 +779,9 @@ QUE SE HIZO: 8 preguntas de caso en cada capítulo esp-rec, esp-coo, esp-pre y e
 POR QUE: el análisis del 13 de noviembre encontró 15 capítulos sin preguntas; estos cuatro son contenido del cargo. Claudia aprobó con «publica».
 COMO SE HIZO: sobre el cartilla.enc publicado (commit bff93cc); las preguntas salen solo de lo verificado en las lecciones de cada capítulo (Ley 715 art. 10, Decreto 1075, Decreto 1850 compilado, Ley 115 arts. 15, 16 y 21, Decreto 1421). Se regeneró br-ddoc, se comprobaron las otras cinco copias y se recalculó CE-PUB. Prueba en Chrome a 400 px con los cuatro cargos, sin errores.
 QUE FALTA: ver la entrada siguiente.
+
+## 13 nov 2026 - cartilla.enc (Docentes, tanda 4: 8 preguntas para el capítulo del manual de funciones)
+QUE SE HIZO: 8 preguntas de caso en «El manual de funciones: competencias que se evalúan» (id manual): áreas de gestión del docente y del directivo, límites a la asignación de funciones (num. 3.7), perfil de la media técnica (3.5), el manual como referencia de la evaluación (3.6) y lo que acredita el profesional no licenciado (3.8). Cada explicación cita el manual al pie de la letra, validada contra el texto de la Res. MEN 3842 de 2022. Preguntas: 1.011 a 1.019.
+POR QUE: capítulo sin preguntas; Claudia aprobó con «publica».
+COMO SE HIZO: sobre la tanda 3 recién publicada; br-ddoc regenerada, otras copias comprobadas, CE-PUB recalculado; prueba a 400 px sin errores.
+QUE FALTA: NO se pusieron preguntas en «Sobre el concurso» ni en los tres capítulos de antecedentes, porque el simulacro de Docentes toma preguntas de todos los capítulos del cargo y la regla de Claudia es que el simulacro sea solo de funciones y misionalidad. Tampoco en los cinco «Manual» por cargo y por área (repiten funciones ya cubiertas o son títulos habilitantes). Siguiente tanda aprobada: reforzar áreas delgadas (música, danzas, artes escénicas, artes plásticas y luego tecnología, educación física, filosofía y religión).
