@@ -791,3 +791,10 @@ QUE SE HIZO: 2 lecciones nuevas en esp-art («Las tres competencias del área, e
 POR QUE: eran las áreas más delgadas del concurso; Claudia pidió seguir con áreas y aprobó con «publica».
 COMO SE HIZO: sobre el cartilla.enc publicado (commit f1fba02). Citas tomadas del Documento 16 del MEN (Orientaciones pedagógicas para la educación artística) y comprobadas contra el texto del PDF, con página verificada. Se regeneró br-ddoc, se comprobaron las otras copias y se recalculó CE-PUB (33401096). Fuera de los datos de Docentes todo es idéntico a lo publicado. Prueba a 400 px con los tres cargos, sin errores.
 QUE FALTA: ver la entrada siguiente. REGLA: tras editar d-doc/s-doc hay que regenerar br-* y recalcular CE-PUB.
+
+## 13 nov 2026 - cartilla.enc (Docentes, tanda 6: educación física, filosofía y tecnología, 3 lecciones y 18 preguntas)
+QUE SE HIZO: una lección y 6 preguntas de caso en cada capítulo esp-efi (tres competencias, Doc. 15 MEN), esp-fil (crítica, dialógica y creativa, Doc. 14 MEN) y esp-tec (cuatro componentes, Guía 30 MEN), con etiqueta «Nuevo». Fuentes de efi y tec ampliadas. Lecciones 462 a 465; preguntas 1.051 a 1.069.
+POR QUE: seguir reforzando áreas delgadas; Claudia aprobó con «publica».
+COMO SE HIZO: sobre la tanda 5 recién publicada. Citas comprobadas contra el texto de los PDF del MEN (sin número de página, no se verificó la paginación impresa). br-ddoc regenerada, CE-PUB 33428367. Prueba a 400 px sin errores.
+INSTRUCCIONES PARA OTRA IA: tras editar d-doc/s-doc regenerar br-* y recalcular CE-PUB; contenido nuevo con etiqueta «Nuevo» al final del capítulo; no mover el orden de lecciones/preguntas existentes (rompe el avance guardado).
+QUE FALTA: religión (esp-rel): conseguir Decreto 4500 de 2006 y Ley 133 de 1994 oficiales antes de escribir. Luego: simulacro en casos de 3 preguntas, Mi cargo numerado, Plazos, glosario y quiz por lección, fusión de lecciones cortas (decide Claudia), preguntas antiguas de 4 a 3 opciones (por ahora se dejan).
