@@ -848,3 +848,9 @@ QUE SE HIZO: 21 preguntas de gestión académica de docente de aula (preescolar 
 POR QUE: continúa el pedido de Ariel de subir el nivel de los casos de todos los cargos.
 COMO SE HIZO: reemplazo por enunciado exacto, se conservan niv/nuevo/caso, correctas barajadas (semilla 15112026); la opción más larga queda repartida entre correcta e incorrectas. d-doc idéntico al reserializar; br-ddoc regenerada; CE-PUB 33543194. Chromium 400 px, 5 niveles, 0 errores.
 QUE FALTA: ~740 preguntas (normas 1278 y 1620, fun-aula, fun-ori, esp-fpre/fpri/fare, pra-soc, esp-prim/pre, lengua, inglés y matemáticas restantes, fa-gad/gco, fo-gad/gco, fd-ga/gad/gco).
+
+## 14 nov 2026 - cartilla.enc (Docentes: casos más complejos, tanda 4, funciones de aula y orientador)
+QUE SE HIZO: 24 preguntas cortas de «Tus funciones» pasan a casos completos: 16 de docente de aula (referentes del MEN, Escuela Nueva, maltrato en casa, barreras de aprendizaje, reclamo de nota, PAE, personero, inasistencia, proporcionalidad en zona cafetera, contabilidad del Fondo, plan de área, DUA, diagnóstico, daño de un equipo) y 8 de orientador (sanción pedida por el rector, carpeta de un estudiante, proceso socio-ocupacional, salud mental, alertas de deserción, crisis con ideas de hacerse daño, docente que humilla a un estudiante).
+POR QUE: continúa el pedido de Ariel de subir el nivel de los casos de todos los cargos.
+COMO SE HIZO: igual que las tandas anteriores; para evitar que la correcta sea siempre la más larga se alarga una incorrecta cuando hacía falta (queda la correcta más larga en 1 de 24). d-doc idéntico al reserializar; br-ddoc regenerada; CE-PUB 33559524. Chromium 400 px, 5 niveles, 0 errores.
+QUE FALTA: ~715 preguntas (fun-aula 16–35 y fun-ori 10–18 ya eran largas; faltan esp-fpre/fpri/fare, esp-prim/pre, pra-soc, lengua, inglés y matemáticas restantes, fa-gad/gco, fo-gad/gco, fd-ga/gad/gco, nor-dir, fun-norm).
