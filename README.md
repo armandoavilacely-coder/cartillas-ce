@@ -23,3 +23,7 @@ Además: agregarla en guias/noticias-concursos.html (principal o "Últimas notic
 3. Los ebooks de Docentes ('doc' y 'gdoc') se entregan solo por correo: revisar ce_respuesta_confirmado (_suscripcion.php) y confirmar.php. Marcador del correo masivo en acceso/lib.php: {enlace_ebook_<id>}. El bot (acceso/chat_core.php) debe nombrar todos los ebooks.
 4. sitio.pak: página de captación copiada de guias/ebook-concurso-docente.html (mismo formulario y JS, cambiando ebook:"<id>"), tarjeta en guias/index.html, sitemap, portada og-ebook-<id>-portada.png, vistas previas og-ebook-<id>-p1..p3.png y tarjeta para redes og-ebook-<id>.png (1200x630).
 5. Imagen para Facebook 1080x1350 con "EBOOK GRATIS" grande; se guarda en el mismo Drive. El copy de Facebook no lleva enlaces (la dirección va en la imagen); sí puede llevar el WhatsApp.
+
+
+## Guía 34 (directivos): usar SIEMPRE la versión 2026
+Desde el 16-nov-2026 las lecciones de directivos usan la Guía 34 actualizada por el MEN en 2026 ("Ruta de Mejoramiento Institucional"): plan de mejoramiento ANUAL, 4 áreas, 15 procesos, 45 componentes. No volver a escribir "horizonte de tres años" ni los procesos de 2008 (seguimiento académico como proceso aparte, relaciones con el entorno, apoyo a la gestión académica). Fuente y scripts: herramientas/lecciones-directivos/.
