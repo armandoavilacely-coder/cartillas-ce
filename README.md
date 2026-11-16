@@ -16,3 +16,10 @@ Toda noticia nueva en guias/noticia-*.html debe salir con estas tres cosas:
 3. **Su resumen para copiar**, en `<script type="text/plain" id="ce-copy">`: emojis 📢 📌 ✅ ⚠️, tuteo, sin prometer resultados. Al compartir se copia: resumen + "🔗 enlace?f=red" + "✍️ concursosdelestado.com" al final. El botón flotante "Compartir" también copia ese resumen en las noticias.
 
 Además: agregarla en guias/noticias-concursos.html (principal o "Últimas noticias", y "Para no perderte"), actualizar la fecha "Actualizado el", y añadirla a sitemap.xml. Después de publicar, Ariel debe pedir la indexación en Search Console y pasar el enlace por el depurador de Facebook ("Volver a extraer").
+
+### Cómo se publica un ebook gratis (16 nov 2026)
+1. El PDF se guarda en el Drive de Ariel, carpeta EBOOKS CONCURSOS DEL ESTADO, compartido como "cualquier persona con el enlace" (lector). No se sube a cPanel ni al repositorio.
+2. php.pak: se agrega el id del ebook en ce_ebooks() de _suscripcion.php (archivo, título, página) y en $EB de descargar.php con el enlace de Drive (uc?export=download&id=...). La primera descarga trae el PDF de Drive y lo guarda en ce_data/ebook.
+3. Los ebooks de Docentes ('doc' y 'gdoc') se entregan solo por correo: revisar ce_respuesta_confirmado (_suscripcion.php) y confirmar.php. Marcador del correo masivo en acceso/lib.php: {enlace_ebook_<id>}. El bot (acceso/chat_core.php) debe nombrar todos los ebooks.
+4. sitio.pak: página de captación copiada de guias/ebook-concurso-docente.html (mismo formulario y JS, cambiando ebook:"<id>"), tarjeta en guias/index.html, sitemap, portada og-ebook-<id>-portada.png, vistas previas og-ebook-<id>-p1..p3.png y tarjeta para redes og-ebook-<id>.png (1200x630).
+5. Imagen para Facebook 1080x1350 con "EBOOK GRATIS" grande; se guarda en el mismo Drive. El copy de Facebook no lleva enlaces (la dirección va en la imagen); sí puede llevar el WhatsApp.
