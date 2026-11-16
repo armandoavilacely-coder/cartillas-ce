@@ -903,3 +903,10 @@ QUE SE HIZO: (1) Desde 641 px de ancho, todas las páginas muestran las mismas o
 POR QUE: Ariel pidió que el contenido del menú sea igual en todas las páginas («Todos deben ser iguales»), también en la de pago.
 COMO SE HIZO: reglas en api.php (fcss) con :not(#ce-z) para ganar a los estilos de cada página; prueba con Playwright en 19 anchos entre 641 y 1.440 px en inicio y una página de cargo (ninguna opción se corta ni desborda); pagar.html probado en 400, 900 y 1.440 px sin errores de script, con el desplegable funcionando y el formulario de pago visible; encabezado comparado contra terminos.html (idéntico). Para revertir: quitar las líneas del bloque «menu igual» en fcss.
 QUE FALTA: nada de esto.
+
+## 16 nov 2026, 10:55 — Noticia DIAN 2676 (resultados) y botón para compartir en todas las noticias
+- QUÉ SE HIZO: nueva noticia guias/noticia-dian-2676-resultados-prueba-escrita-noviembre (resultados iniciales esperados entre el 21 y el 30 de noviembre, reclamaciones y definitivos), aclarando que no es aviso oficial de la CNSC. Pasa a ser la principal en guias/noticias-concursos (la anterior de DIAN baja a "Últimas noticias") y entra al sitemap. Las 5 noticias tienen ahora el bloque "Compartir esta noticia" (Facebook, WhatsApp, X, LinkedIn, Telegram, Copiar resumen).
+- POR QUÉ: Ariel pidió que al compartir cualquier noticia se copie solo un resumen con el enlace y al final "✍️ concursosdelestado.com", para que la persona solo pegue en su publicación.
+- CÓMO SE HIZO: cada noticia lleva su resumen en <script type="text/plain" id="ce-copy">. El script ce-share-js copia resumen + enlace (?f=red, para medir de dónde llegan) + firma y abre la red. También hace que el botón flotante "Compartir" copie el resumen en las noticias (antes solo copiaba el enlace). Probado en navegador: el portapapeles termina en la firma en las 5 noticias, sin errores.
+- QUÉ FALTA: toda noticia nueva debe salir con su bloque y su resumen.
+- Para volver atrás: revertir este commit.
