@@ -964,3 +964,11 @@ QUE FALTA: nada de esto.
 - QUÉ SE HIZO: se borró herramientas/lecciones-directivos/ (enr_e.py y patch17.py), que el commit a1e0e09 había subido por error. Contienen el texto de lecciones de pago y el repo es público. La cartilla.enc sigue cifrada y no cambia.
 - REGLA PARA LA IA: nunca subir al repo scripts ni textos de lecciones/preguntas (enr_*.py, patch*.py de contenido). Guardarlos fuera del repo (por ejemplo /tmp/cce/privado/) o en el Drive de Ariel. El historial de git todavía conserva esos dos archivos en a1e0e09; limpiarlo requiere reescribir la historia y lo decide Ariel.
 - Para volver atrás: no aplica.
+
+## 16 nov 2026 — Menú superior más empresarial y elegante (todas las páginas)
+**QUE SE HIZO:** el encabezado (menú) de todo el sitio cambia de aspecto: línea superior azul marino, fondo limpio con sombra suave, enlaces en gris azulado con subrayado dorado al pasar, botones más sobrios (Cuenta gratis azul marino, Mi cartilla con borde, Suscríbete dorado, WhatsApp con borde verde e ícono), botón de modo claro/oscuro con ícono luna/sol. Los textos y enlaces no cambian. Mismo menú en las 904 páginas.
+**POR QUE:** pedido de Ariel: "más empresarial y elegante"; maqueta aprobada.
+**COMO SE HIZO:** bloque CSS nuevo (CSSMENU) al final del CSS compartido que genera acceso/api.php?a=fcss (php.pak). Como ese CSS se guarda 1 año en el navegador, en sitio.pak los enlaces pasan de v=2 a v=3 para que todos vean el cambio. Probado en 9 páginas, 7 anchos, claro y oscuro: sin cortes ni desbordes.
+**QUE FALTA:** nada; revisar en el celular real.
+**Para volver atrás:** borrar el bloque CSSMENU de acceso/api.php y volver a v=2 (o revertir este commit).
+Nota para la otra IA: el estilo de la luna va solo en button.thm (el enlace de Facebook comparte la clase .thm; no tocar esa regla).
