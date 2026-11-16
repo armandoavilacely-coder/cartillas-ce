@@ -26,4 +26,4 @@ Además: agregarla en guias/noticias-concursos.html (principal o "Últimas notic
 
 
 ## Guía 34 (directivos): usar SIEMPRE la versión 2026
-Desde el 16-nov-2026 las lecciones de directivos usan la Guía 34 actualizada por el MEN en 2026 ("Ruta de Mejoramiento Institucional"): plan de mejoramiento ANUAL, 4 áreas, 15 procesos, 45 componentes. No volver a escribir "horizonte de tres años" ni los procesos de 2008 (seguimiento académico como proceso aparte, relaciones con el entorno, apoyo a la gestión académica). Fuente y scripts: herramientas/lecciones-directivos/.
+Desde el 16-nov-2026 las lecciones de directivos usan la Guía 34 actualizada por el MEN en 2026 ("Ruta de Mejoramiento Institucional"): plan de mejoramiento ANUAL, 4 áreas, 15 procesos, 45 componentes. No volver a escribir "horizonte de tres años" ni los procesos de 2008 (seguimiento académico como proceso aparte, relaciones con el entorno, apoyo a la gestión académica). Los scripts con el texto de las lecciones NO van en este repo (es público y las lecciones son de pago); viven en el espacio de trabajo de la IA y se describen en CAMBIOS.md.
