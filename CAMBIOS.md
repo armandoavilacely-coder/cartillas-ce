@@ -910,3 +910,10 @@ QUE FALTA: nada de esto.
 - CÓMO SE HIZO: cada noticia lleva su resumen en <script type="text/plain" id="ce-copy">. El script ce-share-js copia resumen + enlace (?f=red, para medir de dónde llegan) + firma y abre la red. También hace que el botón flotante "Compartir" copie el resumen en las noticias (antes solo copiaba el enlace). Probado en navegador: el portapapeles termina en la firma en las 5 noticias, sin errores.
 - QUÉ FALTA: toda noticia nueva debe salir con su bloque y su resumen.
 - Para volver atrás: revertir este commit.
+
+## 16 nov 2026, 11:10 — Tarjeta propia para redes en cada noticia + instrucciones para la IA
+- QUÉ SE HIZO: cada una de las 5 noticias tiene ahora su tarjeta de 1200x630 (og-<slug>.png en la raíz) en vez de la genérica og-guias.png (en X salía og-tips-examen-dian.png). Se actualizaron og:image, og:image:alt, twitter:image (+ twitter:image:alt) y la imagen del NewsArticle en el JSON-LD. Se escribió README.md con las instrucciones para la IA y la "Regla de las noticias", y se guardaron los generadores en herramientas/noticias/ (share.py, mkog.py, logo.svg).
+- POR QUÉ: Ariel pidió que cada noticia se cree con su tarjeta, para que al compartirla no salga la tarjeta general de la página. También pidió dejar siempre en el commit las instrucciones y comentarios para la otra IA.
+- CÓMO SE HIZO: tarjetas en HTML renderizadas con Playwright (fuentes Public Sans, Source Serif, IBM Plex Mono); maqueta aprobada por Ariel. Verificado: 0 referencias a la tarjeta genérica en las noticias.
+- QUÉ FALTA: Ariel debe pasar los 5 enlaces por el depurador de Facebook (Volver a extraer) para que olvide la tarjeta vieja. REGLA PERMANENTE: toda noticia nueva sale con tarjeta propia, bloque Compartir y resumen (ver README.md).
+- Para volver atrás: revertir este commit.
