@@ -979,3 +979,10 @@ Nota para la otra IA: el estilo de la luna va solo en button.thm (el enlace de F
 **COMO SE HIZO:** se reescriben lecciones conservando título y posición (el progreso guardado no se mueve) y las nuevas van al final; se regeneran br-ddoc y CE-PUB. Verificado: firma, br-ddoc igual a d-doc, resto de la cartilla idéntico.
 **QUE FALTA:** seguir con Ciencias Sociales (lineamiento 2026), económicas, filosofía, tecnología, ed. física y religiosa. Los scripts de lecciones NO van en este repo (contenido de pago).
 **Para volver atrás:** revertir este commit (restaura cartilla.enc anterior).
+
+## 16 nov 2026 — Portada: simulacro gratis como entrada principal y testimonios
+**QUE SE HIZO:** en la portada (index.html) el botón principal del héroe pasa a "Haz el simulacro gratis" (cuenta gratis); "Ver precios" y WhatsApp quedan como enlaces secundarios. Nueva franja de confianza bajo el héroe: pruebas antes de pagar, pago seguro con Wompi, pago único por concurso, y 3 testimonios reales de clientes, sin nombre ("Aspirante · compró DIAN y Procuraduría"), con la nota "No garantizamos resultados".
+**POR QUE:** auditoría del 16 nov: faltaba prueba social, la portada repartía la atención entre 11 botones y la mejor puerta de entrada (lo gratis) estaba escondida.
+**COMO SE HIZO:** solo index.html dentro de sitio.pak; estilos en línea (clase m2trust, m2cta). Probado en 1440 y 390 px, claro y oscuro, sin desbordes.
+**QUE FALTA:** garantía de devolución (por decisión de Ariel), número real de aspirantes, Google Analytics (necesita ID G-), pantalla de diagnóstico al terminar el simulacro y seguimiento por correo/WhatsApp a 0, 1, 3 y 7 días.
+**Para volver atrás:** revertir este commit. Nota para la otra IA: los testimonios son reales y anónimos a propósito; no agregar nombres ni inventar otros.
