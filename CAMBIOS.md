@@ -972,3 +972,10 @@ QUE FALTA: nada de esto.
 **QUE FALTA:** nada; revisar en el celular real.
 **Para volver atrás:** borrar el bloque CSSMENU de acceso/api.php y volver a v=2 (o revertir este commit).
 Nota para la otra IA: el estilo de la luna va solo en button.thm (el enlace de Facebook comparte la clase .thm; no tocar esa regla).
+
+## 16 nov 2026 — Docentes: Educación ética y valores humanos con el lineamiento 2026
+**QUE SE HIZO:** en la cartilla de Docentes, bloque de Educación ética y valores humanos (esp-eti): 5 lecciones cortas reescritas y 6 lecciones nuevas (los cuatro ejes del modelo concéntrico, las 14 competencias ciudadanas y socioemocionales, progresión por niveles, evaluación formativa, marco normativo y adaptación en el PEI), 7 conceptos y 20 preguntas de caso nuevas (quedan 15 lecciones y 27 preguntas). Todo marcado como "nuevo".
+**POR QUE:** el bloque era corto y no recogía los Lineamientos de formación ciudadana y desarrollo socioemocional del MEN (junio 2026), el documento más actualizado del tema.
+**COMO SE HIZO:** se reescriben lecciones conservando título y posición (el progreso guardado no se mueve) y las nuevas van al final; se regeneran br-ddoc y CE-PUB. Verificado: firma, br-ddoc igual a d-doc, resto de la cartilla idéntico.
+**QUE FALTA:** seguir con Ciencias Sociales (lineamiento 2026), económicas, filosofía, tecnología, ed. física y religiosa. Los scripts de lecciones NO van en este repo (contenido de pago).
+**Para volver atrás:** revertir este commit (restaura cartilla.enc anterior).
