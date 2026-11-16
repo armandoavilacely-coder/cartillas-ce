@@ -986,3 +986,10 @@ Nota para la otra IA: el estilo de la luna va solo en button.thm (el enlace de F
 **COMO SE HIZO:** solo index.html dentro de sitio.pak; estilos en línea (clase m2trust, m2cta). Probado en 1440 y 390 px, claro y oscuro, sin desbordes.
 **QUE FALTA:** (el retracto NO va en la portada por decisión de Ariel; solo en Términos y política) número real de aspirantes, Google Analytics (necesita ID G-), pantalla de diagnóstico al terminar el simulacro y seguimiento por correo/WhatsApp a 0, 1, 3 y 7 días.
 **Para volver atrás:** revertir este commit. Nota para la otra IA: los testimonios son reales y anónimos a propósito; no agregar nombres ni inventar otros.
+
+## 16 nov 2026 — Portada: tarjeta de pago más pequeña y buscador de cargos más amplio
+**QUE SE HIZO:** en escritorio (1000 px o más) la tarjeta "Activa tu cartilla en minutos" pasa de 24 rem a 15 rem de ancho (letras más compactas, mismo contenido) y el buscador de cargos gana espacio (campo de unos 168 a 252 px, buscador de 664 a 826 px). Los desplegables ya no se cortan. En celular no cambia nada.
+**POR QUE:** pedido de Ariel: la tarjeta ocupaba demasiado y dejaba el buscador apretado.
+**COMO SE HIZO:** bloque <style id="m4"> al final del head de index.html. Ojo: el CSS compartido (fcss) fuerza tamaños de .hpay con !important, por eso las reglas nuevas usan html body .hero aside.hpay y !important.
+**QUE FALTA:** (opcional) acortar el placeholder del campo a "Cargo, código u OPEC"; bloque "Prueba un caso" (tarjetas que voltean) pendiente de aprobación y de preguntas del banco de la cartilla.
+**Para volver atrás:** borrar el bloque <style id="m4"> de index.html (o revertir este commit).
