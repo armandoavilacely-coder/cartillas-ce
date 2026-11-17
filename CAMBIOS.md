@@ -1046,3 +1046,9 @@ QUE SE HIZO: los eventos propios del sitio (wa, sub, precio, ebook, cargo, entra
 POR QUE: medir el embudo (visita, precio, WhatsApp, suscripción) para el plan de marketing 360 que pidió Ariel.
 COMO SE HIZO: función ev() del script /*visitas*/ ampliada con un mapa GM; 904 páginas.
 QUE FALTA: en GA4 (Administrar > Eventos) marcar generate_lead y whatsapp_click como "evento clave" cuando aparezcan; precio visible en la portada ("Desde $40.000 ... hasta $55.000") no coincide con la escala 35/40/45/50 mil decidida: revisar antes de agregar esquema Offer. Siguientes etapas propuestas: ventana de salida con ebook, secuencia de correos por concurso, esquema Course/Offer, contenidos SEO.
+
+## 16 nov 2026 - sitio.pak (ventana de salida con ebook gratis)
+QUE SE HIZO: ventana "Antes de irte: ebook gratis" en computador (puntero fino y ancho >= 900 px): aparece una sola vez por sesión cuando el mouse sale por arriba de la página, pasados 15 s y nunca encima del aviso de cookies. Las páginas de Docentes ofrecen el ebook docente; las demás, el de Procuraduría. Se cierra con Escape, la X o "No, gracias". Eventos GA4: exit_offer_view y exit_offer_click.
+POR QUE: captar leads de visitantes que se van (plan de marketing 360 de Ariel). No sale en /admin, /acceso, pagar, privacidad, términos, páginas de ebook ni 404; no aparece en celular.
+COMO SE HIZO: <script id="ce-exit"> antes del script /*visitas*/ en 904 páginas (fuente /tmp/cce/fix9/mkt.js). Probado con Playwright (abre y cierra con Escape).
+QUE FALTA: medir exit_offer_click vs exit_offer_view en GA4; si molesta, quitar el script con id ce-exit. Barra con fecha de prueba y secuencia de correos pendientes.
