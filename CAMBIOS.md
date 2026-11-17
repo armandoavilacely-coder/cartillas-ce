@@ -1052,3 +1052,9 @@ QUE SE HIZO: ventana "Antes de irte: ebook gratis" en computador (puntero fino y
 POR QUE: captar leads de visitantes que se van (plan de marketing 360 de Ariel). No sale en /admin, /acceso, pagar, privacidad, términos, páginas de ebook ni 404; no aparece en celular.
 COMO SE HIZO: <script id="ce-exit"> antes del script /*visitas*/ en 904 páginas (fuente /tmp/cce/fix9/mkt.js). Probado con Playwright (abre y cierra con Escape).
 QUE FALTA: medir exit_offer_click vs exit_offer_view en GA4; si molesta, quitar el script con id ce-exit. Barra con fecha de prueba y secuencia de correos pendientes.
+
+## 16 nov 2026 - sitio.pak + php.pak (buscadores más grandes, fcss v=7)
+QUE SE HIZO: en computador (>= 861 px) el buscador de cargos de la portada y de los concursos (DIAN, Procuraduría, CAR, Docentes) ocupa una fila completa (antes ~300 px, ahora 800-900 px) y los filtros van debajo; en /concursos el buscador ocupa todo el ancho; en pagar el campo "Verifica tu nivel" va a ancho completo. Celular no cambia.
+POR QUE: Ariel pidió que ninguna barra de búsqueda sea pequeña.
+COMO SE HIZO: reglas nuevas al final del bloque CSSMENU de acceso/api.php (?a=fcss) y enlace subido a v=7 en todas las páginas.
+QUE FALTA: probar en el sitio publicado #mnQ (buscador del menú), #dpEmpQ (docentes) y la búsqueda de glosario; la cartilla (cartilla.enc) no se tocó.
