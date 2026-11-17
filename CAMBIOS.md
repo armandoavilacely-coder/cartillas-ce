@@ -1022,3 +1022,10 @@ Nota para la otra IA: el estilo de la luna va solo en button.thm (el enlace de F
 **POR QUE:** pedido de Ariel: que todo el sitio quede igual y elegante.
 **QUE FALTA:** paginas de cargos (691), concursos (180), guias (33) y legales conservan su diseno con el menu nuevo.
 **Para volver atras:** revertir este commit.
+
+## 2026-11-16 · Rocky busca cargos igual que las barras de busqueda
+**QUE SE HIZO:** en acceso/chat_core.php (chat de la pagina y WhatsApp) Rocky ahora recibe, para cada mensaje con un numero o codigo, un bloque "RESULTADOS DE LA BUSQUEDA" con la misma logica de las barras del sitio: convocatoria/empleo de la Procuraduria (234-2026, "empleo 234"), OPEC de CAR y Docentes (basta una parte del numero), codigos (3PU-17) y numeros que aparecen en cargos DIAN/Procuraduria. Se agrego al indice de Rocky los 690 cargos DIAN/Procuraduria y 3.692 OPEC (CAR y Docentes) con nivel, vacantes y precio. Si no hay coincidencias, el bloque se lo dice y Rocky pide el nombre del cargo y la entidad o pasa a una persona. El prompt explica los formatos de busqueda.
+**POR QUE:** Ariel probo "2000" y "234-2026" y Rocky no encontro el cargo (el indice anterior no tenia empleos ni OPEC).
+**NOTA:** "2000" no existe como OPEC, codigo ni empleo en la lista; la barra del sitio tampoco lo encuentra. "234-2026" es el Empleo 234 de la Procuraduria (Sustanciador 4SU-11, tecnico, $45.000).
+**QUE FALTA:** los cargos DIAN solo se encuentran por nombre/codigo (Cod. 101) y no por numero de convocatoria.
+**Para volver atras:** revertir este commit (restaura php.pak anterior).
