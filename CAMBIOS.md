@@ -1058,3 +1058,9 @@ QUE SE HIZO: en computador (>= 861 px) el buscador de cargos de la portada y de 
 POR QUE: Ariel pidió que ninguna barra de búsqueda sea pequeña.
 COMO SE HIZO: reglas nuevas al final del bloque CSSMENU de acceso/api.php (?a=fcss) y enlace subido a v=7 en todas las páginas.
 QUE FALTA: probar en el sitio publicado #mnQ (buscador del menú), #dpEmpQ (docentes) y la búsqueda de glosario; la cartilla (cartilla.enc) no se tocó.
+
+## 16 nov 2026 - sitio.pak + php.pak (Rocky: el índice de cargos sale de chat_core.php a un archivo aparte)
+QUE SE HIZO: Rocky seguía sin encontrar «234-2026» ni «Sustanciador 4SU-11» en el sitio publicado (probado con el chat real). El índice de cargos (386 KB) se movió de chat_core.php (que había pasado de 311 KB a 704 KB) al archivo rocky-idx.json en la raíz del sitio; ce_bot_idx() ahora lo lee con dirname(__DIR__).'/rocky-idx.json'. chat_core.php vuelve a ~314 KB.
+POR QUE: sospecha: el actualizador del servidor no estaba instalando el chat_core.php de 704 KB (el resto de acceso/api.php sí se actualizó); no se pudo confirmar sin ver el servidor.
+COMO SE HIZO: mismo contenido del índice, ahora en site/rocky-idx.json (sitio.pak) y chat_core_v2.php (php.pak). Probado en local con las mismas consultas.
+QUE FALTA: verificar en el chat real «234-2026» y que /rocky-idx.json se sirva (si el actualizador no instala .json, usar otra extensión o ce_data). Si sigue fallando, mirar ce_data/update.log en el servidor.
