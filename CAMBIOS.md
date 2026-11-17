@@ -1040,3 +1040,9 @@ QUE SE HIZO: se creó la propiedad GA4 "Concursos del Estado" (flujo web www.con
 POR QUE: Ariel pidió configurar Google Analytics.
 COMO SE HIZO: reemplazo exacto tras fbq('track','PageView') en las páginas con el aviso; anonymize_ip activado.
 QUE FALTA: GA tarda hasta 48 h en mostrar datos; verificar en Informes > Tiempo real tras aceptar cookies; la cartilla (cartilla.enc) no lleva gtag.
+
+## 16 nov 2026 - sitio.pak (Analytics: eventos del embudo)
+QUE SE HIZO: los eventos propios del sitio (wa, sub, precio, ebook, cargo, entrar, guia, quiz) ahora también se envían a Google Analytics 4 con los nombres whatsapp_click, generate_lead, view_pricing, ebook_click, cargo_click, login_click, guia_click, quiz_start. Solo si el visitante aceptó cookies (gtag existe).
+POR QUE: medir el embudo (visita, precio, WhatsApp, suscripción) para el plan de marketing 360 que pidió Ariel.
+COMO SE HIZO: función ev() del script /*visitas*/ ampliada con un mapa GM; 904 páginas.
+QUE FALTA: en GA4 (Administrar > Eventos) marcar generate_lead y whatsapp_click como "evento clave" cuando aparezcan; precio visible en la portada ("Desde $40.000 ... hasta $55.000") no coincide con la escala 35/40/45/50 mil decidida: revisar antes de agregar esquema Offer. Siguientes etapas propuestas: ventana de salida con ebook, secuencia de correos por concurso, esquema Course/Offer, contenidos SEO.
