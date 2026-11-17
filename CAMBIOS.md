@@ -1076,3 +1076,9 @@ QUE SE HIZO: en el pie de las 904 páginas con footer (todas las públicas) hay 
 POR QUE: Ariel pidió un espacio para el canal de WhatsApp en todas las páginas de la web.
 COMO SE HIZO: bloque <div class="chn" id="canalwa"> al inicio de footer .fi, CSS al final del <style> de footer.cefoot, reemplazo exacto en cada página (probado en escritorio y celular, sin desbordes).
 QUE FALTA: no se tocó la cartilla (cartilla.enc) ni el panel de acceso (sin footer). Si se agrega otra variante de footer, copiar el bloque #canalwa.
+
+## 17 nov 2026 - sitio.pak (noticia DIAN 2676: resultados el 20 de noviembre y reclamaciones del 23 al 27)
+QUE SE HIZO: nueva noticia guias/noticia-dian-2676-resultados-20-noviembre-reclamaciones (NewsArticle, tarjeta social og propia, botones de compartir con resumen + "✍️ concursosdelestado.com"). Es la noticia principal de /guias/noticias-concursos. La nota del 16 de nov lleva aviso de actualización enlazando a la nueva. Sitemap actualizado.
+POR QUE: aviso oficial de la CNSC y la Fundación Universitaria del Área Andina (publicado el 12 de nov 2026): resultados de la prueba escrita el 20 de noviembre; reclamaciones solo por SIMO del 23 al 27 de noviembre hasta las 23:59. El texto original traía erratas ("2667", "2025"); se usó 2676 y 2026.
+COMO SE HIZO: /tmp/cce/fix9/pack26.py (pack2 con archivos extra).
+QUE FALTA: fecha de respuesta a reclamaciones (la CNSC la informará); actualizar el 20 de noviembre con los resultados.
