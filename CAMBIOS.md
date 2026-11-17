@@ -1070,3 +1070,9 @@ QUE SE HIZO: rocky-idx.json no se podía leer desde PHP en el servidor (el chat 
 POR QUE: pruebas contra el chat real (POST a /acceso/chat.php con ok=1): el servidor tarda unos 8 a 10 minutos en instalar los cambios de php.pak.
 COMO SE HIZO: mismo índice; verificado en local con las mismas consultas.
 QUE FALTA: probar de nuevo «234-2026», «2000» y «246054» en el chat real cuando el servidor instale este paquete.
+
+## 17 nov 2026 - sitio.pak (espacio del canal de WhatsApp en todas las páginas)
+QUE SE HIZO: en el pie de las 904 páginas con footer (todas las públicas) hay una tarjeta "Únete a nuestro canal de WhatsApp" con el botón "Unirme al canal" (https://whatsapp.com/channel/0029VbECnRe8qJ02MemQ2246, se abre en pestaña nueva) y un enlace "Canal de WhatsApp" en la fila de enlaces del pie. Evento GA4 channel_click al pulsar el botón (solo si hay consentimiento).
+POR QUE: Ariel pidió un espacio para el canal de WhatsApp en todas las páginas de la web.
+COMO SE HIZO: bloque <div class="chn" id="canalwa"> al inicio de footer .fi, CSS al final del <style> de footer.cefoot, reemplazo exacto en cada página (probado en escritorio y celular, sin desbordes).
+QUE FALTA: no se tocó la cartilla (cartilla.enc) ni el panel de acceso (sin footer). Si se agrega otra variante de footer, copiar el bloque #canalwa.
