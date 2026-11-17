@@ -1034,3 +1034,9 @@ Nota para la otra IA: el estilo de la luna va solo en button.thm (el enlace de F
 **QUE SE HIZO:** en las paginas de concurso (CAR, docentes, Procuraduria, DIAN) el inicio ocupa todo su ancho: el buscador de cargos es mas ancho (el campo de texto pasa de ~106 px a ~300 px) y el texto ya no queda pegado a la izquierda (CSS compartido; fcss v=6).
 **POR QUE:** en la pagina CAR el inicio reservaba una columna vacia para la tarjeta de pago que ya se muestra a un lado.
 **Para volver atras:** revertir este commit.
+
+## 16 nov 2026 - sitio.pak (Google Analytics 4 con consentimiento)
+QUE SE HIZO: se creó la propiedad GA4 "Concursos del Estado" (flujo web www.concursosdelestado.com, ID de medición G-6ZR7H6EC6M, cuenta armandoavilacely@gmail.com) y se instaló gtag en todas las páginas, solo después de aceptar cookies (dentro de la función px() del aviso de cookies, junto al píxel de Meta). No carga en /admin. La política de privacidad (sección 6 y párrafo de píxeles) ahora menciona Google Analytics.
+POR QUE: Ariel pidió configurar Google Analytics.
+COMO SE HIZO: reemplazo exacto tras fbq('track','PageView') en las páginas con el aviso; anonymize_ip activado.
+QUE FALTA: GA tarda hasta 48 h en mostrar datos; verificar en Informes > Tiempo real tras aceptar cookies; la cartilla (cartilla.enc) no lleva gtag.
