@@ -1064,3 +1064,9 @@ QUE SE HIZO: Rocky seguía sin encontrar «234-2026» ni «Sustanciador 4SU-11»
 POR QUE: sospecha: el actualizador del servidor no estaba instalando el chat_core.php de 704 KB (el resto de acceso/api.php sí se actualizó); no se pudo confirmar sin ver el servidor.
 COMO SE HIZO: mismo contenido del índice, ahora en site/rocky-idx.json (sitio.pak) y chat_core_v2.php (php.pak). Probado en local con las mismas consultas.
 QUE FALTA: verificar en el chat real «234-2026» y que /rocky-idx.json se sirva (si el actualizador no instala .json, usar otra extensión o ce_data). Si sigue fallando, mirar ce_data/update.log en el servidor.
+
+## 16 nov 2026 - php.pak (Rocky: el índice vuelve dentro de chat_core.php, comprimido)
+QUE SE HIZO: rocky-idx.json no se podía leer desde PHP en el servidor (el chat decía "no encuentro coincidencias" para «234-2026»). El índice de cargos va ahora dentro de chat_core.php, comprimido con gzcompress y base64 (47 KB; el archivo queda en 361 KB). ce_bot_idx() lo descomprime. rocky-idx.json queda sin uso (el servidor lo bloquea con 403); se puede borrar de sitio.pak.
+POR QUE: pruebas contra el chat real (POST a /acceso/chat.php con ok=1): el servidor tarda unos 8 a 10 minutos en instalar los cambios de php.pak.
+COMO SE HIZO: mismo índice; verificado en local con las mismas consultas.
+QUE FALTA: probar de nuevo «234-2026», «2000» y «246054» en el chat real cuando el servidor instale este paquete.
