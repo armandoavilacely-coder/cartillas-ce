@@ -1029,3 +1029,8 @@ Nota para la otra IA: el estilo de la luna va solo en button.thm (el enlace de F
 **NOTA:** "2000" no existe como OPEC, codigo ni empleo en la lista; la barra del sitio tampoco lo encuentra. "234-2026" es el Empleo 234 de la Procuraduria (Sustanciador 4SU-11, tecnico, $45.000).
 **QUE FALTA:** los cargos DIAN solo se encuentran por nombre/codigo (Cod. 101) y no por numero de convocatoria.
 **Para volver atras:** revertir este commit (restaura php.pak anterior).
+
+## 2026-11-16 · Concurso CAR (y paginas de concurso): inicio mas ancho y buscador amplio
+**QUE SE HIZO:** en las paginas de concurso (CAR, docentes, Procuraduria, DIAN) el inicio ocupa todo su ancho: el buscador de cargos es mas ancho (el campo de texto pasa de ~106 px a ~300 px) y el texto ya no queda pegado a la izquierda (CSS compartido; fcss v=6).
+**POR QUE:** en la pagina CAR el inicio reservaba una columna vacia para la tarjeta de pago que ya se muestra a un lado.
+**Para volver atras:** revertir este commit.
