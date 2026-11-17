@@ -1016,3 +1016,9 @@ Nota para la otra IA: el estilo de la luna va solo en button.thm (el enlace de F
 **QUE SE HIZO:** en 4 paginas (inicio, procuraduria, docentes, corporaciones autonomas) el enlace a la hoja de estilos compartida estaba en el body, despues del enlace "Saltar al contenido"; se movio al final del head (mismo orden de cascada).
 **POR QUE:** el navegador pintaba un instante el enlace sin estilo antes de cargar la hoja.
 **Para volver atras:** revertir este commit.
+
+## 2026-11-16 · Procuraduria y DIAN con el mismo diseno de la portada
+**QUE SE HIZO:** paginas procuraduria.html y dian.html: secciones alternadas blanco/color por tema (azul, verde azulado, indigo), "Como activar" como tarjetas que voltean; inicio claro en todas las paginas con hero (CSS compartido en api.php, bloque CSSMENU; fcss pasa a v=5). La pagina del quiz y su tarjeta se mantienen legibles.
+**POR QUE:** pedido de Ariel: que todo el sitio quede igual y elegante.
+**QUE FALTA:** paginas de cargos (691), concursos (180), guias (33) y legales conservan su diseno con el menu nuevo.
+**Para volver atras:** revertir este commit.
