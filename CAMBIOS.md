@@ -1000,3 +1000,10 @@ Nota para la otra IA: el estilo de la luna va solo en button.thm (el enlace de F
 **COMO SE HIZO:** bloque style#fx y un script de clic en el head de index.html, y markup nuevo con clase .fx (ids de sección intactos: nosotros, mision, compromiso, quienes-somos, como). El volteo por hover va en el contenedor fijo .fx (no gira) para que no parpadee; en celular se voltea al tocar; también con teclado. Probado con 42 caras (frente y reverso) en 21 anchos de 280 a 1920 px: sin desbordes de texto ni palabras partidas en escritorio. Ojo: en #compromiso el fondo es oscuro y las reglas llevan !important para que los títulos del frente se lean.
 **QUE FALTA:** "Contenido de la cartilla" y "Antes de pagar, verifica" siguen con el formato anterior (pendiente si Ariel los quiere así); bloque "Prueba un caso" pendiente de aprobación y de preguntas del banco.
 **Para volver atrás:** revertir este commit (restaura sitio.pak anterior).
+
+## 16 nov 2026 — Portada: "Antes de pagar, verifica por ti mismo" con raya lateral
+**QUE SE HIZO:** los cuatro temas (Empieza gratis, La norma citada, Pago único y claro, Una persona responde) pasan de cajas a texto con una raya de color a la izquierda (teal, dorado, azul y verde). La sección baja de unos 548 px a unos 370 px; la columna del pago es más ancha por su texto largo. Los textos no cambian.
+**POR QUE:** pedido de Ariel: las tarjetas eran muy grandes (la del pago quedaba altísima); quería una raya en columna al lado izquierdo por tema.
+**COMO SE HIZO:** solo se cambió el CSS del bloque .trb en index.html (border-left de 4px con --k por columna; grid 1fr 1fr 2fr 1fr desde 1000 px).
+**QUE FALTA:** "Contenido de la cartilla" sigue con el formato anterior (se ofreció usar la misma raya); bloque "Prueba un caso" pendiente.
+**Para volver atrás:** revertir este commit.
