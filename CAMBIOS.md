@@ -1011,3 +1011,8 @@ Nota para la otra IA: el estilo de la luna va solo en button.thm (el enlace de F
 ## 2026-11-16 · Portada con secciones alternadas y menu azul oscuro
 - Portada: inicio (buscador) en blanco; secciones alternadas blanco / color degradado por tema (azul, verde azulado, indigo); precio en blanco.
 - Menu superior en todas las paginas: azul oscuro unico, logo en bloque blanco desde el borde izquierdo, separacion pareja entre enlaces e iconos (CSS en api.php fcss, bloque CSSMENU; enlaces fcss pasan a v=4).
+
+## 2026-11-16 · Corrige parpadeo del enlace "Saltar al contenido" al recargar
+**QUE SE HIZO:** en 4 paginas (inicio, procuraduria, docentes, corporaciones autonomas) el enlace a la hoja de estilos compartida estaba en el body, despues del enlace "Saltar al contenido"; se movio al final del head (mismo orden de cascada).
+**POR QUE:** el navegador pintaba un instante el enlace sin estilo antes de cargar la hoja.
+**Para volver atras:** revertir este commit.
