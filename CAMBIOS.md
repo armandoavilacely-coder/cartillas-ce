@@ -1082,3 +1082,9 @@ QUE SE HIZO: nueva noticia guias/noticia-dian-2676-resultados-20-noviembre-recla
 POR QUE: aviso oficial de la CNSC y la Fundación Universitaria del Área Andina (publicado el 12 de nov 2026): resultados de la prueba escrita el 20 de noviembre; reclamaciones solo por SIMO del 23 al 27 de noviembre hasta las 23:59. El texto original traía erratas ("2667", "2025"); se usó 2676 y 2026.
 COMO SE HIZO: /tmp/cce/fix9/pack26.py (pack2 con archivos extra).
 QUE FALTA: fecha de respuesta a reclamaciones (la CNSC la informará); actualizar el 20 de noviembre con los resultados.
+
+## 17 nov 2026 - php.pak (bot de WhatsApp: enlaces con https y respuestas más cortas)
+QUE SE HIZO: en acceso/chat_core.php el enlace de privacidad del prompt pasa de "www.concursosdelestado.com/privacidad" a "https://www.concursosdelestado.com/privacidad.html"; y en las reglas del canal WhatsApp se agregan: enlaces siempre con https://, respuesta corta sin repetir datos ya dados, un solo enlace principal por mensaje, sin rayas largas.
+POR QUE: en una conversación real el bot mandó http://www.concursosdelestado.com/privacidad (WhatsApp completa con http los www sin esquema) y un mensaje largo cortado con "Leer más" que escondía la pregunta por el correo.
+COMO SE HIZO: reemplazo exacto en chat_core.php (pack27.py); php -l y chat_prompt('wa') verificados en local.
+QUE FALTA: si la respuesta del screenshot vino de la IA de WhatsApp Business (etiqueta "IA") y no de este bot, hay que ajustar sus instrucciones en la app de WhatsApp Business.
