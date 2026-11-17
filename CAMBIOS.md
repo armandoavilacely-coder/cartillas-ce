@@ -1007,3 +1007,7 @@ Nota para la otra IA: el estilo de la luna va solo en button.thm (el enlace de F
 **COMO SE HIZO:** solo se cambió el CSS del bloque .trb en index.html (border-left de 4px con --k por columna; grid 1fr 1fr 2fr 1fr desde 1000 px).
 **QUE FALTA:** "Contenido de la cartilla" sigue con el formato anterior (se ofreció usar la misma raya); bloque "Prueba un caso" pendiente.
 **Para volver atrás:** revertir este commit.
+
+## 2026-11-16 · Portada con secciones alternadas y menu azul oscuro
+- Portada: inicio (buscador) en blanco; secciones alternadas blanco / color degradado por tema (azul, verde azulado, indigo); precio en blanco.
+- Menu superior en todas las paginas: azul oscuro unico, logo en bloque blanco desde el borde izquierdo, separacion pareja entre enlaces e iconos (CSS en api.php fcss, bloque CSSMENU; enlaces fcss pasan a v=4).
