@@ -1088,3 +1088,10 @@ QUE SE HIZO: en acceso/chat_core.php el enlace de privacidad del prompt pasa de 
 POR QUE: en una conversación real el bot mandó http://www.concursosdelestado.com/privacidad (WhatsApp completa con http los www sin esquema) y un mensaje largo cortado con "Leer más" que escondía la pregunta por el correo.
 COMO SE HIZO: reemplazo exacto en chat_core.php (pack27.py); php -l y chat_prompt('wa') verificados en local.
 QUE FALTA: si la respuesta del screenshot vino de la IA de WhatsApp Business (etiqueta "IA") y no de este bot, hay que ajustar sus instrucciones en la app de WhatsApp Business.
+
+## 18 nov 2026, 19:00 — Cartilla ESE 2 (Empresas Sociales del Estado), nivel asistencial, solo para revisión del administrador
+- Nuevo concurso "ESE" con el mismo entorno de CAR y Procuraduría: 475 OPEC asistenciales, ficha del manual de funciones, temas ordenados por la OPEC elegida, 13 capítulos (prueba + 12 de salud), quiz, simulacro y fichas.
+- Servidor (php.pak): acceso por código `ese-asi` / `ese-tec` / `ese-pro` / `ese-todos`; módulos s-ese y d-ese servidos solo a quien los pagó; avance sincronizado por código (claves `ese-env-ese-*-v1`); entrada en Mi panel; precios 40.000 / 45.000 / 50.000.
+- Aún sin página pública, sin enlace en el sitio ni pago en línea: solo el administrador ve la tarjeta ESE en el selector.
+- Pendiente: capítulos de segunda ola, niveles técnico y profesional, página pública y pago.
+- Para volver atrás: revertir este commit.
