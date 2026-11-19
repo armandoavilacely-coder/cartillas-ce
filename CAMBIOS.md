@@ -1344,3 +1344,7 @@ QUE FALTA
 ## 2026-11-19 · CAR por nivel - paso 2: cartilla con bloques por nivel
 - Que: los datos de CAR ahora viajan en d-car-asi, d-car-tec y d-car-pro (mas el d-car base con ofertas y competencias). Cada bloque trae los capitulos, las preguntas por nivel (con _o = posicion original), las fichas por empleo y los textos que esas fichas usan. El servidor entrega a cada cliente solo los niveles de su plan.
 - IMPORTANTE para la otra IA: al regenerar cartilla.enc conserva esos bloques (y los de ESE); no vuelvas a un solo d-car con todo ni regeneres br-dcar. Constructor en /tmp/cce/car2/build.py de la sesion de Ariel.
+
+## 2026-11-19 · Docentes por nivel - paso 1 (php.pak)
+- Que: el servidor ya sabe entregar los datos de Docentes por nivel (d-doc-pri/sec/ori/dir). lib.php: ce_doc_lv, ce_lv_keys, ce_lv_own. index.php: ?js=ddoc y el armado de la pagina usan esas funciones para ESE, CAR y Docentes. Compatible con la cartilla actual (si no hay bloques por nivel usa el camino de siempre).
+- Para la otra IA: al regenerar la cartilla no vuelvas a un solo d-doc con todo ni regeneres br-ddoc.
