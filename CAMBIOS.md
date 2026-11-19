@@ -1235,3 +1235,9 @@ QUE FALTA
 - Por que: ordenar el panel y que se vea mas serio. Solo cambia el lugar de los botones: las 18 pantallas existentes siguen llamando a las mismas funciones.
 - Verificacion: se abrio cada uno de los 18 enlaces del menu y el buscador en una prueba; el resto del archivo es identico al publicado. Los contadores se conservan en Clientes (por vencer) y Ventas (seguimientos).
 - Pendiente (tandas siguientes): rediseno de pantallas de Clientes/Ventas y luego Comunicacion/Sistema; pantalla Marketing con decisiones; seguimiento por campana (utm_campaign).
+
+## 2026-11-18 · Admin, tanda 2: tema sobrio
+- Que: nueva apariencia de todo el panel de administracion (tablas con encabezado en mayuscula pequena, tarjetas de cifras, botones con borde fino y boton principal azul oscuro, etiquetas cuadradas, titulos). Solo CSS dentro de .acc-ov; no toca la pagina del cliente.
+- Por que: darle al panel una imagen mas seria, como en las maquetas aprobadas.
+- No cambia funciones ni datos. El resto del archivo es identico al publicado (verificado).
+- Pendiente: Codigos con pestanas por estado, menu por fila y ficha lateral (conservando correo, celular y vencimiento editables); pantalla Marketing con decisiones; seguimiento por campana.
