@@ -1171,3 +1171,16 @@ COMO SE HIZO
 - Reemplazo unico con assert sobre la cartilla.enc publicada; CE-PUB recalculado; JS con node --check.
 QUE FALTA
 - Probar con una cuenta real. El curso de concejales aun no es un concurso del sistema.
+
+## 18 nov 2026, 22:30 — php.pak + cartilla.enc (admin: seccion "Avance y animo" de los clientes)
+QUE SE HIZO
+- php.pak (acceso/lib.php): op nueva crm_avance. Por cada cliente de pago activo (no gratis, no fusionado) devuelve, por concurso (dian, pgn, car, ese, doc): temas hechos/total, % (misma formula del panel del cliente: plan2676-resumen + temas), simulacros y mejor %, ultima actividad (t de progreso), nivel; ademas minutos de estudio de 7 dias (ce_tiempo_de), visitas e ingreso. Solo lectura.
+- cartilla.enc (panel admin): funcion avanceCli, SEC.avc y menu Clientes → "📈 Avance y ánimo". Tabla con filtros Estancados (7+ dias sin estudiar) / Sin empezar / Avanzando / Todos, busqueda y marcas. Redactor con 3 plantillas (tuteo, "Hola {nombre}, te escribo de Concursos del Estado...") y marcadores {nombre} {concurso} {avance} {lecciones} {dias}; vista previa (msg_previa), prueba (msg_enviar prueba) y envio por tandas por msg_enviar con lista (no comercial: respeta bajas, limite diario y tanda).
+POR QUE
+- Claudia necesita ver el avance de los clientes en sus cursos para animarlos por correo a que avancen.
+COMO SE HIZO
+- Parche de texto sobre lib.php en php.pak (firma 'php', CP1) y sobre el panel de cartilla.enc con asserts de reemplazo unico; CE-PUB recalculado. JS con node --check y prueba en navegador con servidor simulado (filtros, marcas, items enviados, plantillas). No probado con datos reales.
+INSTRUCCIONES PARA OTRA IA
+- No se tocan las plantillas del email marketing existente; esta seccion usa la via de lista de msg_enviar. El remitente es el de smtp.json (se muestra en pantalla); la preferencia es envios@concursosdelestado.com.
+QUE FALTA
+- Revisar vista previa y enviar prueba antes del primer envio masivo. Posible: historial de correos de animo por cliente para no repetir en pocos dias, y envio programado.
