@@ -1214,3 +1214,8 @@ INSTRUCCIONES PARA OTRA IA
 - Si se cambia el ranking o se guardan mas datos de estudio, actualizar privacidad.html.
 QUE FALTA
 - Nada nuevo; ver pendientes de la entrada del ranking (probar con clientes reales).
+
+## 2026-11-18 · Ranking y avance en todos los concursos (Abogados)
+- Qué: el curso de Abogados (Examen de Estado) ahora guarda su avance en el servidor (clave ce_abog_v1, entra al sync permitido) y participa en el ranking anónimo y en "Avance y ánimo".
+- Por qué: el ranking y el avance debían aparecer a todos los concursantes de todos los concursos y cargos; Abogados era el único que guardaba solo en el navegador.
+- Detalle: porcentaje = lecciones hechas / total (_n); chip del panel incluye abog; al abrir el curso se recupera lo guardado en la cuenta.
