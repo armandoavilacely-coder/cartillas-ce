@@ -1306,3 +1306,10 @@ QUE FALTA
 - Por que: darle al panel una imagen mas seria, como en las maquetas aprobadas.
 - No cambia funciones ni datos. El resto del archivo es identico al publicado (verificado).
 - Pendiente: Codigos con pestanas por estado, menu por fila y ficha lateral (conservando correo, celular y vencimiento editables); pantalla Marketing con decisiones; seguimiento por campana.
+
+## 2026-11-19 · ESE 2: contenido de nivel tecnico y profesional (aun NO a la venta)
+- Que: se agregan 10 capitulos (ctr contratacion, ppto presupuesto y tesoreria, cont contabilidad y cartera, th talento humano, mipg planeacion y control interno, jur asuntos juridicos, med medicina general, esp atencion especializada, enfp enfermeria profesional, odop odontologia) y los mapas de 182 empleos tecnicos y 560 profesionales. Los 1.217 empleos quedan en la cartilla.
+- Arreglo: la lista de capitulos del nivel (LST en ESEAPP) tenia solo 13; ahora trae todos, asi que el asistencial tambien ve bioseg, alm, conf, sis, equipo, red, lab, odont, dx, serv, cita y los n-*.
+- Sigue en venta SOLO asistencial: wompi.php, pagar.html, index.html, pagina ese-2 y bot no se tocaron. Los niveles se siguen limitando por plan (ese-asi) en el cliente.
+- Instruccion para la otra IA: no abrir tec/pro a la venta hasta que Ariel lo ordene. Cuando lo haga: wp_precio en wompi.php (subida manual), pagar.html (OPT/precio/CG), index (ESEC/ESED), pagina ese-2 y chat_core; lib.php ya tiene ese-tec 45k y ese-pro 50k.
+- Pendiente de verificar (marcado "A verificar" en los capitulos): datos legales listados por cada capitulo.
