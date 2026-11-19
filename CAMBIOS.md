@@ -1331,3 +1331,7 @@ QUE FALTA
 - Que: index.php y lib.php ahora saben servir los datos de ESE por nivel. Los datos viajaran en tres bloques (d-ese-asi, d-ese-tec, d-ese-pro) y cada cliente recibe solo los niveles de su plan (ce_ese_lv). El modulo ?js=dese devuelve el arranque (d-ese) mas esos bloques. ce_niv_opciones('ese') ahora suma niveles cuando el codigo trae varios (ese-asi+ese-pro).
 - Compatible hacia atras: si la cartilla aun trae el d-ese viejo (sin bloques por nivel) el servidor se comporta como antes.
 - Paso 2 (mas tarde, despues de que el servidor instale este php.pak): se sube la cartilla con los bloques por nivel. IMPORTANTE para la otra IA: al regenerar cartilla.enc conserva los bloques <script id="d-ese-asi|tec|pro"> y el d-ese de arranque; no vuelvas a poner un solo d-ese con todos los datos. El armado esta en /tmp/cce/ese2/build.py (si no existe, pide a Ariel que lo regenere).
+
+## 2026-11-19 · ESE por nivel - paso 2: cartilla con bloques por nivel
+- Que: la cartilla ahora trae los datos de ESE en d-ese-asi, d-ese-tec y d-ese-pro (mas el d-ese de arranque) y el servidor entrega a cada cliente solo los niveles de su plan. Tambien: tec/pro con capitulo n-estado y mapas por empleo actualizados.
+- IMPORTANTE para la otra IA: al regenerar cartilla.enc conserva esos bloques; no pongas de nuevo un solo d-ese con todos los datos.
