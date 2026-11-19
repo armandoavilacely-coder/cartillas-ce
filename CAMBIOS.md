@@ -1340,3 +1340,7 @@ QUE FALTA
 - Que: el servidor ya sabe entregar los datos de CAR por nivel (d-car-asi/tec/pro). Nueva funcion ce_car_lv en lib.php; ce_niv_opciones de CAR ahora suma niveles cuando el plan trae varios (antes solo devolvia el primero). index.php sirve ?js=dcar con el bloque base mas los niveles del plan y arma la pagina igual que con ESE. Ademas el hash de cache de ESE y CAR ahora incluye el bloque base.
 - Compatible con la cartilla actual (si no existe d-car-asi usa el camino de siempre). La cartilla con los bloques por nivel va en el paso 2.
 - Para la otra IA: no regeneres br-dcar (la copia brotli de los datos de CAR); con bloques por nivel se quita.
+
+## 2026-11-19 · CAR por nivel - paso 2: cartilla con bloques por nivel
+- Que: los datos de CAR ahora viajan en d-car-asi, d-car-tec y d-car-pro (mas el d-car base con ofertas y competencias). Cada bloque trae los capitulos, las preguntas por nivel (con _o = posicion original), las fichas por empleo y los textos que esas fichas usan. El servidor entrega a cada cliente solo los niveles de su plan.
+- IMPORTANTE para la otra IA: al regenerar cartilla.enc conserva esos bloques (y los de ESE); no vuelvas a un solo d-car con todo ni regeneres br-dcar. Constructor en /tmp/cce/car2/build.py de la sesion de Ariel.
