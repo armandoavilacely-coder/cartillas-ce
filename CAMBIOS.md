@@ -1122,3 +1122,17 @@ COMO SE HIZO
 - Parche sobre el sitio.pak vigente (/tmp/work/car/pg/edit.py, reemplazos exactos con asserts), solo cambian esa página y sitemap.xml; paquete firmado con HMAC (site) y verificado. Probado en celular (400 px) sin desbordes ni errores.
 QUE FALTA
 - Las páginas de DIAN y Procuraduría siguen con "diez preguntas" de muestra; llevan la misma regla del simulacro gratis. La imagen/maqueta no se mostró antes (cambio de texto y una sección). Si la CNSC publica nueva fecha de inscripción o la Guía de Orientación, actualizar aquí.
+
+## 18 nov 2026, 21:10 — cartilla.enc (CAR, tanda 2: 15 casos nuevos para el simulacro)
+QUE SE HIZO
+- CAR: 15 casos nuevos de 3 preguntas (45 preguntas, 3 opciones, etiqueta NUEVO, sim:1) en los capítulos de su tema: control-interno, transparencia, planeacion, contratacion, documental, participacion, gobierno-digital, ambiental-fondo, biodiversidad, residuos-aire, riesgo-clima, mipg y ambiental. Los casos de normas citan articulos reales (Ley 87, 1437, 1474, 1712, 152, 80, 1150, 594, 1757, 1581); los ambientales se apoyan en las lecciones de la cartilla.
+- Opciones balanceadas en longitud (maximo/minimo <= 1,45) para que la correcta no sea la mas larga.
+- Sin cambios de motor: solo datos d-car (br-dcar y CE-PUB regenerados).
+POR QUE
+- En la tanda 1 algunos empleos quedaban con 6 preguntas en el simulacro; Claudia pidio llegar a 10 o mas casos por empleo con el mismo sistema de DIAN/Procuraduria.
+COMO SE HIZO
+- Parche sobre la cartilla.enc publicada (/tmp/work/car/t2/apply2.py): insercion de texto en d-car con put()/arr_end y comprobacion de igualdad contra el JSON original. Probado con 36 empleos reales de la OPEC a 400 px, sin errores.
+INSTRUCCIONES PARA OTRA IA
+- Igual que la tanda 1: no muevas los casos de capitulo ni re-serialices d-car; tras editar regenera br-dcar y CE-PUB.
+QUE FALTA
+- Con la tanda 2 el simulacro trae hasta 15 preguntas; algunos empleos (profesional administrativo/juridico, asistencial de contratacion y talento humano) quedan con 9. Falta tanda 3 en capitulos juridico, administrativo y asistencial.
