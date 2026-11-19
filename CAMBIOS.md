@@ -1348,3 +1348,7 @@ QUE FALTA
 ## 2026-11-19 · Docentes por nivel - paso 1 (php.pak)
 - Que: el servidor ya sabe entregar los datos de Docentes por nivel (d-doc-pri/sec/ori/dir). lib.php: ce_doc_lv, ce_lv_keys, ce_lv_own. index.php: ?js=ddoc y el armado de la pagina usan esas funciones para ESE, CAR y Docentes. Compatible con la cartilla actual (si no hay bloques por nivel usa el camino de siempre).
 - Para la otra IA: al regenerar la cartilla no vuelvas a un solo d-doc con todo ni regeneres br-ddoc.
+
+## 2026-11-19 · Docentes por nivel - paso 2: cartilla con bloques por nivel
+- Que: los datos de Docentes ahora viajan en d-doc (capitulos comunes) mas d-doc-pri, d-doc-sec, d-doc-ori y d-doc-dir (capitulos propios de cada nivel y preguntas/lecciones de ese nivel, con _o = posicion original). El servidor entrega a cada cliente solo los niveles de su plan.
+- IMPORTANTE para la otra IA: al regenerar cartilla.enc conserva esos bloques (y los de ESE y CAR); no vuelvas a un solo d-doc con todo ni regeneres br-ddoc. Constructor en /tmp/cce/car2/build_doc.py de la sesion de Ariel.
