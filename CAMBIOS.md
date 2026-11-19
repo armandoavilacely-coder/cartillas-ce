@@ -1355,3 +1355,9 @@ QUE FALTA
 
 ## 2026-11-19 · Arreglo: ESE por nivel devolvia 403 (php.pak)
 - Que: la comprobacion de seguridad de ?js=dese buscaba un texto que el bloque de ESE no trae y respondia 403, por eso la cartilla de ESE salia vacia. Ahora busca D.ofertas=D.ofertas.concat. CAR y Docentes no estaban afectados.
+
+## 2026-11-19 · Compras de un mismo cliente se suman a su codigo (wompi.php, subido a mano a acceso/)
+- Que: cuando un pago aprobado trae un correo que ya tiene un codigo de pago vigente (accesos_admin con ese correo, no gratis, sin fecha fin vencida), el plan nuevo se suma a ese codigo (accesos.c y accesos_admin.c quedan como "car-pro,ese-asi"), se suma el monto en "p" y el pedido muestra el codigo de siempre (marca unido=true). No se crea codigo nuevo.
+- Reglas: DIAN y Procuraduria solo se suman si el codigo aun no tiene ese concurso (cada pago fija un solo nivel); CAR, Docentes y ESE se suman si el codigo aun no tiene ese plan/nivel (y se libera niveles[concurso] para que elija entre los que tiene). Si no aplica, se crea codigo nuevo como antes. Cuenta gratis nunca recibe plan.
+- El correo, el aviso por WhatsApp y el aviso de venta cambian de texto cuando unido=true. wompi.php NO esta en el repo: es el archivo que Ariel sube a mano a acceso/ (copia en /tmp/cce/out/wompi.php de la sesion de Ariel).
+- Para la otra IA: si creas codigos o cambias planes desde el administrador o el bot, respeta que un codigo puede traer varios planes separados por coma (ce_niv_opciones, ce_niv_concursos, ce_car_lv, ce_ese_lv, ce_doc_lv ya lo leen asi).
