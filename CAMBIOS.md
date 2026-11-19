@@ -1224,3 +1224,7 @@ QUE FALTA
 - Qué: la cartilla ahora respeta la ruta (#/car-..., #/ese-..., #/doc-...) que manda "Abrir curso" del panel tambien en cuentas que combinan concursos (antes solo si la cuenta no tenia DIAN/PGN); el boton de ESE ahora manda su ruta.
 - Regla: solo se abre el nivel que el cliente pago (se toma de sus niveles); si pide un nivel que no tiene, abre el suyo. Nada se muestra sin pago de ese concurso y nivel.
 - Por qué: con DIAN/PGN + CAR/ESE el cliente veia el selector en vez de su curso.
+
+## 2026-11-18 · Ranking sin minimo y vista previa del administrador
+- Qué: CE_RANK_MIN pasa de 20 a 1 (el puesto sale desde el primer aspirante con avance, siempre anonimo); el admin ve el chip del ranking en cada concurso (vista de ejemplo con el tamano real del grupo).
+- Por qué: Claudia pidio que el ranking aparezca aunque no haya 20 personas; como admin no veia nada porque la operacion solo respondia a clientes con codigo.
