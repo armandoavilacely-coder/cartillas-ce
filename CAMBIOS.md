@@ -1161,3 +1161,13 @@ INSTRUCCIONES PARA OTRA IA
 - Los datos vienen de ce_gratis_visto (la pagina gratis avisa abre/fin con el % del simulacro). Solo se guarda mejor % y numero de terminaciones, no cada intento.
 QUE FALTA
 - Historial por intento (fecha y nota) si Claudia lo pide: guardarlo en accesos_admin[fp].gr[slug].h.
+
+## 18 nov 2026, 22:20 — cartilla.enc (admin: ESE en la ventana "Concursos activos")
+QUE SE HIZO
+- Panel admin, accion cc ("Concursos activos"): la lista OP suma ESE · asistencial, técnico y profesional (ese-asi, ese-tec, ese-pro). PC/FC/CL, CONCS, el selector de crear códigos y ce_niv_concursos ya soportaban ese-*; solo faltaba la lista de la ventana.
+POR QUE
+- Claudia vio que al administrar un usuario no se podia marcar ESE como concurso pagado.
+COMO SE HIZO
+- Reemplazo unico con assert sobre la cartilla.enc publicada; CE-PUB recalculado; JS con node --check.
+QUE FALTA
+- Probar con una cuenta real. El curso de concejales aun no es un concurso del sistema.
