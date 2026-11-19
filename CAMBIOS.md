@@ -1,3 +1,7 @@
+## 2026-11-19 · Admin: Códigos más ordenado (pestañas, menú por fila, tarjetas en celular)
+- Qué: pestañas arriba de la tabla (Todos, Activos, Por vencer, Sin ingresar, Sin nivel, Desactivados) con su conteo; cada fila muestra WhatsApp (o correo) y Administrar, y el resto (correo, copiar para WhatsApp, mensaje de renovación) queda en "Más acciones"; las acciones generales (sesiones de admin, datos de una persona, respaldo, fecha de fin de acceso, asignar niveles) pasan a un menú "Más acciones"; en celular cada código se ve como una tarjeta con sus títulos.
+- Por qué: la tabla tenía hasta cinco botones apilados por fila y filtros sueltos, y en celular obligaba a deslizar. Se conservan los campos editables (correo, celular, vence, pagó, plan, medio de pago) y todas las acciones con la misma función; solo cambia dónde están. No se hizo la ficha lateral.
+
 ## 2026-11-18 · Admin: versión celular de Rendimiento y Estadísticas
 - Qué: en pantallas pequeñas las cajas de Rendimiento van en una sola columna (antes una quedaba como tira vertical); el botón Cerrar no se parte; las tarjetas de cifras van de a dos por fila con números que se ajustan; se quitaron anchos mínimos que obligaban a deslizar tablas y el embudo; las tablas de comparación por origen se reacomodan; el menú inferior ya no parte "Comunicación".
 - Por qué: en el celular se veía desordenado y con columnas aplastadas. En computador no cambia nada.
