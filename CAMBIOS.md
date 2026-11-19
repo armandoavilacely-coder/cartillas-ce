@@ -1,3 +1,7 @@
+## 2026-11-19 · CAR en venta directa en el inicio
+**Qué:** en el buscador de cargo del inicio, los resultados de CAR ya no dicen «Avísame» ni «avisen cuando esté la cartilla»: muestran «Pedir acceso» con el mensaje «Quiero el acceso», igual que los demás concursos (el botón «Pagar en línea» ya existía).
+**Por qué:** pedido de Ariel: CAR sale a la venta; la cartilla CAR ya está disponible por los tres niveles.
+
 ## 2026-11-19 · ESE 2 sale a la venta (nivel asistencial)
 **Qué:** (1) Página /concursos/ese-2 reemplaza la de «cartilla en preparación»: buscador por OPEC, cargo o ESE sobre las 475 ofertas asistenciales, datos del proceso, precio $40.000 y enlaces a pagar. (2) pagar.html: ESE 2 como concurso (solo nivel Asistencial, $40.000) con buscador de cargo (OPEC). (3) Inicio: sección ESE 2 y ESE en el buscador de cargo y en el menú de 906 páginas (menú, selector de concurso y pie). (4) Listado /concursos/: tarjeta ESE 2 pasa a «Cartilla disponible: nivel asistencial». (5) og-ese.png y sitemap. (6) Servidor: Rocky y el bot de WhatsApp aceptan 'ese' en IRPAGAR y PAGO y conocen la cartilla y su precio; los códigos ESE empiezan por S.
 **Por qué:** pedido de Ariel: poner ESE en venta. Solo asistencial porque técnico y profesional no tienen contenido todavía (el servidor de pagos rechaza esos niveles para ese).
