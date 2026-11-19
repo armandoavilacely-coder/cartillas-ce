@@ -1201,3 +1201,16 @@ INSTRUCCIONES PARA OTRA IA
 QUE FALTA
 - Agregar a la politica de privacidad una linea sobre el ranking anonimo (usa avance de estudio); Claudia debe aprobar la redaccion.
 - Revisar con clientes reales que el chip se vea bien en celular y que el grupo minimo de 20 sea el adecuado.
+
+## 18 nov 2026, 22:50 — cartilla.enc + sitio.pak (filtro por concurso en Avance y animo; politica de privacidad con avance y ranking)
+QUE SE HIZO
+- cartilla.enc (panel admin, avanceCli): desplegable "Todos los concursos" en Avance y animo. Al elegir un concurso solo salen los clientes de ese concurso; los grupos Estancados/Sin empezar/Avanzando se recalculan con la actividad de ese concurso (no la general) y los correos usan el % y las lecciones de ese concurso. Probado en navegador con servidor simulado.
+- sitio.pak (privacidad.html): se agrega el avance de estudio a "Que datos tratamos" y, en "Para que los usamos", guardar el avance, escribir para animar y mostrar un ranking anonimo (sin nombre ni codigo, con opcion de salirse). Fecha "Ultima actualizacion: 18 de noviembre de 2026".
+POR QUE
+- Claudia necesita filtrar por concurso al animar clientes; y el ranking anonimo usa el avance de estudio, por lo que la politica debe decirlo (Ley 1581).
+COMO SE HIZO
+- Reemplazos exactos con asserts sobre la cartilla.enc y el sitio.pak vigentes (firma 'site'); CE-PUB recalculado.
+INSTRUCCIONES PARA OTRA IA
+- Si se cambia el ranking o se guardan mas datos de estudio, actualizar privacidad.html.
+QUE FALTA
+- Nada nuevo; ver pendientes de la entrada del ranking (probar con clientes reales).
