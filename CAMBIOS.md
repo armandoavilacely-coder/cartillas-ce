@@ -1,3 +1,7 @@
+## 2026-11-19 · Estadísticas: mapa de calor de visitas por día y hora
+- Qué: el servidor ahora entrega también la matriz día de la semana por hora (acceso/lib.php, ce_visitas_resumen), calculada con las horas que ya se guardaban por día; Estadísticas muestra el mapa de calor «Día y hora» con el momento más activo.
+- Por qué: saber cuándo publicar y responder. No guarda datos nuevos ni cambia nada para el visitante; ya trae los últimos 30 días.
+
 ## 2026-11-19 · Campaña de origen en cada contacto y ventas por campaña
 - Qué: el contacto del Embudo tiene un campo nuevo «Campaña de origen» (con sugerencias de las ya usadas) y el servidor lo guarda (acceso/lib.php, función crm_campos, una línea). En Rendimiento de marketing hay una tabla «Ventas por campaña» con contactos, ventas, ingresos y costo por venta cuando el nombre coincide con el de la campaña en Meta.
 - Por qué: hasta ahora el costo por venta era global; con la campaña anotada se ve cuál campaña vende y cuánto cuesta cada venta. No cambia nada de lo que ve el cliente; los contactos sin campaña quedan igual.
