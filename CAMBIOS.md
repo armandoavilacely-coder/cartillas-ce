@@ -1326,3 +1326,8 @@ QUE FALTA
 ## 2026-11-19 · ESE 2: capitulos del nivel asistencial sin avisos "A verificar"
 - Que: se resolvieron los avisos de los 23 capitulos asistenciales; ya no queda ninguno en la cartilla ESE. Correcciones de fondo: historia clinica se conserva 15 anos (Res. 839 de 2017, antes decia 20), Decreto 858 de 2025 (redes) suspendido por el Consejo de Estado, Res. 373 de 2026 (tiempos de urgencias), Res. 1843 de 2025 (examenes ocupacionales), Res. 2335 de 2023 (referencia), Res. 948 de 2026 (RIPS).
 - Pendiente: wompi.php (subida manual) para abrir tecnico y profesional; subida de +$10.000 del 21 de noviembre.
+
+## 2026-11-19 · ESE por nivel en el servidor (cierra el hueco de niveles) - paso 1: php.pak
+- Que: index.php y lib.php ahora saben servir los datos de ESE por nivel. Los datos viajaran en tres bloques (d-ese-asi, d-ese-tec, d-ese-pro) y cada cliente recibe solo los niveles de su plan (ce_ese_lv). El modulo ?js=dese devuelve el arranque (d-ese) mas esos bloques. ce_niv_opciones('ese') ahora suma niveles cuando el codigo trae varios (ese-asi+ese-pro).
+- Compatible hacia atras: si la cartilla aun trae el d-ese viejo (sin bloques por nivel) el servidor se comporta como antes.
+- Paso 2 (mas tarde, despues de que el servidor instale este php.pak): se sube la cartilla con los bloques por nivel. IMPORTANTE para la otra IA: al regenerar cartilla.enc conserva los bloques <script id="d-ese-asi|tec|pro"> y el d-ese de arranque; no vuelvas a poner un solo d-ese con todos los datos. El armado esta en /tmp/cce/ese2/build.py (si no existe, pide a Ariel que lo regenere).
