@@ -1095,3 +1095,17 @@ QUE FALTA: si la respuesta del screenshot vino de la IA de WhatsApp Business (et
 - Aún sin página pública, sin enlace en el sitio ni pago en línea: solo el administrador ve la tarjeta ESE en el selector.
 - Pendiente: capítulos de segunda ola, niveles técnico y profesional, página pública y pago.
 - Para volver atrás: revertir este commit.
+
+## 18 nov 2026, 20:20 — cartilla.enc (CAR, tanda 1: simulacro en casos por funciones; cambia el motor s-car)
+QUE SE HIZO
+- CAR: 8 casos nuevos de 3 preguntas (24 preguntas, 3 opciones, etiqueta NUEVO), escritos con funciones reales de las ofertas OPEC y la misión de la CAR. Cada caso quedó dentro de su capítulo temático: ambiental (Ley 1333 flagrancia; visitas técnicas Ley 99), contratacion (supervisión Ley 1474), mipg (peticiones Ley 1437 art. 14), documental (archivos de gestión; entrega por traslado, Ley 594), transparencia (Ley 1712), institucional (misión, Ley 99 art. 31).
+- Lección nueva en "prueba": "Las funciones que más se repiten en la oferta de las CAR" (tabla con el número de empleos por función).
+- Motor s-car: el simulacro con cronómetro usa solo preguntas con sim:1, por casos completos, de los capítulos que prio() marca para el empleo del cliente (primero A, luego M). Muestra "Caso · pregunta 1 de 3". Las preguntas sim no salen en fichas. Soporta NUEVO en lecciones, preguntas y capítulos. Filtro de nivel por pregunta (campo nv). Al cambiar de convocatoria se reconstruye.
+POR QUE
+- Claudia pidió que el simulacro de todos los concursos sea solo sobre funciones del empleo y misionalidad, en casos de 3 preguntas, con el mismo sistema de DIAN y Procuraduría: los casos viven en su capítulo y se ven según la ruta del empleo.
+COMO SE HIZO
+- Parche sobre la cartilla.enc publicada: inserción de texto en d-car (NO re-serializar: mezcla escapes) con comprobación de igualdad contra el JSON original; regeneradas br-car y br-dcar y CE-PUB (regla: sin copia br los clientes no reciben el cambio). Probado en celular con 5 empleos, sin errores.
+INSTRUCCIONES PARA OTRA IA
+- No muevas los casos de capítulo: el simulacro depende de que cada caso esté en el capítulo de su tema. Para añadir casos: agrégalos a b.preguntas del capítulo con caso, sim:1, nuevo:true y nv si es de un nivel. Si editas s-car o d-car, regenera su br-* y CE-PUB.
+QUE FALTA
+- Pocos casos: algunos empleos profesionales quedan con 2 casos (6 preguntas). Tanda 2: más casos en ambiental, biodiversidad, residuos-aire, planeación, talento humano, TIC y SST; lecciones de los 5 capítulos sin ellas; preguntas de 4 a 3 opciones; avance en servidor; plan de estudio con el aplazamiento.
