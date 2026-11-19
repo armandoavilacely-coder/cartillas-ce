@@ -1378,3 +1378,8 @@ QUE FALTA
 - Servidor: actualizar.php (se sube a mano) acepta cargos/(dian|procuraduria|ese-2|car|docentes)/. Si se regenera desde otra copia, conservar esa lista.
 - Alza del 21 de noviembre: llevan el precio escrito. Regenerar con: cd /tmp/cce/page && ALZA=10000 FECHA=<dia> python3 mkcargos_cd.py (y mkcargos_ese.py), luego packsite.py.
 - Para la otra IA: no borres cargos/car ni cargos/docentes al regenerar sitio.pak.
+
+## 2026-11-19 · DIAN: se retiran las paginas de cargos (sitio.pak)
+- Que: el concurso DIAN ya paso la prueba, asi que las 310 paginas de /cargos/dian/ (y su indice) quedan como paginas minimas que redirigen a /dian (meta refresh + canonical a /dian + noindex). Se quitaron del sitemap. En index.html y dian.html los resultados de DIAN ya no enlazan a esas paginas (u vacio: quedan Pagar y WhatsApp) y se quito el enlace al indice en dian.html.
+- Se conserva: la pagina principal /dian, la cartilla de adentro y los pagos. No hay que tocar el servidor ni .htaccess: actualizar.php sobrescribe esos archivos con los stubs.
+- Para la otra IA: no regeneres cargos/dian con contenido; si hace falta, dejalos como stubs a /dian.
