@@ -1367,3 +1367,7 @@ QUE FALTA
 - Servidor: actualizar.php (se sube a mano) ahora acepta cargos/(dian|procuraduria|ese-2)/. Ariel ya lo subio. Si se vuelve a regenerar actualizar.php desde otra copia, conservar ese-2 en la lista.
 - Alza del 21 de noviembre: estas paginas llevan el precio escrito. Para actualizarlas: cd /tmp/cce/page && ALZA=10000 FECHA=<dia> python3 mkcargos_ese.py (genera de nuevo las 266 paginas y el sitemap) y volver a empaquetar sitio.pak. Los precios son 40/45/50 mil mas ALZA.
 - Para la otra IA: no borres cargos/ese-2 al regenerar sitio.pak; el generador es mkcargos_ese.py en la sesion de Ariel.
+
+## 2026-11-19 · Buscadores: los resultados de ESE llevan a la pagina de cada cargo
+- Que: en el buscador del inicio (y en el menu movil, que lo usa) los resultados de ESE 2 ahora llevan a /cargos/ese-2/<cargo>-<codigo>-<grado> con el boton "Ver mi cargo" (antes iban a /concursos/ese-2#opec= con "Ver ofertas"). El buscador de /concursos/ese-2 tambien muestra "Ver mi cargo" como primer boton de cada oferta. La direccion se arma en el navegador con la funcion ESEG a partir de la denominacion, el codigo y el grado.
+- Para la otra IA: si regeneras index.html o ese-2.html conserva ESEG y los botones "Ver mi cargo". Los demas concursos no cambian (CAR sigue con "Ver ofertas").
