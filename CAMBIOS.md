@@ -1,3 +1,7 @@
+## 2026-11-18 · Admin: gráficas más claras en Rendimiento y Estadísticas
+- Qué: las listas planas pasan a barras con etiqueta completa, porcentaje del total y la mayor resaltada; la hora pasa a columnas con eje, promedio y pico; el origen de visitas a una barra al 100 %; nuevas tablas "qué origen lleva más a WhatsApp / suscribe más" con tasa (clics entre visitantes del mismo origen); los ID numéricos de campaña de Meta se muestran como "Anuncio Meta …".
+- Por qué: el volumen solo no dice qué origen es mejor; la tasa sí. Y los gráficos planos con texto cortado dificultaban leer. No cambia datos ni otras pantallas.
+
 ## 2026-11-18 · Admin: barra superior más compacta
 - Qué: título más pequeño, se quita la palabra "ADMINISTRACIÓN" y el nombre de usuario en pantallas menores de 1600 px, y se reducen los espacios de los botones del menú.
 - Por qué: que todo quepa en la barra sin barras de desplazamiento. Solo cambia la apariencia.
