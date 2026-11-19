@@ -1,3 +1,7 @@
+## 2026-11-18 · Admin: pantalla "Rendimiento de marketing"
+- Qué: nueva pantalla en Comunicación con inversión Meta, conversaciones, costo por conversación y por venta, campañas, contenido que suscribe y lleva a WhatsApp, guías más leídas, origen de clics y mejor hora, y recomendaciones de la semana.
+- Por qué: para decidir contenido y publicidad (Facebook, Instagram, WhatsApp) con datos reales que ya se guardan. No cambia ningún dato ni otra pantalla.
+
 
 ## 2026-11-03 06:47 - cartilla.enc
 Corrige las explicaciones de 6 preguntas de ofimática (Excel, Word y Outlook) en las cartillas DIAN y Procuraduría: #¡DIV/0!, CONTARA, Ctrl+N, F7, Ctrl+1 y confirmación de lectura. Las respuestas correctas no cambian; ahora cada explicación habla de la respuesta correcta.
