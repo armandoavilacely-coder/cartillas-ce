@@ -1228,3 +1228,10 @@ QUE FALTA
 ## 2026-11-18 · Ranking sin minimo y vista previa del administrador
 - Qué: CE_RANK_MIN pasa de 20 a 1 (el puesto sale desde el primer aspirante con avance, siempre anonimo); el admin ve el chip del ranking en cada concurso (vista de ejemplo con el tamano real del grupo).
 - Por qué: Claudia pidio que el ranking aparezca aunque no haya 20 personas; como admin no veia nada porque la operacion solo respondia a clientes con codigo.
+
+## 2026-11-18 · Admin, tanda 1: menu nuevo en la barra azul
+- Que: el menu del admin pasa de barra lateral (7 grupos) a la misma barra azul de arriba con 5 grupos: Hoy, Clientes, Ventas, Comunicacion y Sistema. Cada grupo abre su lista debajo del boton. Se agrega el buscador "Buscar pantalla". En celular se conserva la barra inferior (ahora con 5 botones).
+- Orden: Clientes (Codigos, Avance y animo, Respuestas, Revision y respaldo); Ventas (Embudo, Pagos, Contabilidad); Comunicacion (Email marketing, Marketing, Publicidad, Anuncios); Sistema (Estadisticas, Pegar datos, Base de datos, Migracion, Cumplimiento normativo, Entornos de prueba).
+- Por que: ordenar el panel y que se vea mas serio. Solo cambia el lugar de los botones: las 18 pantallas existentes siguen llamando a las mismas funciones.
+- Verificacion: se abrio cada uno de los 18 enlaces del menu y el buscador en una prueba; el resto del archivo es identico al publicado. Los contadores se conservan en Clientes (por vencer) y Ventas (seguimientos).
+- Pendiente (tandas siguientes): rediseno de pantallas de Clientes/Ventas y luego Comunicacion/Sistema; pantalla Marketing con decisiones; seguimiento por campana (utm_campaign).
