@@ -1335,3 +1335,8 @@ QUE FALTA
 ## 2026-11-19 · ESE por nivel - paso 2: cartilla con bloques por nivel
 - Que: la cartilla ahora trae los datos de ESE en d-ese-asi, d-ese-tec y d-ese-pro (mas el d-ese de arranque) y el servidor entrega a cada cliente solo los niveles de su plan. Tambien: tec/pro con capitulo n-estado y mapas por empleo actualizados.
 - IMPORTANTE para la otra IA: al regenerar cartilla.enc conserva esos bloques; no pongas de nuevo un solo d-ese con todos los datos.
+
+## 2026-11-19 · CAR por nivel - paso 1 (php.pak)
+- Que: el servidor ya sabe entregar los datos de CAR por nivel (d-car-asi/tec/pro). Nueva funcion ce_car_lv en lib.php; ce_niv_opciones de CAR ahora suma niveles cuando el plan trae varios (antes solo devolvia el primero). index.php sirve ?js=dcar con el bloque base mas los niveles del plan y arma la pagina igual que con ESE. Ademas el hash de cache de ESE y CAR ahora incluye el bloque base.
+- Compatible con la cartilla actual (si no existe d-car-asi usa el camino de siempre). La cartilla con los bloques por nivel va en el paso 2.
+- Para la otra IA: no regeneres br-dcar (la copia brotli de los datos de CAR); con bloques por nivel se quita.
