@@ -1109,3 +1109,16 @@ INSTRUCCIONES PARA OTRA IA
 - No muevas los casos de capítulo: el simulacro depende de que cada caso esté en el capítulo de su tema. Para añadir casos: agrégalos a b.preguntas del capítulo con caso, sim:1, nuevo:true y nv si es de un nivel. Si editas s-car o d-car, regenera su br-* y CE-PUB.
 QUE FALTA
 - Pocos casos: algunos empleos profesionales quedan con 2 casos (6 preguntas). Tanda 2: más casos en ambiental, biodiversidad, residuos-aire, planeación, talento humano, TIC y SST; lecciones de los 5 capítulos sin ellas; preguntas de 4 a 3 opciones; avance en servidor; plan de estudio con el aplazamiento.
+
+## 18 nov 2026, 20:45 — sitio.pak (página del concurso CAR: datos de la CNSC, simulacro gratis de 30 y fecha de actualización)
+QUE SE HIZO
+- concursos/corporaciones-autonomas-regionales.html: "Última actualización: 18 de noviembre de 2026" (visible) y dateModified del JSON-LD; sitemap lastmod de esa página.
+- Datos tomados del micrositio oficial de la CNSC (avisos del 8 y 16 de septiembre): OPEC publicada el 8 sept con 1.383 empleos y 1.832 vacantes (se deja también el 1.389 de SIMO al 20 oct); derechos de participación 2026 $87.550 profesional y $58.400 técnico y asistencial; el aplazamiento rige hasta que se levanten las medidas del Decreto Legislativo 1384, vigencia hasta el 31 dic 2026; sin nueva fecha de inscripción; Guía de Orientación sin publicar (sección Guías vacía).
+- La sección "Evaluación de muestra: diez preguntas" pasa a "Simulacro gratis: 30 preguntas de CAR" con botón a /acceso/?registro=1&c=car (el catálogo gratis ya dice 30 preguntas); se corrige también la pregunta frecuente y su JSON-LD. El contenedor #qcard queda oculto porque el script de la página lo usa.
+- "Qué incluye" suma Simulacro en casos, Mi cargo y Plan de estudio. Sección nueva "Cómo practicas la prueba funcional en la cartilla" (casos de 3 preguntas, funciones del empleo, razón de cada respuesta).
+POR QUE
+- Claudia pidió revisar la página de CAR contra la CNSC, ofrecer el simulacro gratis de 30 (no 10 preguntas), reflejar lo nuevo de la cartilla (tanda 1 CAR) y mostrar la fecha de la última actualización.
+COMO SE HIZO
+- Parche sobre el sitio.pak vigente (/tmp/work/car/pg/edit.py, reemplazos exactos con asserts), solo cambian esa página y sitemap.xml; paquete firmado con HMAC (site) y verificado. Probado en celular (400 px) sin desbordes ni errores.
+QUE FALTA
+- Las páginas de DIAN y Procuraduría siguen con "diez preguntas" de muestra; llevan la misma regla del simulacro gratis. La imagen/maqueta no se mostró antes (cambio de texto y una sección). Si la CNSC publica nueva fecha de inscripción o la Guía de Orientación, actualizar aquí.
