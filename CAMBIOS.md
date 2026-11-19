@@ -1318,3 +1318,7 @@ QUE FALTA
 - Que: la pagina /concursos/ese-2, el buscador del inicio y pagar.html ahora buscan los 1.217 empleos de los tres niveles; precios 40.000 asistencial, 45.000 tecnico y 50.000 profesional (en pagar.html, inicio y pagina). El bot (chat_core.php) ya ofrece los tres niveles.
 - IMPORTANTE para la otra IA: wompi.php (subida manual, no esta en el repo) todavia cobra solo asistencial para ese; Ariel lo sube al final. Hasta entonces el pago en linea de tec/pro no funciona (lib.php ya trae ese-tec 45k y ese-pro 50k).
 - No tocar los precios de ESE sin avisar: la subida de +$10.000 del 21 de noviembre sigue pendiente y aplica tambien a estos niveles.
+
+## 2026-11-19 · ESE 2: capitulos tecnico/profesional sin avisos "A verificar"
+- Que: se resolvieron los avisos de los 10 capitulos nuevos con fuentes y se corrigieron normas (pension 16% y Ley 2381, paternidad Ley 2114, MIPRES Res. 1816 de 2026, caducidad de repeticion 5 anos Ley 2195, Res. 1732 revocada por la 2080 de 2026, Res. 948 de 2026 RIPS, Res. 347 de 2025 CGN).
+- Pendiente: quedan avisos "A verificar" en los capitulos del nivel asistencial (cap/*.json); wompi.php sigue pendiente.
