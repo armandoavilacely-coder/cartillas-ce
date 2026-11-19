@@ -1322,3 +1322,7 @@ QUE FALTA
 ## 2026-11-19 · ESE 2: capitulos tecnico/profesional sin avisos "A verificar"
 - Que: se resolvieron los avisos de los 10 capitulos nuevos con fuentes y se corrigieron normas (pension 16% y Ley 2381, paternidad Ley 2114, MIPRES Res. 1816 de 2026, caducidad de repeticion 5 anos Ley 2195, Res. 1732 revocada por la 2080 de 2026, Res. 948 de 2026 RIPS, Res. 347 de 2025 CGN).
 - Pendiente: quedan avisos "A verificar" en los capitulos del nivel asistencial (cap/*.json); wompi.php sigue pendiente.
+
+## 2026-11-19 · ESE 2: capitulos del nivel asistencial sin avisos "A verificar"
+- Que: se resolvieron los avisos de los 23 capitulos asistenciales; ya no queda ninguno en la cartilla ESE. Correcciones de fondo: historia clinica se conserva 15 anos (Res. 839 de 2017, antes decia 20), Decreto 858 de 2025 (redes) suspendido por el Consejo de Estado, Res. 373 de 2026 (tiempos de urgencias), Res. 1843 de 2025 (examenes ocupacionales), Res. 2335 de 2023 (referencia), Res. 948 de 2026 (RIPS).
+- Pendiente: wompi.php (subida manual) para abrir tecnico y profesional; subida de +$10.000 del 21 de noviembre.
