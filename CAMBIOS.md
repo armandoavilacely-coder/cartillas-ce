@@ -1,3 +1,7 @@
+## 2026-11-19 · Admin: pantallas Seguimientos y Alertas (grupo Hoy)
+- Qué: "Seguimientos" lista los contactos que necesitan un mensaje (a punto de pagar, seguimiento vencido, para hoy, sin movimiento, en frío) con botón de WhatsApp y acceso al embudo; "Alertas" reúne lo urgente (pagos por validar, seguimientos vencidos, códigos vencidos), lo que hay que atender (por vencer, pagaron y no ingresan, sin movimiento, por revisar) y lo informativo (clientes estancados o sin empezar), cada una con su botón para ir a resolverla.
+- Por qué: en Hoy solo se veían los primeros 6 seguimientos y las alertas estaban repartidas en varias pantallas. Solo lee datos que ya existen; no modifica nada.
+
 ## 2026-11-19 · Admin: Códigos más ordenado (pestañas, menú por fila, tarjetas en celular)
 - Qué: pestañas arriba de la tabla (Todos, Activos, Por vencer, Sin ingresar, Sin nivel, Desactivados) con su conteo; cada fila muestra WhatsApp (o correo) y Administrar, y el resto (correo, copiar para WhatsApp, mensaje de renovación) queda en "Más acciones"; las acciones generales (sesiones de admin, datos de una persona, respaldo, fecha de fin de acceso, asignar niveles) pasan a un menú "Más acciones"; en celular cada código se ve como una tarjeta con sus títulos.
 - Por qué: la tabla tenía hasta cinco botones apilados por fila y filtros sueltos, y en celular obligaba a deslizar. Se conservan los campos editables (correo, celular, vence, pagó, plan, medio de pago) y todas las acciones con la misma función; solo cambia dónde están. No se hizo la ficha lateral.
