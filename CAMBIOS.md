@@ -1352,3 +1352,6 @@ QUE FALTA
 ## 2026-11-19 · Docentes por nivel - paso 2: cartilla con bloques por nivel
 - Que: los datos de Docentes ahora viajan en d-doc (capitulos comunes) mas d-doc-pri, d-doc-sec, d-doc-ori y d-doc-dir (capitulos propios de cada nivel y preguntas/lecciones de ese nivel, con _o = posicion original). El servidor entrega a cada cliente solo los niveles de su plan.
 - IMPORTANTE para la otra IA: al regenerar cartilla.enc conserva esos bloques (y los de ESE y CAR); no vuelvas a un solo d-doc con todo ni regeneres br-ddoc. Constructor en /tmp/cce/car2/build_doc.py de la sesion de Ariel.
+
+## 2026-11-19 · Arreglo: ESE por nivel devolvia 403 (php.pak)
+- Que: la comprobacion de seguridad de ?js=dese buscaba un texto que el bloque de ESE no trae y respondia 403, por eso la cartilla de ESE salia vacia. Ahora busca D.ofertas=D.ofertas.concat. CAR y Docentes no estaban afectados.
