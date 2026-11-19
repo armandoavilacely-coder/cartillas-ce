@@ -1184,3 +1184,20 @@ INSTRUCCIONES PARA OTRA IA
 - No se tocan las plantillas del email marketing existente; esta seccion usa la via de lista de msg_enviar. El remitente es el de smtp.json (se muestra en pantalla); la preferencia es envios@concursosdelestado.com.
 QUE FALTA
 - Revisar vista previa y enviar prueba antes del primer envio masivo. Posible: historial de correos de animo por cliente para no repetir en pocos dias, y envio programado.
+
+## 18 nov 2026, 22:40 — php.pak + cartilla.enc (ranking anonimo por concurso y nivel; textos "se guarda en tu cuenta")
+QUE SE HIZO
+- php.pak (acceso/lib.php): ce_rank_def/ce_rank_pct/ce_rank_tabla/ce_rank_de. Para cada cliente de pago activo con avance (>=1 leccion) calcula el % por concurso (dian, pgn, car, ese, doc) con la misma formula del panel (plan2676-resumen + temas) y agrupa por concurso|nivel (accesos_admin.niveles). Tabla en cache 10 min (ce_data/ranking.json); el % del propio cliente se calcula al momento. Minimo CE_RANK_MIN=20 aspirantes con avance: si hay menos, estado "pronto". Cambio semanal guardado en accesos_admin[fp].rk[concurso] {p,t,d}. Nunca se devuelven nombres ni codigos de otros.
+- php.pak (acceso/api.php): ops de cliente rank, rank_off y rank_on (accesos_admin[fp].rk_off; excluye del ranking y oculta el puesto; borra el cache).
+- php.pak (panel Mi panel, barra .cb): chip #cbk "Puesto P de N · concurso nivel · X % superior ▲d" y popover #rkp (promedio del grupo, lecciones para superar, enlace "No quiero aparecer"/"Volver a aparecer"). Se pinta con textContent.
+- cartilla.enc: textos que decian "se guarda en este navegador" pasan a "se guarda en tu cuenta" (DIAN, Procuraduria, CAR, ESE, Docentes, plan de estudio, correo de acceso); br-dian/br-pgn/br-car regenerados y CE-PUB recalculado. Se dejo "el codigo queda guardado en este navegador" (es cierto).
+POR QUE
+- Claudia quiere que cada cliente vea su posicion anonima frente a otros aspirantes de SU concurso para motivarlos, y exige que el avance de todos los concursos este en el servidor (ya se sincroniza por codigo con op sync; la lista blanca incluye los cinco concursos y plan2676-*).
+COMO SE HIZO
+- Parches de texto con asserts sobre lib.php/api.php dentro de php.pak (firma 'php', CP1) y sobre cartilla.enc. Logica PHP probada con 25 aspirantes simulados (puesto, off, gratis=nada) y JS del chip con node --check; cartilla cargada sin errores. No probado con clientes reales.
+INSTRUCCIONES PARA OTRA IA
+- El ranking solo usa avance en servidor (progreso). Si se agrega un concurso nuevo: sumarlo a ce_rank_def, a la lista blanca de claves de op sync (api.php) y al regex del chip (rank() en la barra), y asegurar que su cartilla escribe plan2676-resumen {d,n}.
+- Abogados (examen de Estado) aun no guarda avance por lecciones: no entra al ranking.
+QUE FALTA
+- Agregar a la politica de privacidad una linea sobre el ranking anonimo (usa avance de estudio); Claudia debe aprobar la redaccion.
+- Revisar con clientes reales que el chip se vea bien en celular y que el grupo minimo de 20 sea el adecuado.
