@@ -1,3 +1,7 @@
+## 2026-11-19 · ESE solo para quien paga
+**Qué:** si el plan de una cuenta está vacío o no se reconoce, el servidor ya no le entrega el módulo ni los datos de la cartilla ESE. ESE se abre solo con un plan que lo incluya (ese-asi, ese-tec, ese-pro, ese-todos) o a la administradora. Las cuentas gratis y el curso de abogados ya no recibían nada de pago.
+**Por qué:** pedido de Ariel: que ESE solo lo vea quien paga. Los planes no reconocidos conservan lo que ya tenían de DIAN, Procuraduría, CAR y Docentes para no dejar sin acceso a clientes antiguos.
+
 ## 2026-11-19 · Cartilla ESE 2: contenido solo de salud y ficha por áreas
 **Qué:** (1) Se quitó de los capítulos genéricos de la cartilla ESE todo lo exclusivo de otros concursos: casos y preguntas de ambiente (CAR), docentes, planeación nacional, cobro coactivo tributario y referencias a DIAN y corporaciones autónomas, además del video del derecho de petición y restos de código heredado. (2) «Mi cargo» muestra la ficha del manual de funciones dividida como el manual: identificación, propósito, funciones generales, funciones específicas por área (con los capítulos de estudio de cada área) y requisitos. Solo se reemplazaron los módulos s-ese y d-ese; el resto de la cartilla se mantiene como estaba.
 **Por qué:** pedido de Ariel: ningún contenido exclusivo de otro concurso en el curso ESE y fichas organizadas por tema como en el manual real.
