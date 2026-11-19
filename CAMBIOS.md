@@ -1148,3 +1148,16 @@ INSTRUCCIONES PARA OTRA IA
 - No muevas los casos de capitulo ni re-serialices d-car; tras editar regenera br-dcar y CE-PUB.
 QUE FALTA
 - Cotejar con los textos las normas citadas de memoria (Decretos 1083/2015, 1045/1978, 2591/1991, Ley 1755/2015, Res. 1401/2007). El simulacro muestra maximo 15 preguntas.
+
+## 18 nov 2026, 22:15 — php.pak + cartilla.enc (admin: simulacros y cursos gratis que hizo cada cuenta gratuita)
+QUE SE HIZO
+- php.pak (acceso/lib.php, op crm_actividad): ademas de 'act' devuelve 'gr': por cada cuenta con accesos_admin[fp].gr, la lista de {s slug, n nombre del catalogo gratis, a abrio, f/k veces terminado, p mejor %, t ultimo}. 'act' no cambia (crm_nivel_auto sigue igual).
+- cartilla.enc (panel admin, llenarAct): debajo del cargo muestra "🧪 <simulacro>: terminó N veces · mejor X %" o "lo abrió, sin terminar" (hasta 4 lineas). Si la cuenta solo tiene simulacros no sale "Aún no ha elegido cargo". Variable GRA (GR ya existe en ese script).
+POR QUE
+- Claudia necesita saber, en la fila de cada codigo gratuito del admin, que simulacros hicieron los clientes.
+COMO SE HIZO
+- Parche de texto sobre lib.php dentro de php.pak (firma 'php', magic CP1) y sobre el panel de cartilla.enc con asserts de reemplazo unico; CE-PUB recalculado. JS verificado con node --check; sin prueba con datos reales.
+INSTRUCCIONES PARA OTRA IA
+- Los datos vienen de ce_gratis_visto (la pagina gratis avisa abre/fin con el % del simulacro). Solo se guarda mejor % y numero de terminaciones, no cada intento.
+QUE FALTA
+- Historial por intento (fecha y nota) si Claudia lo pide: guardarlo en accesos_admin[fp].gr[slug].h.
