@@ -1136,3 +1136,15 @@ INSTRUCCIONES PARA OTRA IA
 - Igual que la tanda 1: no muevas los casos de capitulo ni re-serialices d-car; tras editar regenera br-dcar y CE-PUB.
 QUE FALTA
 - Con la tanda 2 el simulacro trae hasta 15 preguntas; algunos empleos (profesional administrativo/juridico, asistencial de contratacion y talento humano) quedan con 9. Falta tanda 3 en capitulos juridico, administrativo y asistencial.
+
+## 18 nov 2026, 22:00 — cartilla.enc (CAR, tanda 3: 6 casos mas para el simulacro)
+QUE SE HIZO
+- CAR: 6 casos nuevos de 3 preguntas (18 preguntas, 3 opciones, NUEVO, sim:1) en los capitulos disciplinario, talento-humano, transparencia (terminos de peticiones), sst, contratacion (supervision, Ley 1474) y participacion (terminos de tutela, Decreto 2591). Solo datos d-car; br-dcar y CE-PUB regenerados.
+POR QUE
+- Cuatro perfiles (profesional administrativo y juridico, asistencial de contratacion y de talento humano) quedaban con 9 preguntas en el simulacro.
+COMO SE HIZO
+- Igual que la tanda 2 (/tmp/work/car/t2/apply3.py): insercion de texto con put()/arr_end y comprobacion de igualdad. Los capitulos n-* no existen en d-car (solo en las listas de niveles): los casos van en capitulos reales. Probado con 36 empleos a 400 px: entre 12 y 15 preguntas, sin errores.
+INSTRUCCIONES PARA OTRA IA
+- No muevas los casos de capitulo ni re-serialices d-car; tras editar regenera br-dcar y CE-PUB.
+QUE FALTA
+- Cotejar con los textos las normas citadas de memoria (Decretos 1083/2015, 1045/1978, 2591/1991, Ley 1755/2015, Res. 1401/2007). El simulacro muestra maximo 15 preguntas.
