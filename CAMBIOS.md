@@ -1371,3 +1371,10 @@ QUE FALTA
 ## 2026-11-19 · Buscadores: los resultados de ESE llevan a la pagina de cada cargo
 - Que: en el buscador del inicio (y en el menu movil, que lo usa) los resultados de ESE 2 ahora llevan a /cargos/ese-2/<cargo>-<codigo>-<grado> con el boton "Ver mi cargo" (antes iban a /concursos/ese-2#opec= con "Ver ofertas"). El buscador de /concursos/ese-2 tambien muestra "Ver mi cargo" como primer boton de cada oferta. La direccion se arma en el navegador con la funcion ESEG a partir de la denominacion, el codigo y el grado.
 - Para la otra IA: si regeneras index.html o ese-2.html conserva ESEG y los botones "Ver mi cargo". Los demas concursos no cambian (CAR sigue con "Ver ofertas").
+
+## 2026-11-19 · Paginas de cargos de CAR y Docentes para buscadores (sitio.pak)
+- Que: 97 paginas en /cargos/car/<cargo>-<codigo>-grado-<n> y 23 en /cargos/docentes/<cargo> (mas un indice en cada carpeta y el sitemap), con la plantilla de las de ESE. Cada una trae ejes tematicos y titulos de lecciones segun el nivel (CAR pondera por el perfil del codigo, Docentes usa el area del cargo), ofertas OPEC, precio y boton de pago.
+- Buscadores: el inicio, corporaciones-autonomas-regionales.html y docentes.html ahora llevan cada resultado a su pagina de cargo (boton "Ver mi cargo"); las dos paginas de concurso enlazan al indice.
+- Servidor: actualizar.php (se sube a mano) acepta cargos/(dian|procuraduria|ese-2|car|docentes)/. Si se regenera desde otra copia, conservar esa lista.
+- Alza del 21 de noviembre: llevan el precio escrito. Regenerar con: cd /tmp/cce/page && ALZA=10000 FECHA=<dia> python3 mkcargos_cd.py (y mkcargos_ese.py), luego packsite.py.
+- Para la otra IA: no borres cargos/car ni cargos/docentes al regenerar sitio.pak.
