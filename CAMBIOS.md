@@ -1313,3 +1313,8 @@ QUE FALTA
 - Sigue en venta SOLO asistencial: wompi.php, pagar.html, index.html, pagina ese-2 y bot no se tocaron. Los niveles se siguen limitando por plan (ese-asi) en el cliente.
 - Instruccion para la otra IA: no abrir tec/pro a la venta hasta que Ariel lo ordene. Cuando lo haga: wp_precio en wompi.php (subida manual), pagar.html (OPT/precio/CG), index (ESEC/ESED), pagina ese-2 y chat_core; lib.php ya tiene ese-tec 45k y ese-pro 50k.
 - Pendiente de verificar (marcado "A verificar" en los capitulos): datos legales listados por cada capitulo.
+
+## 2026-11-19 · ESE 2: tecnico y profesional listos en sitio, pagar, inicio y bot (falta wompi.php)
+- Que: la pagina /concursos/ese-2, el buscador del inicio y pagar.html ahora buscan los 1.217 empleos de los tres niveles; precios 40.000 asistencial, 45.000 tecnico y 50.000 profesional (en pagar.html, inicio y pagina). El bot (chat_core.php) ya ofrece los tres niveles.
+- IMPORTANTE para la otra IA: wompi.php (subida manual, no esta en el repo) todavia cobra solo asistencial para ese; Ariel lo sube al final. Hasta entonces el pago en linea de tec/pro no funciona (lib.php ya trae ese-tec 45k y ese-pro 50k).
+- No tocar los precios de ESE sin avisar: la subida de +$10.000 del 21 de noviembre sigue pendiente y aplica tambien a estos niveles.
