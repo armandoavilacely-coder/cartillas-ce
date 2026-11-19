@@ -1219,3 +1219,8 @@ QUE FALTA
 - Qué: el curso de Abogados (Examen de Estado) ahora guarda su avance en el servidor (clave ce_abog_v1, entra al sync permitido) y participa en el ranking anónimo y en "Avance y ánimo".
 - Por qué: el ranking y el avance debían aparecer a todos los concursantes de todos los concursos y cargos; Abogados era el único que guardaba solo en el navegador.
 - Detalle: porcentaje = lecciones hechas / total (_n); chip del panel incluye abog; al abrir el curso se recupera lo guardado en la cuenta.
+
+## 2026-11-18 · Panel: CAR/ESE/Docentes abrian el selector "Elige tu cartilla"
+- Qué: la cartilla ahora respeta la ruta (#/car-..., #/ese-..., #/doc-...) que manda "Abrir curso" del panel tambien en cuentas que combinan concursos (antes solo si la cuenta no tenia DIAN/PGN); el boton de ESE ahora manda su ruta.
+- Regla: solo se abre el nivel que el cliente pago (se toma de sus niveles); si pide un nivel que no tiene, abre el suyo. Nada se muestra sin pago de ese concurso y nivel.
+- Por qué: con DIAN/PGN + CAR/ESE el cliente veia el selector en vez de su curso.
