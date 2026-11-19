@@ -2,6 +2,10 @@
 - Qué: el menú Hoy muestra un número rojo con las alertas urgentes (pagos por validar, seguimientos vencidos y códigos vencidos que siguen activos), el mismo criterio de la sección «Urgente» de Alertas.
 - Por qué: ver desde cualquier pantalla si hay algo que no puede esperar. Usa los mismos datos que ya cargaba el menú para el número de Ventas; no hace consultas nuevas.
 
+## 2026-11-19 · Estadísticas reordenadas y gráficos mejorados
+**Qué:** el panel se organiza en 5 secciones numeradas (Panorama, Tráfico, De dónde llegan y qué leen, Interés que se vuelve contacto, Contactos y ventas). Panorama con 6 cifras comparadas con los 7 días previos (flecha y minigráfico). Visitas por día con eje, promedio móvil de 7 días, fines de semana en gris, hoy resaltado y pico anotado. Mapas de calor día×hora para visitas y para contactos. Origen en barra apilada al 100 % y tasa de conversión a WhatsApp por origen con aviso de muestra pequeña. «Visitante o cliente» en barra apilada.
+**Por qué:** pedido de Claudia: ordenar el panel y aplicar normas de análisis de datos (comparar, mostrar proporciones, tasas en lugar de solo volumen, ejes y escala visibles, un solo color con énfasis). Solo cambia la pantalla Estadísticas; no toca datos ni accesos.
+
 ## 2026-11-19 · Estadísticas: mapa de calor de visitas por día y hora
 - Qué: el servidor ahora entrega también la matriz día de la semana por hora (acceso/lib.php, ce_visitas_resumen), calculada con las horas que ya se guardaban por día; Estadísticas muestra el mapa de calor «Día y hora» con el momento más activo.
 - Por qué: saber cuándo publicar y responder. No guarda datos nuevos ni cambia nada para el visitante; ya trae los últimos 30 días.
