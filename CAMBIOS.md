@@ -1,3 +1,7 @@
+## 2026-11-19 · Campaña de origen en cada contacto y ventas por campaña
+- Qué: el contacto del Embudo tiene un campo nuevo «Campaña de origen» (con sugerencias de las ya usadas) y el servidor lo guarda (acceso/lib.php, función crm_campos, una línea). En Rendimiento de marketing hay una tabla «Ventas por campaña» con contactos, ventas, ingresos y costo por venta cuando el nombre coincide con el de la campaña en Meta.
+- Por qué: hasta ahora el costo por venta era global; con la campaña anotada se ve cuál campaña vende y cuánto cuesta cada venta. No cambia nada de lo que ve el cliente; los contactos sin campaña quedan igual.
+
 ## 2026-11-19 · Admin: pantallas Seguimientos y Alertas (grupo Hoy)
 - Qué: "Seguimientos" lista los contactos que necesitan un mensaje (a punto de pagar, seguimiento vencido, para hoy, sin movimiento, en frío) con botón de WhatsApp y acceso al embudo; "Alertas" reúne lo urgente (pagos por validar, seguimientos vencidos, códigos vencidos), lo que hay que atender (por vencer, pagaron y no ingresan, sin movimiento, por revisar) y lo informativo (clientes estancados o sin empezar), cada una con su botón para ir a resolverla.
 - Por qué: en Hoy solo se veían los primeros 6 seguimientos y las alertas estaban repartidas en varias pantallas. Solo lee datos que ya existen; no modifica nada.
