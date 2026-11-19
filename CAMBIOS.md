@@ -2,6 +2,10 @@
 - Qué: el menú Hoy muestra un número rojo con las alertas urgentes (pagos por validar, seguimientos vencidos y códigos vencidos que siguen activos), el mismo criterio de la sección «Urgente» de Alertas.
 - Por qué: ver desde cualquier pantalla si hay algo que no puede esperar. Usa los mismos datos que ya cargaba el menú para el número de Ventas; no hace consultas nuevas.
 
+## 2026-11-19 · Coherencia del panel de administración
+**Qué:** (1) «Estadísticas» pasa del grupo Sistema al grupo Ventas, junto al Embudo, porque es análisis de ventas y visitas. (2) Una sola palabra para la persona que aún no compra: «contacto» (antes se mezclaban lead y prospecto) en Estadísticas, Rendimiento, Pegar datos y Base de datos; «Lead» queda solo como nombre del evento de Meta. (3) El número rojo de Ventas usa la misma regla que la pantalla Seguimientos (sin en frío, perdidos ni clientes). (4) El título de la pantalla es «Estadísticas», igual que el menú.
+**Por qué:** pedido de Claudia de revisar la coherencia de todo el panel: el mismo concepto tenía tres nombres, una pantalla estaba en un grupo que no le correspondía y dos números rojos contaban distinto lo mismo. No cambia datos ni accesos.
+
 ## 2026-11-19 · Estadísticas reordenadas y gráficos mejorados
 **Qué:** el panel se organiza en 5 secciones numeradas (Panorama, Tráfico, De dónde llegan y qué leen, Interés que se vuelve contacto, Contactos y ventas). Panorama con 6 cifras comparadas con los 7 días previos (flecha y minigráfico). Visitas por día con eje, promedio móvil de 7 días, fines de semana en gris, hoy resaltado y pico anotado. Mapas de calor día×hora para visitas y para contactos. Origen en barra apilada al 100 % y tasa de conversión a WhatsApp por origen con aviso de muestra pequeña. «Visitante o cliente» en barra apilada.
 **Por qué:** pedido de Claudia: ordenar el panel y aplicar normas de análisis de datos (comparar, mostrar proporciones, tasas en lugar de solo volumen, ejes y escala visibles, un solo color con énfasis). Solo cambia la pantalla Estadísticas; no toca datos ni accesos.
