@@ -1,3 +1,7 @@
+## 2026-11-18 · Admin: dona de estado de leads en Estadísticas
+- Qué: nueva gráfica de dona (activos, en proceso, fríos, perdidos) en Estadísticas.
+- Por qué: ver de un vistazo cómo está la base de clientes. Solo se agrega una caja; no cambia datos ni otras gráficas. El mapa de calor de leads por día y hora ya existía.
+
 ## 2026-11-18 · Admin: pantalla "Rendimiento de marketing"
 - Qué: nueva pantalla en Comunicación con inversión Meta, conversaciones, costo por conversación y por venta, campañas, contenido que suscribe y lleva a WhatsApp, guías más leídas, origen de clics y mejor hora, y recomendaciones de la semana.
 - Por qué: para decidir contenido y publicidad (Facebook, Instagram, WhatsApp) con datos reales que ya se guardan. No cambia ningún dato ni otra pantalla.
