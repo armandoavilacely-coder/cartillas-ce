@@ -1,3 +1,7 @@
+## 2026-11-18 · Admin: barra superior más compacta
+- Qué: título más pequeño, se quita la palabra "ADMINISTRACIÓN" y el nombre de usuario en pantallas menores de 1600 px, y se reducen los espacios de los botones del menú.
+- Por qué: que todo quepa en la barra sin barras de desplazamiento. Solo cambia la apariencia.
+
 ## 2026-11-18 · Admin: dona de estado de leads en Estadísticas
 - Qué: nueva gráfica de dona (activos, en proceso, fríos, perdidos) en Estadísticas.
 - Por qué: ver de un vistazo cómo está la base de clientes. Solo se agrega una caja; no cambia datos ni otras gráficas. El mapa de calor de leads por día y hora ya existía.
