@@ -1,3 +1,7 @@
+## 2026-11-18 · Admin: versión celular de Rendimiento y Estadísticas
+- Qué: en pantallas pequeñas las cajas de Rendimiento van en una sola columna (antes una quedaba como tira vertical); el botón Cerrar no se parte; las tarjetas de cifras van de a dos por fila con números que se ajustan; se quitaron anchos mínimos que obligaban a deslizar tablas y el embudo; las tablas de comparación por origen se reacomodan; el menú inferior ya no parte "Comunicación".
+- Por qué: en el celular se veía desordenado y con columnas aplastadas. En computador no cambia nada.
+
 ## 2026-11-18 · Admin: gráficas más claras en Rendimiento y Estadísticas
 - Qué: las listas planas pasan a barras con etiqueta completa, porcentaje del total y la mayor resaltada; la hora pasa a columnas con eje, promedio y pico; el origen de visitas a una barra al 100 %; nuevas tablas "qué origen lleva más a WhatsApp / suscribe más" con tasa (clics entre visitantes del mismo origen); los ID numéricos de campaña de Meta se muestran como "Anuncio Meta …".
 - Por qué: el volumen solo no dice qué origen es mejor; la tasa sí. Y los gráficos planos con texto cortado dificultaban leer. No cambia datos ni otras pantallas.
