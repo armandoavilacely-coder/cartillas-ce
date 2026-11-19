@@ -1,3 +1,7 @@
+## 2026-11-19 · Cartilla ESE 2: contenido solo de salud y ficha por áreas
+**Qué:** (1) Se quitó de los capítulos genéricos de la cartilla ESE todo lo exclusivo de otros concursos: casos y preguntas de ambiente (CAR), docentes, planeación nacional, cobro coactivo tributario y referencias a DIAN y corporaciones autónomas, además del video del derecho de petición y restos de código heredado. (2) «Mi cargo» muestra la ficha del manual de funciones dividida como el manual: identificación, propósito, funciones generales, funciones específicas por área (con los capítulos de estudio de cada área) y requisitos. Solo se reemplazaron los módulos s-ese y d-ese; el resto de la cartilla se mantiene como estaba.
+**Por qué:** pedido de Ariel: ningún contenido exclusivo de otro concurso en el curso ESE y fichas organizadas por tema como en el manual real.
+
 ## 2026-11-19 · Admin: número rojo de alertas urgentes en el menú Hoy
 - Qué: el menú Hoy muestra un número rojo con las alertas urgentes (pagos por validar, seguimientos vencidos y códigos vencidos que siguen activos), el mismo criterio de la sección «Urgente» de Alertas.
 - Por qué: ver desde cualquier pantalla si hay algo que no puede esperar. Usa los mismos datos que ya cargaba el menú para el número de Ventas; no hace consultas nuevas.
