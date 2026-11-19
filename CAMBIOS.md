@@ -1,3 +1,7 @@
+## 2026-11-19 · Admin: número rojo de alertas urgentes en el menú Hoy
+- Qué: el menú Hoy muestra un número rojo con las alertas urgentes (pagos por validar, seguimientos vencidos y códigos vencidos que siguen activos), el mismo criterio de la sección «Urgente» de Alertas.
+- Por qué: ver desde cualquier pantalla si hay algo que no puede esperar. Usa los mismos datos que ya cargaba el menú para el número de Ventas; no hace consultas nuevas.
+
 ## 2026-11-19 · Estadísticas: mapa de calor de visitas por día y hora
 - Qué: el servidor ahora entrega también la matriz día de la semana por hora (acceso/lib.php, ce_visitas_resumen), calculada con las horas que ya se guardaban por día; Estadísticas muestra el mapa de calor «Día y hora» con el momento más activo.
 - Por qué: saber cuándo publicar y responder. No guarda datos nuevos ni cambia nada para el visitante; ya trae los últimos 30 días.
