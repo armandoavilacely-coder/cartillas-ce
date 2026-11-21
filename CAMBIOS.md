@@ -1393,3 +1393,7 @@ QUE FALTA
 - Que: en concursos/ese-2.html, concursos/corporaciones-autonomas-regionales.html y concursos/docentes.html se reemplazo el enlace unico al indice por un bloque "cargos con mas ofertas" (14 en ESE y CAR, 22 en Docentes) con enlace directo a la pagina de cada cargo y al indice. Se ordena por numero de OPEC. Sirve para que Google descubra y valore esas paginas.
 - Datos que lo motivaron (Search Console, 28 dias hasta 18-nov): 1.250 clics; las paginas por cargo de Procuraduria dan 129 clics (207 de 380 con impresiones, posicion media 6,1); las de DIAN daban 493 clics (casi 40 %) y quedaron como redireccion con noindex por decision de Ariel el 19-nov. ESE, CAR y Docentes aun sin datos (paginas nuevas).
 - Si se regeneran las paginas por cargo, repetir este bloque (se arma leyendo cargos/<concurso>/index.html).
+
+## 2026-11-20 · SEO Procuraduria: descripciones con "ejes tematicos" (sitio.pak)
+- Que: en las 380 paginas de /cargos/procuraduria/ la meta description ahora empieza con "Ejes tematicos y N lecciones para <cargo>, Procuraduria 2026 (Conv. X)". Motivo: Search Console muestra que la gente busca "ejes tematicos concurso procuraduria 2026", el codigo del cargo ("3pu-15", "4sp-12") y "citador procuraduria". Titulos sin cambio (ya eran unicos).
+- Para la otra IA: si se regeneran estas paginas, conservar esa redaccion.
