@@ -1388,3 +1388,8 @@ QUE FALTA
 - Que: auditoria tecnica del sitio (997 paginas). Habia titulos de mas de 65 caracteres y descripciones de mas de 165 en las paginas de CAR, Docentes y ESE (Google los corta). Se acortaron en los generadores (mkcargos_cd.py y mkcargos_ese.py, funcion fit) y se regeneraron las 386 paginas. No hay titulos ni descripciones repetidos entre paginas por cargo; el sitemap (982 direcciones) no tiene duplicados ni archivos faltantes.
 - No se toco: las guias y pagar.html no llevan description ni canonical porque son noindex a proposito.
 - Pendiente (no urgente): titulos largos en unas 95 paginas "otras" (guias, noticias).
+
+## 2026-11-20 · SEO: bloque de cargos mas buscados en las portadas de ESE, CAR y Docentes (sitio.pak)
+- Que: en concursos/ese-2.html, concursos/corporaciones-autonomas-regionales.html y concursos/docentes.html se reemplazo el enlace unico al indice por un bloque "cargos con mas ofertas" (14 en ESE y CAR, 22 en Docentes) con enlace directo a la pagina de cada cargo y al indice. Se ordena por numero de OPEC. Sirve para que Google descubra y valore esas paginas.
+- Datos que lo motivaron (Search Console, 28 dias hasta 18-nov): 1.250 clics; las paginas por cargo de Procuraduria dan 129 clics (207 de 380 con impresiones, posicion media 6,1); las de DIAN daban 493 clics (casi 40 %) y quedaron como redireccion con noindex por decision de Ariel el 19-nov. ESE, CAR y Docentes aun sin datos (paginas nuevas).
+- Si se regeneran las paginas por cargo, repetir este bloque (se arma leyendo cargos/<concurso>/index.html).
