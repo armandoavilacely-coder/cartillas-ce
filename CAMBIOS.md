@@ -1,3 +1,8 @@
+## 2026-11-20 · Precios sin alza: wompi.php (solo servidor, cambio manual)
+**Qué:** en acceso/wompi.php (archivo que vive solo en el servidor, no está en php.pak) la función `wp_alza()` quedó como `function wp_alza() { return 0; }`. Antes devolvía 10000 desde el 21-nov-2026 00:00 (epoch 1795237200). El comentario de arriba sigue describiendo el alza vieja; ignóralo.
+**Por qué:** Claudia decidió no subir precios por ahora. Sin este cambio el cobro subía $10.000 a la medianoche.
+**Para la otra IA:** no vuelvas a poner la alza ni el epoch. Cuando se decida subir, se cambia esa misma línea en el servidor. No hay otra copia de la fecha en el sitio ni en php.pak.
+
 ## 2026-11-20 · SEO: títulos, descripciones y sitemap (sitio.pak)
 **Qué:** auditoría de las 1.355 páginas (1.030 indexables, 325 con noindex a propósito: 310 cargos DIAN que redirigen a /dian, pago, 404 y similares). Estaba bien: todas con título, canonical, un solo H1, datos estructurados y sin títulos repetidos entre indexables. Se corrigió: (1) 78 títulos demasiado largos (noticias de 104-122 caracteres, vacantes y empleos de Docentes, Procuraduría) recortados a unos 60 sin perder el sentido; (2) 7 descripciones de más de 160 caracteres recortadas (también en og:description); (3) inicio: título y descripción ahora nombran ESE 2; (4) sitemap: 3 páginas de cargos de Procuraduría que faltaban (asesor 1AS-21, jefe de división 2JD-22, auxiliar administrativo 5AM-09).
 **Por qué:** Google corta los títulos de más de ~60 caracteres y muestra «...» en vez de lo importante; ESE 2 ya está en venta y no aparecía en lo que Google muestra del inicio; el sitemap debe listar todo lo indexable.
