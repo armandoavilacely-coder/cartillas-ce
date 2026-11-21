@@ -1,3 +1,8 @@
+## 2026-11-20 · Procuraduría: página de ejes temáticos por nivel (sitio.pak)
+**Qué:** página nueva /guias/ejes-tematicos-concurso-procuraduria-2026 con los ejes de la cartilla de cada nivel (profesional, asesor, ejecutivo, técnico, administrativo, operativo): cuáles están en todos los cargos, cuáles cambian según el empleo y cuántas lecciones tiene cada uno, más el peso de las pruebas (Resolución 108 de 2026) y enlaces a /procuraduria y al simulacro. Solo nombres de ejes y número de lecciones, tomados de las páginas de cargos que ya eran públicas; el contenido sigue siendo de pago. Se agregó al sitemap y se enlazó desde la guía «Material de estudio Procuraduría 2026».
+**Por qué:** en Search Console la gente busca «ejes temáticos concurso procuraduría 2026» (posición 5,6) y «qué debo estudiar», y no teníamos una página que respondiera eso. Procuraduría casi no recibe clics frente a DIAN.
+**Para la otra IA:** la página se generó a partir de cargos/procuraduria/*.html; si cambian los ejes de los cargos hay que regenerarla. Fuentes: solo oficiales y medios.
+
 ## 2026-11-20 · Precios sin alza: wompi.php (solo servidor, cambio manual)
 **Qué:** en acceso/wompi.php (archivo que vive solo en el servidor, no está en php.pak) la función `wp_alza()` quedó como `function wp_alza() { return 0; }`. Antes devolvía 10000 desde el 21-nov-2026 00:00 (epoch 1795237200). El comentario de arriba sigue describiendo el alza vieja; ignóralo.
 **Por qué:** Claudia decidió no subir precios por ahora. Sin este cambio el cobro subía $10.000 a la medianoche.
