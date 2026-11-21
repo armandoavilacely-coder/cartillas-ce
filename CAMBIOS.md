@@ -1383,3 +1383,8 @@ QUE FALTA
 - Que: el concurso DIAN ya paso la prueba, asi que las 310 paginas de /cargos/dian/ (y su indice) quedan como paginas minimas que redirigen a /dian (meta refresh + canonical a /dian + noindex). Se quitaron del sitemap. En index.html y dian.html los resultados de DIAN ya no enlazan a esas paginas (u vacio: quedan Pagar y WhatsApp) y se quito el enlace al indice en dian.html.
 - Se conserva: la pagina principal /dian, la cartilla de adentro y los pagos. No hay que tocar el servidor ni .htaccess: actualizar.php sobrescribe esos archivos con los stubs.
 - Para la otra IA: no regeneres cargos/dian con contenido; si hace falta, dejalos como stubs a /dian.
+
+## 2026-11-20 · SEO: titulos y descripciones mas cortos en paginas por cargo (sitio.pak)
+- Que: auditoria tecnica del sitio (997 paginas). Habia titulos de mas de 65 caracteres y descripciones de mas de 165 en las paginas de CAR, Docentes y ESE (Google los corta). Se acortaron en los generadores (mkcargos_cd.py y mkcargos_ese.py, funcion fit) y se regeneraron las 386 paginas. No hay titulos ni descripciones repetidos entre paginas por cargo; el sitemap (982 direcciones) no tiene duplicados ni archivos faltantes.
+- No se toco: las guias y pagar.html no llevan description ni canonical porque son noindex a proposito.
+- Pendiente (no urgente): titulos largos en unas 95 paginas "otras" (guias, noticias).
