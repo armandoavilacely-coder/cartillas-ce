@@ -1402,3 +1402,7 @@ QUE FALTA
 - Nuevo generador /tmp/cce/page/mkhub_pgn.py: 48 páginas hub en cargos/procuraduria (una por cargo+código con varias dependencias, p. ej. profesional-universitario-3pu-15) con título "{cargo} Procuraduría 2026: ejes temáticos", lista de dependencias y CTA de pago.
 - Cada página de dependencia enlaza a su hub desde "Sigue estudiando". Hubs añadidos al sitemap (sitemap deduplicado).
 - Objetivo: reducir páginas casi iguales y concentrar la búsqueda por cargo.
+
+## 2026-11-20 · Decisión: NO subir precios por ahora
+- Ariel decidió no cambiar precios (ventas bajas). No se regeneraron páginas con ALZA.
+- Pendiente de decidir: wompi.php aplica +10000 automático desde epoch 1795237200 (21 nov 00:00 Bogotá). Confirmar con Ariel si se quita esa fecha.
