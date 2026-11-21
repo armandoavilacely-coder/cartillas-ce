@@ -1,3 +1,8 @@
+## 2026-11-20 · Reporte de solo lectura para Claude (acceso/reporte.php, php.pak)
+**Qué:** archivo nuevo acceso/reporte.php. Con una clave larga en el enlace devuelve, en JSON, solo cifras agregadas: ventas e ingresos (hoy, 7, 30 y 90 días, total), ventas por concurso, fuente y campaña, contactos por etapa, nuevos, pagos por validar, seguimientos vencidos y de hoy, motivos de pérdida, conteo de códigos (activos, por vencer, vencidos) y las visitas del sitio. No devuelve nombres, correos ni teléfonos. En el servidor solo se guarda el hash SHA-256 de la clave (constante REPORTE_HASH); la clave la tiene Claudia. Intentos fallidos usan el límite de intentos del admin y responden 404.
+**Por qué:** Claudia pidió que Claude pueda consultar las ventas del admin sin abrir el navegador ni saltarse la verificación por correo con datos personales. Para revocar el acceso se cambia REPORTE_HASH o se borra el archivo y se publica de nuevo. No cambia nada para clientes ni para el admin.
+**Para la otra IA:** al regenerar php.pak conserva acceso/reporte.php.
+
 ## 2026-11-19 · CAR en venta directa en el inicio
 **Qué:** en el buscador de cargo del inicio, los resultados de CAR ya no dicen «Avísame» ni «avisen cuando esté la cartilla»: muestran «Pedir acceso» con el mensaje «Quiero el acceso», igual que los demás concursos (el botón «Pagar en línea» ya existía).
 **Por qué:** pedido de Ariel: CAR sale a la venta; la cartilla CAR ya está disponible por los tres niveles.
