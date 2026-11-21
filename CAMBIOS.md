@@ -1397,3 +1397,8 @@ QUE FALTA
 ## 2026-11-20 · SEO Procuraduria: descripciones con "ejes tematicos" (sitio.pak)
 - Que: en las 380 paginas de /cargos/procuraduria/ la meta description ahora empieza con "Ejes tematicos y N lecciones para <cargo>, Procuraduria 2026 (Conv. X)". Motivo: Search Console muestra que la gente busca "ejes tematicos concurso procuraduria 2026", el codigo del cargo ("3pu-15", "4sp-12") y "citador procuraduria". Titulos sin cambio (ya eran unicos).
 - Para la otra IA: si se regeneran estas paginas, conservar esa redaccion.
+
+## 2026-11-20 · SEO Procuraduría: páginas hub por cargo-código
+- Nuevo generador /tmp/cce/page/mkhub_pgn.py: 48 páginas hub en cargos/procuraduria (una por cargo+código con varias dependencias, p. ej. profesional-universitario-3pu-15) con título "{cargo} Procuraduría 2026: ejes temáticos", lista de dependencias y CTA de pago.
+- Cada página de dependencia enlaza a su hub desde "Sigue estudiando". Hubs añadidos al sitemap (sitemap deduplicado).
+- Objetivo: reducir páginas casi iguales y concentrar la búsqueda por cargo.
