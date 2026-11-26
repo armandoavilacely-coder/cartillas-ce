@@ -1,3 +1,7 @@
+## 2026-11-26 · Precios: 3 textos que quedaron en $40.000 (sitio.pak)
+**Qué:** la descripción del inicio («Desde $40.000») y la frase «la cartilla CAR, por nivel desde $40.000» en guias/ebook-gratis y guias/ebook-pruebas-comportamentales pasan a $50.000.
+**Por qué:** la publicación del aumento los dejó sin cambiar; en la verificación en vivo se vio que Google mostraría el precio viejo.
+
 ## 2026-11-26 · Precios +$10.000 en todos los concursos y niveles (sitio.pak, php.pak, cartilla.enc)
 **Qué:** todos los precios de las cartillas suben $10.000. Procuraduría: operativo y administrativo $50.000, técnico $55.000, profesional $60.000, asesor y ejecutivo $65.000. DIAN, CAR y ESE 2: asistencial $50.000, técnico $55.000, profesional $60.000. Docentes: preescolar y primaria $50.000, secundaria y media $55.000, orientador $60.000, directivos $65.000. Paquete DIAN + Procuraduría: de $80.000 a $100.000. Sitio: 1.026 páginas (4.500 precios en texto, 80 en scripts: price() de pagar.html, PX/ESED del inicio, calculadoras). php.pak: chat_core.php (textos y cálculo por nivel) y lib.php (crm_nivel_precio, crm_precio, valor de venta, ambos y fallback). cartilla.enc: plantillas de WhatsApp y correo, NIVP/PRECIO del admin y 3 copias de publicidad; marcador CE-PUB recalculado.
 **Por qué:** Claudia decidió subir los precios. El cobro real ya está arriba: el 26-nov a las 12:20 ella cambió en el servidor acceso/wompi.php a `function wp_alza() { return 10000; }` (wp_precio suma wp_alza salvo en «cv»).
