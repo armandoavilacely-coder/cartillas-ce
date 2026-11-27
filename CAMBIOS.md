@@ -1,3 +1,8 @@
+## 2026-11-27 · Mensajes de WhatsApp de las páginas de cargos: precio nuevo y número del cargo (sitio.pak)
+**Qué:** en 845 páginas (cargos de Procuraduría, CAR, ESE 2 y Docentes, y páginas de concursos) el botón de WhatsApp «quiero mi cartilla» decía «Precio de referencia» con el valor viejo ($40.000 a $55.000). Ahora dice el precio nuevo (+$10.000, 2.418 enlaces). En Procuraduría el mensaje lleva «Convocatoria N-2026» cuando la página es de un solo empleo (1.138 enlaces); si la página agrupa varias convocatorias termina con «Mi número de convocatoria es: » para que la persona lo escriba (439). En CAR, ESE 2 y Docentes termina con «Mi OPEC es: » (841). En el buscador (inicio, Procuraduría, DIAN, CAR, Docentes) el mensaje de «Pedir acceso» incluye la convocatoria u OPEC del resultado (x.k).
+**Por qué:** un cliente escribió desde la página de Asesor 1AS-19 con «Precio de referencia: $55.000» (el real es $65.000) y sin el número de su cargo. El script del aumento no tocó estos precios porque en los enlaces van codificados («%2455.000»).
+**Para la otra IA:** al cambiar precios, buscar también la forma codificada en URL (%24NN.000) de los enlaces de WhatsApp.
+
 ## 2026-11-26 · Ejes temáticos Procuraduría: datos dentro de la página (sitio.pak)
 **Qué:** los datos del buscador (380 cargos, 84 ejes) pasan de concursos/ejes-procuraduria.json a un bloque <script type="application/json" id="ejp-data"> dentro de concursos/ejes-tematicos-procuraduria.html; se borra el .json.
 **Por qué:** al publicar, el servidor respondió 403 a los archivos .json (también a rocky-idx.json), así que el buscador no cargaba. El script /tmp/ejp/extract.py sigue generando el mismo JSON; ahora se inserta en la página.
